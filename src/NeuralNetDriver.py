@@ -3,8 +3,8 @@ from NeuralNetwork import NeuralNetwork
 import numpy as np
 from FrameHelper import FrameProcessor
 import time
-import os
-os.environ["KERAS_BACKEND"] = "torch"
+# import os
+# os.environ["KERAS_BACKEND"] = "torch"
 from keras import models as km
 
 ### IMPORTANT ###
@@ -27,7 +27,7 @@ win_width, win_height = 260,220 #WARNING: changing these will break getProgress 
 top,left,width_off,height_off = 90,80,100,130
 
 # Set true if training on space section, else False
-space = True
+space = False
 
 # Reward parameters
 living_reward = 1
@@ -61,21 +61,21 @@ nn = NeuralNetwork(gamma=gamma, lr=lr, batch_size=batch_size, max_experience=max
                    eps=epsilon, eps_decay=eps_decay, env=game, n=n, eps_min=eps_min,
                    target_frames=target_frames, rand_batch=rand_batch, double_q=double_q)
 
-model_file_path= ".venv\\Models\\"
-model_name = "michaelScott6.keras"
-target_name = "michaelScottTarget6.keras"
-log_file_path = ".venv\\TrainingLogs\\michaelScott6.txt"
+model_file_path= "models\\"
+model_name = "michaelScott.keras"
+target_name = "michaelScottTarget.keras"
+log_file_path = "training_logs\\michaelScott.txt"
 
-notes = "Rocket ship part, sesh 2, eps_decay 0.995 -> 0.985, lr 0.0005 -> 0.001, max_exp 100000 -> 200000, \nnew spaceship action behavior - threading"
+notes = "Retesting"
 
 # set to True if you want to load a saved model (double check name)
 # If loading, recommend to adjust epsilon and explore_frames
-load = True
+load = False
 
 iterations = 500 # Number of iterations you want to run
 
 # The amount of frames before epsilon starts decaying
-explore_frames = 5000
+explore_frames = 0
 
 # set to True to test fps before training
 test_fps = False
