@@ -15,7 +15,11 @@ NOT_DEAD_PATH = ".venv\\images\\notDead.jpg"
 # Change this between GD or IG to select the game
 GAME = GD
 
-frame_processor = FrameProcessor(GAME,60,100,240,160,win_width=260,win_height=220)
+#win_width=260,win_height=220
+win_width = 100
+win_height = 160
+
+frame_processor = FrameProcessor(GAME,50,40,50,80,win_width=win_width,win_height=win_height)
 
 # The amount of fps we can achieve with the current 
 # hardware and preprocessing.
@@ -24,13 +28,13 @@ frame_processor = FrameProcessor(GAME,60,100,240,160,win_width=260,win_height=22
 
 # Displays the frames of geometry dash for 30 seconds.
 # Feel free to change the duration.
-top, left, width, height = 34,77,154,219
+top, left, width, height = 32,0,0,120
 img = frame_processor.get_raw_frame(top,left,width,height)
 print(img.shape)
 #print(img)
-frame_processor.display_is_dead_frames(30)
+frame_processor.display_is_dead_frames(30,top_offset=top,left_offset=left,width_offset=width,height_offset=height)
 #frame_processor.save_sct("isDead.jpg")
 #frame_processor.save_sct("notDead.jpg")
 # frame_processor.update_terminal_image()
 
-# 33,77,154,219
+# 34,77,154,219
