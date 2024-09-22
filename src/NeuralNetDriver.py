@@ -42,12 +42,12 @@ game = GDashEnv(top_offset=top, left_offset=left, width_offset=width_off, height
 # Q-Learning and Neural Network hyper parameters for training
 gamma = 0.98
 epsilon = 1.0
-eps_decay = 0.99
-eps_min = 0.01
+eps_decay = 0.995
+eps_min = 0.005
 lr = 0.001
 batch_size = 16
-max_exp = 100000
-target_frames = 500
+max_exp = 150000
+target_frames = 2000
 n = 20
 
 # Enables random batching and the "double q" part of double q deep reinforcement learning
@@ -61,28 +61,28 @@ nn = NeuralNetwork(gamma=gamma, lr=lr, batch_size=batch_size, max_experience=max
 
 # filepaths for saving and loading the model as well as the training logs
 model_file_path= "models\\"
-model_name = "michaelScott2.keras"
-target_name = "michaelScottTarget2.keras"
-log_file_path = "training_logs\\michaelScott2.txt"
+model_name = "michaelScott.keras"
+target_name = "michaelScottTarget.keras"
+log_file_path = "training_logs\\michaelScott.txt"
 
 # Note for the current training session
-notes = "Retesting"
+notes = "Second Round of training - Decreased minimum epsilon to 0.005, increased target frames to 2000"
 
 # set to True if you want to load a saved model (double check name)
 # If loading, recommend to adjust epsilon and explore_frames
-load = False
+load = True
 
-iterations = 500 # Number of iterations you want to run
+iterations = 3000 # Number of iterations you want to run
 
 # The amount of frames before epsilon starts decaying
-explore_frames = 5000
+explore_frames = 0
 
 # set to True to test fps before training
-test_fps = True
+test_fps = False
 # Set to True to see render during fps testing - will lower fps
 render = False
 # set to True to train
-train = False
+train = True
 
 # Testing fps with training steps
 if test_fps:
