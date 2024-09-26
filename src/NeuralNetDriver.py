@@ -47,7 +47,7 @@ eps_min = 0.005
 lr = 0.001
 batch_size = 16
 max_exp = 150000
-target_frames = 2000
+target_frames = 10000
 n = 20
 
 # Enables random batching and the "double q" part of double q deep reinforcement learning
@@ -66,7 +66,7 @@ target_name = "michaelScottTarget.keras"
 log_file_path = "training_logs\\michaelScott.txt"
 
 # Note for the current training session
-notes = "Second Round of training - Decreased minimum epsilon to 0.005, increased target frames to 2000"
+notes = "Second Round of training - Decreased minimum epsilon to 0.005, increased target frames to 10000"
 
 # set to True if you want to load a saved model (double check name)
 # If loading, recommend to adjust epsilon and explore_frames

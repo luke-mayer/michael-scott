@@ -10928,3 +10928,5006 @@ Average first 10 iterations:  5.094360000000001
  Absolute max progress:  33.9623 
  Current Exploration Rate:  0.009920974201040588 
 
+
+Model:  michaelScott.keras 
+
+
+ Second Round of training - Decreased minimum epsilon to 0.005, increased target frames to 10000 
+
+Iterations:  3000  Gamma:  0.98  Epsilon:  1.0 
+Epsilon Decay:  0.995  Learning Rate:  0.001  Batch Size:  16 
+
+Living Factor:  1  Death Penalty:  -32  Jump Penalty:  0.5 
+
+Input Shape:  (80, 150, 1) 
+
+
+---------- Beginning Training ----------
+
+Run # 1  Reward:  100.0  Progress: % 8.4906  Frame count:  183 
+
+Run # 2  Reward:  6.0  Progress: % 1.8868  Frame count:  233 
+
+Run # 3  Reward:  32.5  Progress: % 3.7736  Frame count:  320 
+
+Run # 4  Reward:  33.5  Progress: % 2.8302  Frame count:  404 
+
+Run # 5  Reward:  5.5  Progress: % 1.8868  Frame count:  451 
+
+Run # 6  Reward:  65.5  Progress: % 5.6604  Frame count:  579 
+
+Run # 7  Reward:  8.5  Progress: % 1.8868  Frame count:  628 
+
+Run # 8  Reward:  3.5  Progress: % 1.8868  Frame count:  677 
+
+Run # 9  Reward:  74.5  Progress: % 5.6604  Frame count:  817 
+
+Run # 10  Reward:  54.5  Progress: % 5.6604  Frame count:  936 
+
+Run # 11  Reward:  4.0  Progress: % 1.8868  Frame count:  986 
+
+Run # 12  Reward:  128.5  Progress: % 10.3774  Frame count:  1205 
+
+Run # 13  Reward:  27.0  Progress: % 3.7736  Frame count:  1285 
+
+Run # 14  Reward:  5.5  Progress: % 1.8868  Frame count:  1333 
+
+Run # 15  Reward:  96.0  Progress: % 8.4906  Frame count:  1515 
+
+Run # 16  Reward:  141.0  Progress: % 10.3774  Frame count:  1740 
+
+Run # 17  Reward:  4.0  Progress: % 1.8868  Frame count:  1786 
+
+Run # 18  Reward:  52.0  Progress: % 4.717  Frame count:  1899 
+
+Run # 19  Reward:  35.0  Progress: % 3.7736  Frame count:  1985 
+
+Run # 20  Reward:  30.5  Progress: % 3.7736  Frame count:  2071 
+
+Run # 21  Reward:  30.0  Progress: % 3.7736  Frame count:  2154 
+
+Run # 22  Reward:  62.5  Progress: % 5.6604  Frame count:  2279 
+
+Run # 23  Reward:  67.0  Progress: % 5.6604  Frame count:  2405 
+
+Run # 24  Reward:  6.0  Progress: % 1.8868  Frame count:  2453 
+
+Run # 25  Reward:  70.5  Progress: % 5.6604  Frame count:  2585 
+
+Run # 26  Reward:  24.5  Progress: % 2.8302  Frame count:  2663 
+
+Run # 27  Reward:  31.5  Progress: % 3.7736  Frame count:  2745 
+
+Run # 28  Reward:  58.5  Progress: % 4.717  Frame count:  2862 
+
+Run # 29  Reward:  29.5  Progress: % 3.7736  Frame count:  2945 
+
+Run # 30  Reward:  35.0  Progress: % 3.7736  Frame count:  3029 
+
+Run # 31  Reward:  26.5  Progress: % 3.7736  Frame count:  3109 
+
+Run # 32  Reward:  58.0  Progress: % 4.717  Frame count:  3225 
+
+Run # 33  Reward:  8.0  Progress: % 1.8868  Frame count:  3274 
+
+Run # 34  Reward:  29.5  Progress: % 3.7736  Frame count:  3355 
+
+Run # 35  Reward:  30.5  Progress: % 2.8302  Frame count:  3436 
+
+Run # 36  Reward:  3.0  Progress: % 1.8868  Frame count:  3482 
+
+Run # 37  Reward:  111.5  Progress: % 8.4906  Frame count:  3663 
+
+Run # 38  Reward:  30.0  Progress: % 3.7736  Frame count:  3746 
+
+Run # 39  Reward:  53.5  Progress: % 5.6604  Frame count:  3862 
+
+Run # 40  Reward:  29.0  Progress: % 2.8302  Frame count:  3940 
+
+Run # 41  Reward:  28.0  Progress: % 3.7736  Frame count:  4023 
+
+Run # 42  Reward:  4.5  Progress: % 1.8868  Frame count:  4071 
+
+Run # 43  Reward:  6.0  Progress: % 1.8868  Frame count:  4118 
+
+Run # 44  Reward:  5.0  Progress: % 1.8868  Frame count:  4165 
+
+Run # 45  Reward:  5.5  Progress: % 1.8868  Frame count:  4214 
+
+Run # 46  Reward:  35.5  Progress: % 2.8302  Frame count:  4294 
+
+Run # 47  Reward:  3.0  Progress: % 1.8868  Frame count:  4340 
+
+Run # 48  Reward:  8.0  Progress: % 1.8868  Frame count:  4387 
+
+Run # 49  Reward:  6.0  Progress: % 1.8868  Frame count:  4435 
+
+Run # 50  Reward:  53.5  Progress: % 4.717  Frame count:  4546 
+
+
+Run: 1 - 50  Average Progress: 3.9083714285714284  Average Total Reward: 36.80612244897959 
+Average Total Jumps: 43.40816326530612  Average Jumps Per Progress %: 11.0  Average Epsilon: 0.8844385425769711 
+Average Number of Frames: 90.51020408163265  Average Run Time: 4.064434221812657 Average FPS: 22.26883230041964 
+
+Run # 51  Reward:  2.0  Progress: % 1.8868  Frame count:  4590 
+
+Run # 52  Reward:  116.0  Progress: % 9.434  Frame count:  4777 
+
+Run # 53  Reward:  134.0  Progress: % 10.3774  Frame count:  4990 
+
+Run # 54  Reward:  5.0  Progress: % 1.8868  Frame count:  5037 
+
+Run # 55  Reward:  61.5  Progress: % 4.717  Frame count:  5154 
+
+Run # 56  Reward:  9.0  Progress: % 1.8868  Frame count:  5202 
+
+Run # 57  Reward:  70.0  Progress: % 5.6604  Frame count:  5334 
+
+Run # 58  Reward:  1.5  Progress: % 1.8868  Frame count:  5380 
+
+Run # 59  Reward:  55.0  Progress: % 4.717  Frame count:  5491 
+
+Run # 60  Reward:  9.0  Progress: % 1.8868  Frame count:  5541 
+
+Run # 61  Reward:  51.5  Progress: % 4.717  Frame count:  5652 
+
+Run # 62  Reward:  3.5  Progress: % 1.8868  Frame count:  5695 
+
+Run # 63  Reward:  3.5  Progress: % 1.8868  Frame count:  5739 
+
+Run # 64  Reward:  61.0  Progress: % 4.717  Frame count:  5851 
+
+Run # 65  Reward:  6.0  Progress: % 1.8868  Frame count:  5900 
+
+Run # 66  Reward:  49.0  Progress: % 4.717  Frame count:  6010 
+
+Run # 67  Reward:  5.0  Progress: % 1.8868  Frame count:  6055 
+
+Run # 68  Reward:  56.0  Progress: % 4.717  Frame count:  6168 
+
+Run # 69  Reward:  31.0  Progress: % 3.7736  Frame count:  6248 
+
+Run # 70  Reward:  30.0  Progress: % 2.8302  Frame count:  6325 
+
+Run # 71  Reward:  79.5  Progress: % 5.6604  Frame count:  6456 
+
+Run # 72  Reward:  111.0  Progress: % 8.4906  Frame count:  6635 
+
+Run # 73  Reward:  5.5  Progress: % 1.8868  Frame count:  6683 
+
+Run # 74  Reward:  140.5  Progress: % 11.3208  Frame count:  6909 
+
+Run # 75  Reward:  27.5  Progress: % 3.7736  Frame count:  6987 
+
+Run # 76  Reward:  5.5  Progress: % 1.8868  Frame count:  7034 
+
+Run # 77  Reward:  28.5  Progress: % 3.7736  Frame count:  7110 
+
+Run # 78  Reward:  34.0  Progress: % 3.7736  Frame count:  7189 
+
+Run # 79  Reward:  30.0  Progress: % 3.7736  Frame count:  7267 
+
+Run # 80  Reward:  6.5  Progress: % 1.8868  Frame count:  7314 
+
+Run # 81  Reward:  73.5  Progress: % 5.6604  Frame count:  7443 
+
+Run # 82  Reward:  110.5  Progress: % 8.4906  Frame count:  7619 
+
+Run # 83  Reward:  2.0  Progress: % 1.8868  Frame count:  7663 
+
+Run # 84  Reward:  28.5  Progress: % 2.8302  Frame count:  7741 
+
+Run # 85  Reward:  30.0  Progress: % 3.7736  Frame count:  7818 
+
+Run # 86  Reward:  32.0  Progress: % 3.7736  Frame count:  7900 
+
+Run # 87  Reward:  29.0  Progress: % 3.7736  Frame count:  7982 
+
+Run # 88  Reward:  73.0  Progress: % 5.6604  Frame count:  8114 
+
+Run # 89  Reward:  3.0  Progress: % 1.8868  Frame count:  8156 
+
+Run # 90  Reward:  72.5  Progress: % 5.6604  Frame count:  8289 
+
+Run # 91  Reward:  61.0  Progress: % 4.717  Frame count:  8395 
+
+Run # 92  Reward:  6.5  Progress: % 1.8868  Frame count:  8445 
+
+Run # 93  Reward:  3.5  Progress: % 1.8868  Frame count:  8490 
+
+Run # 94  Reward:  3.0  Progress: % 1.8868  Frame count:  8536 
+
+Run # 95  Reward:  3.0  Progress: % 1.8868  Frame count:  8581 
+
+Run # 96  Reward:  5.0  Progress: % 1.8868  Frame count:  8625 
+
+Run # 97  Reward:  32.5  Progress: % 2.8302  Frame count:  8703 
+
+Run # 98  Reward:  63.5  Progress: % 5.6604  Frame count:  8825 
+
+Run # 99  Reward:  57.5  Progress: % 5.6604  Frame count:  8942 
+
+Run # 100  Reward:  35.0  Progress: % 3.7736  Frame count:  9024 
+
+
+Run: 51 - 100  Average Progress: 3.985383673469388  Average Total Reward: 39.13265306122449 
+Average Total Jumps: 37.16326530612245  Average Jumps Per Progress %: 9.0  Average Epsilon: 0.6883696236431454 
+Average Number of Frames: 89.71428571428571  Average Run Time: 4.174834436299849 Average FPS: 21.48930384741182 
+
+Run # 101  Reward:  4.0  Progress: % 1.8868  Frame count:  9071 
+
+Run # 102  Reward:  -0.5  Progress: % 1.8868  Frame count:  9110 
+
+Run # 103  Reward:  29.0  Progress: % 2.8302  Frame count:  9188 
+
+Run # 104  Reward:  6.5  Progress: % 1.8868  Frame count:  9234 
+
+Run # 105  Reward:  3.0  Progress: % 1.8868  Frame count:  9277 
+
+Run # 106  Reward:  67.0  Progress: % 5.6604  Frame count:  9394 
+
+Run # 107  Reward:  63.5  Progress: % 5.6604  Frame count:  9509 
+
+Run # 108  Reward:  32.0  Progress: % 3.7736  Frame count:  9590 
+
+Run # 109  Reward:  32.5  Progress: % 3.7736  Frame count:  9666 
+
+Run # 110  Reward:  29.0  Progress: % 3.7736  Frame count:  9743 
+
+Run # 111  Reward:  5.0  Progress: % 1.8868  Frame count:  9790 
+
+Run # 112  Reward:  27.5  Progress: % 3.7736  Frame count:  9870 
+
+Run # 113  Reward:  31.0  Progress: % 3.7736  Frame count:  9944 
+
+Run # 114  Reward:  38.0  Progress: % 3.7736  Frame count:  10026 
+
+Run # 115  Reward:  4.0  Progress: % 1.8868  Frame count:  10071 
+
+Run # 116  Reward:  55.0  Progress: % 5.6604  Frame count:  10184 
+
+Run # 117  Reward:  6.0  Progress: % 1.8868  Frame count:  10231 
+
+Run # 118  Reward:  146.5  Progress: % 11.3208  Frame count:  10455 
+
+Run # 119  Reward:  30.0  Progress: % 3.7736  Frame count:  10532 
+
+Run # 120  Reward:  8.0  Progress: % 1.8868  Frame count:  10581 
+
+Run # 121  Reward:  30.0  Progress: % 3.7736  Frame count:  10660 
+
+Run # 122  Reward:  1.0  Progress: % 1.8868  Frame count:  10702 
+
+Run # 123  Reward:  4.0  Progress: % 1.8868  Frame count:  10749 
+
+Run # 124  Reward:  2.5  Progress: % 1.8868  Frame count:  10792 
+
+Run # 125  Reward:  56.0  Progress: % 4.717  Frame count:  10903 
+
+Run # 126  Reward:  32.0  Progress: % 3.7736  Frame count:  10982 
+
+Run # 127  Reward:  29.5  Progress: % 3.7736  Frame count:  11058 
+
+Run # 128  Reward:  30.0  Progress: % 2.8302  Frame count:  11134 
+
+Run # 129  Reward:  108.5  Progress: % 8.4906  Frame count:  11309 
+
+Run # 130  Reward:  8.5  Progress: % 1.8868  Frame count:  11358 
+
+Run # 131  Reward:  136.5  Progress: % 11.3208  Frame count:  11574 
+
+Run # 132  Reward:  109.0  Progress: % 8.4906  Frame count:  11745 
+
+Run # 133  Reward:  31.5  Progress: % 3.7736  Frame count:  11824 
+
+Run # 134  Reward:  30.5  Progress: % 2.8302  Frame count:  11899 
+
+Run # 135  Reward:  10.0  Progress: % 1.8868  Frame count:  11949 
+
+Run # 136  Reward:  5.0  Progress: % 1.8868  Frame count:  11995 
+
+Run # 137  Reward:  55.5  Progress: % 4.717  Frame count:  12105 
+
+Run # 138  Reward:  61.5  Progress: % 5.6604  Frame count:  12217 
+
+Run # 139  Reward:  2.0  Progress: % 1.8868  Frame count:  12260 
+
+Run # 140  Reward:  7.5  Progress: % 1.8868  Frame count:  12307 
+
+Run # 141  Reward:  26.5  Progress: % 3.7736  Frame count:  12383 
+
+Run # 142  Reward:  50.5  Progress: % 4.717  Frame count:  12492 
+
+Run # 143  Reward:  6.5  Progress: % 1.8868  Frame count:  12538 
+
+Run # 144  Reward:  8.0  Progress: % 1.8868  Frame count:  12584 
+
+Run # 145  Reward:  50.5  Progress: % 4.717  Frame count:  12694 
+
+Run # 146  Reward:  1.0  Progress: % 1.8868  Frame count:  12739 
+
+Run # 147  Reward:  30.0  Progress: % 2.8302  Frame count:  12816 
+
+Run # 148  Reward:  29.0  Progress: % 3.7736  Frame count:  12892 
+
+Run # 149  Reward:  5.0  Progress: % 1.8868  Frame count:  12936 
+
+Run # 150  Reward:  7.0  Progress: % 1.8868  Frame count:  12979 
+
+
+Run: 101 - 150  Average Progress: 3.6580816326530607  Average Total Reward: 32.142857142857146 
+Average Total Jumps: 31.387755102040817  Average Jumps Per Progress %: 9.0  Average Epsilon: 0.535766721986075 
+Average Number of Frames: 79.83673469387755  Average Run Time: 3.7895225700067012 Average FPS: 21.067755428023844 
+
+Run # 151  Reward:  6.5  Progress: % 1.8868  Frame count:  13025 
+
+Run # 152  Reward:  29.5  Progress: % 3.7736  Frame count:  13099 
+
+Run # 153  Reward:  33.0  Progress: % 3.7736  Frame count:  13175 
+
+Run # 154  Reward:  2.5  Progress: % 1.8868  Frame count:  13219 
+
+Run # 155  Reward:  54.0  Progress: % 4.717  Frame count:  13325 
+
+Run # 156  Reward:  29.0  Progress: % 2.8302  Frame count:  13398 
+
+Run # 157  Reward:  6.0  Progress: % 1.8868  Frame count:  13443 
+
+Run # 158  Reward:  65.5  Progress: % 5.6604  Frame count:  13571 
+
+Run # 159  Reward:  6.0  Progress: % 1.8868  Frame count:  13617 
+
+Run # 160  Reward:  6.0  Progress: % 1.8868  Frame count:  13661 
+
+Run # 161  Reward:  58.5  Progress: % 4.717  Frame count:  13768 
+
+Run # 162  Reward:  26.0  Progress: % 2.8302  Frame count:  13843 
+
+Run # 163  Reward:  108.5  Progress: % 8.4906  Frame count:  14012 
+
+Run # 164  Reward:  111.0  Progress: % 8.4906  Frame count:  14183 
+
+Run # 165  Reward:  6.0  Progress: % 1.8868  Frame count:  14228 
+
+Run # 166  Reward:  4.0  Progress: % 1.8868  Frame count:  14274 
+
+Run # 167  Reward:  98.0  Progress: % 8.4906  Frame count:  14452 
+
+Run # 168  Reward:  29.5  Progress: % 3.7736  Frame count:  14529 
+
+Run # 169  Reward:  8.0  Progress: % 1.8868  Frame count:  14577 
+
+Run # 170  Reward:  69.0  Progress: % 5.6604  Frame count:  14702 
+
+Run # 171  Reward:  58.0  Progress: % 4.717  Frame count:  14810 
+
+Run # 172  Reward:  129.0  Progress: % 10.3774  Frame count:  15010 
+
+Run # 173  Reward:  27.5  Progress: % 2.8302  Frame count:  15086 
+
+Run # 174  Reward:  28.0  Progress: % 2.8302  Frame count:  15163 
+
+Run # 175  Reward:  70.0  Progress: % 5.6604  Frame count:  15286 
+
+Run # 176  Reward:  4.5  Progress: % 1.8868  Frame count:  15330 
+
+Run # 177  Reward:  2.0  Progress: % 1.8868  Frame count:  15373 
+
+Run # 178  Reward:  7.5  Progress: % 1.8868  Frame count:  15418 
+
+Run # 179  Reward:  33.0  Progress: % 2.8302  Frame count:  15493 
+
+Run # 180  Reward:  53.0  Progress: % 4.717  Frame count:  15599 
+
+Run # 181  Reward:  6.5  Progress: % 1.8868  Frame count:  15644 
+
+Run # 182  Reward:  6.5  Progress: % 1.8868  Frame count:  15689 
+
+Run # 183  Reward:  7.0  Progress: % 1.8868  Frame count:  15736 
+
+Run # 184  Reward:  74.0  Progress: % 5.6604  Frame count:  15861 
+
+Run # 185  Reward:  26.5  Progress: % 3.7736  Frame count:  15936 
+
+Run # 186  Reward:  5.0  Progress: % 1.8868  Frame count:  15981 
+
+Run # 187  Reward:  31.0  Progress: % 3.7736  Frame count:  16056 
+
+Run # 188  Reward:  57.0  Progress: % 4.717  Frame count:  16163 
+
+Run # 189  Reward:  51.5  Progress: % 4.717  Frame count:  16267 
+
+Run # 190  Reward:  57.0  Progress: % 4.717  Frame count:  16376 
+
+Run # 191  Reward:  26.5  Progress: % 3.7736  Frame count:  16451 
+
+Run # 192  Reward:  57.0  Progress: % 4.717  Frame count:  16559 
+
+Run # 193  Reward:  26.5  Progress: % 3.7736  Frame count:  16632 
+
+Run # 194  Reward:  109.0  Progress: % 8.4906  Frame count:  16801 
+
+Run # 195  Reward:  8.5  Progress: % 1.8868  Frame count:  16847 
+
+Run # 196  Reward:  37.0  Progress: % 3.7736  Frame count:  16931 
+
+Run # 197  Reward:  29.0  Progress: % 2.8302  Frame count:  17006 
+
+Run # 198  Reward:  30.0  Progress: % 3.7736  Frame count:  17079 
+
+Run # 199  Reward:  108.5  Progress: % 8.4906  Frame count:  17247 
+
+Run # 200  Reward:  2.0  Progress: % 1.8868  Frame count:  17290 
+
+
+Run: 151 - 200  Average Progress: 3.9661306122448985  Average Total Reward: 39.244897959183675 
+Average Total Jumps: 31.714285714285715  Average Jumps Per Progress %: 8.0  Average Epsilon: 0.4169939673812661 
+Average Number of Frames: 87.10204081632654  Average Run Time: 4.217660865005182 Average FPS: 20.65174123861652 
+
+Run # 201  Reward:  32.0  Progress: % 2.8302  Frame count:  17367 
+
+Run # 202  Reward:  137.5  Progress: % 11.3208  Frame count:  17574 
+
+Run # 203  Reward:  135.5  Progress: % 10.3774  Frame count:  17777 
+
+Run # 204  Reward:  110.5  Progress: % 8.4906  Frame count:  17946 
+
+Run # 205  Reward:  69.5  Progress: % 5.6604  Frame count:  18074 
+
+Run # 206  Reward:  59.5  Progress: % 4.717  Frame count:  18179 
+
+Run # 207  Reward:  4.5  Progress: % 1.8868  Frame count:  18222 
+
+Run # 208  Reward:  4.5  Progress: % 1.8868  Frame count:  18266 
+
+Run # 209  Reward:  3.5  Progress: % 1.8868  Frame count:  18310 
+
+Run # 210  Reward:  25.5  Progress: % 3.7736  Frame count:  18384 
+
+Run # 211  Reward:  31.0  Progress: % 3.7736  Frame count:  18461 
+
+Run # 212  Reward:  61.0  Progress: % 5.6604  Frame count:  18578 
+
+Run # 213  Reward:  31.0  Progress: % 3.7736  Frame count:  18654 
+
+Run # 214  Reward:  3.0  Progress: % 1.8868  Frame count:  18698 
+
+Run # 215  Reward:  113.0  Progress: % 8.4906  Frame count:  18863 
+
+Run # 216  Reward:  36.5  Progress: % 3.7736  Frame count:  18937 
+
+Run # 217  Reward:  141.0  Progress: % 10.3774  Frame count:  19137 
+
+Run # 218  Reward:  31.5  Progress: % 3.7736  Frame count:  19213 
+
+Run # 219  Reward:  51.0  Progress: % 4.717  Frame count:  19320 
+
+Run # 220  Reward:  33.5  Progress: % 3.7736  Frame count:  19395 
+
+Run # 221  Reward:  30.5  Progress: % 3.7736  Frame count:  19470 
+
+Run # 222  Reward:  55.0  Progress: % 4.717  Frame count:  19577 
+
+Run # 223  Reward:  26.0  Progress: % 3.7736  Frame count:  19651 
+
+Run # 224  Reward:  34.0  Progress: % 3.7736  Frame count:  19730 
+
+Run # 225  Reward:  139.5  Progress: % 10.3774  Frame count:  19929 
+
+Run # 226  Reward:  31.5  Progress: % 3.7736  Frame count:  20004 
+
+Run # 227  Reward:  6.0  Progress: % 1.8868  Frame count:  20047 
+
+Run # 228  Reward:  6.5  Progress: % 1.8868  Frame count:  20091 
+
+Run # 229  Reward:  108.5  Progress: % 8.4906  Frame count:  20257 
+
+Run # 230  Reward:  26.5  Progress: % 2.8302  Frame count:  20331 
+
+Run # 231  Reward:  133.0  Progress: % 10.3774  Frame count:  20531 
+
+Run # 232  Reward:  61.0  Progress: % 4.717  Frame count:  20633 
+
+Run # 233  Reward:  109.5  Progress: % 8.4906  Frame count:  20802 
+
+Run # 234  Reward:  145.5  Progress: % 10.3774  Frame count:  21011 
+
+Run # 235  Reward:  28.5  Progress: % 3.7736  Frame count:  21089 
+
+Run # 236  Reward:  0.0  Progress: % 1.8868  Frame count:  21132 
+
+Run # 237  Reward:  144.0  Progress: % 11.3208  Frame count:  21348 
+
+Run # 238  Reward:  58.0  Progress: % 4.717  Frame count:  21451 
+
+Run # 239  Reward:  4.5  Progress: % 1.8868  Frame count:  21494 
+
+Run # 240  Reward:  3.0  Progress: % 1.8868  Frame count:  21539 
+
+Run # 241  Reward:  34.5  Progress: % 3.7736  Frame count:  21614 
+
+Run # 242  Reward:  148.5  Progress: % 11.3208  Frame count:  21824 
+
+Run # 243  Reward:  4.0  Progress: % 1.8868  Frame count:  21870 
+
+Run # 244  Reward:  32.5  Progress: % 3.7736  Frame count:  21946 
+
+Run # 245  Reward:  130.5  Progress: % 10.3774  Frame count:  22143 
+
+Run # 246  Reward:  54.5  Progress: % 4.717  Frame count:  22249 
+
+Run # 247  Reward:  62.5  Progress: % 5.6604  Frame count:  22357 
+
+Run # 248  Reward:  55.0  Progress: % 4.717  Frame count:  22465 
+
+Run # 249  Reward:  98.5  Progress: % 8.4906  Frame count:  22632 
+
+Run # 250  Reward:  7.0  Progress: % 1.8868  Frame count:  22674 
+
+
+Run: 201 - 250  Average Progress: 5.352351020408165  Average Total Reward: 58.90816326530612 
+Average Total Jumps: 36.224489795918366  Average Jumps Per Progress %: 7.0  Average Epsilon: 0.32455164103471124 
+Average Number of Frames: 109.0204081632653  Average Run Time: 5.329636335372925 Average FPS: 20.455506023871504 
+
+Run # 251  Reward:  0.5  Progress: % 1.8868  Frame count:  22718 
+
+Run # 252  Reward:  0.0  Progress: % 1.8868  Frame count:  22760 
+
+Run # 253  Reward:  33.0  Progress: % 3.7736  Frame count:  22832 
+
+Run # 254  Reward:  10.0  Progress: % 1.8868  Frame count:  22877 
+
+Run # 255  Reward:  34.0  Progress: % 2.8302  Frame count:  22949 
+
+Run # 256  Reward:  132.0  Progress: % 11.3208  Frame count:  23157 
+
+Run # 257  Reward:  132.0  Progress: % 10.3774  Frame count:  23357 
+
+Run # 258  Reward:  5.5  Progress: % 1.8868  Frame count:  23399 
+
+Run # 259  Reward:  145.5  Progress: % 10.3774  Frame count:  23601 
+
+Run # 260  Reward:  37.0  Progress: % 3.7736  Frame count:  23677 
+
+Run # 261  Reward:  96.0  Progress: % 8.4906  Frame count:  23839 
+
+Run # 262  Reward:  8.5  Progress: % 1.8868  Frame count:  23883 
+
+Run # 263  Reward:  56.0  Progress: % 4.717  Frame count:  23985 
+
+Run # 264  Reward:  36.5  Progress: % 3.7736  Frame count:  24060 
+
+Run # 265  Reward:  7.0  Progress: % 1.8868  Frame count:  24106 
+
+Run # 266  Reward:  119.0  Progress: % 8.4906  Frame count:  24278 
+
+Run # 267  Reward:  115.5  Progress: % 8.4906  Frame count:  24448 
+
+Run # 268  Reward:  28.5  Progress: % 3.7736  Frame count:  24522 
+
+Run # 269  Reward:  111.0  Progress: % 8.4906  Frame count:  24686 
+
+Run # 270  Reward:  8.0  Progress: % 1.8868  Frame count:  24730 
+
+Run # 271  Reward:  4.0  Progress: % 1.8868  Frame count:  24772 
+
+Run # 272  Reward:  8.0  Progress: % 1.8868  Frame count:  24818 
+
+Run # 273  Reward:  5.0  Progress: % 1.8868  Frame count:  24866 
+
+Run # 274  Reward:  59.0  Progress: % 4.717  Frame count:  24972 
+
+Run # 275  Reward:  5.0  Progress: % 1.8868  Frame count:  25013 
+
+Run # 276  Reward:  11.5  Progress: % 1.8868  Frame count:  25059 
+
+Run # 277  Reward:  32.0  Progress: % 3.7736  Frame count:  25133 
+
+Run # 278  Reward:  161.5  Progress: % 11.3208  Frame count:  25357 
+
+Run # 279  Reward:  139.0  Progress: % 10.3774  Frame count:  25558 
+
+Run # 280  Reward:  9.5  Progress: % 1.8868  Frame count:  25602 
+
+Run # 281  Reward:  66.5  Progress: % 5.6604  Frame count:  25714 
+
+Run # 282  Reward:  1.0  Progress: % 1.8868  Frame count:  25754 
+
+Run # 283  Reward:  151.0  Progress: % 11.3208  Frame count:  25967 
+
+Run # 284  Reward:  32.0  Progress: % 3.7736  Frame count:  26042 
+
+Run # 285  Reward:  56.5  Progress: % 4.717  Frame count:  26147 
+
+Run # 286  Reward:  111.5  Progress: % 8.4906  Frame count:  26313 
+
+Run # 287  Reward:  60.0  Progress: % 4.717  Frame count:  26419 
+
+Run # 288  Reward:  145.5  Progress: % 11.3208  Frame count:  26632 
+
+Run # 289  Reward:  157.0  Progress: % 11.3208  Frame count:  26847 
+
+Run # 290  Reward:  57.0  Progress: % 4.717  Frame count:  26953 
+
+Run # 291  Reward:  8.0  Progress: % 1.8868  Frame count:  26998 
+
+Run # 292  Reward:  4.5  Progress: % 1.8868  Frame count:  27040 
+
+Run # 293  Reward:  7.0  Progress: % 1.8868  Frame count:  27085 
+
+Run # 294  Reward:  34.5  Progress: % 3.7736  Frame count:  27160 
+
+Run # 295  Reward:  29.0  Progress: % 2.8302  Frame count:  27233 
+
+Run # 296  Reward:  31.5  Progress: % 3.7736  Frame count:  27306 
+
+Run # 297  Reward:  76.0  Progress: % 5.6604  Frame count:  27427 
+
+Run # 298  Reward:  73.5  Progress: % 5.6604  Frame count:  27550 
+
+Run # 299  Reward:  5.0  Progress: % 1.8868  Frame count:  27591 
+
+Run # 300  Reward:  40.5  Progress: % 3.7736  Frame count:  27669 
+
+
+Run: 251 - 300  Average Progress: 4.9095306122448985  Average Total Reward: 54.224489795918366 
+Average Total Jumps: 28.244897959183675  Average Jumps Per Progress %: 6.0  Average Epsilon: 0.2526026176345501 
+Average Number of Frames: 100.34693877551021  Average Run Time: 4.958904932956306 Average FPS: 20.23570528820105 
+
+Run # 301  Reward:  29.5  Progress: % 3.7736  Frame count:  27743 
+
+Run # 302  Reward:  26.5  Progress: % 3.7736  Frame count:  27816 
+
+Run # 303  Reward:  53.0  Progress: % 4.717  Frame count:  27920 
+
+Run # 304  Reward:  34.5  Progress: % 3.7736  Frame count:  27995 
+
+Run # 305  Reward:  9.0  Progress: % 1.8868  Frame count:  28040 
+
+Run # 306  Reward:  33.5  Progress: % 3.7736  Frame count:  28115 
+
+Run # 307  Reward:  116.5  Progress: % 10.3774  Frame count:  28313 
+
+Run # 308  Reward:  107.0  Progress: % 8.4906  Frame count:  28478 
+
+Run # 309  Reward:  3.0  Progress: % 1.8868  Frame count:  28521 
+
+Run # 310  Reward:  136.5  Progress: % 10.3774  Frame count:  28719 
+
+Run # 311  Reward:  36.0  Progress: % 3.7736  Frame count:  28795 
+
+Run # 312  Reward:  63.5  Progress: % 4.717  Frame count:  28901 
+
+Run # 313  Reward:  6.5  Progress: % 1.8868  Frame count:  28945 
+
+Run # 314  Reward:  10.0  Progress: % 1.8868  Frame count:  28991 
+
+Run # 315  Reward:  4.0  Progress: % 1.8868  Frame count:  29032 
+
+Run # 316  Reward:  34.0  Progress: % 3.7736  Frame count:  29105 
+
+Run # 317  Reward:  107.0  Progress: % 8.4906  Frame count:  29269 
+
+Run # 318  Reward:  78.0  Progress: % 5.6604  Frame count:  29395 
+
+Run # 319  Reward:  36.5  Progress: % 3.7736  Frame count:  29468 
+
+Run # 320  Reward:  25.5  Progress: % 3.7736  Frame count:  29541 
+
+Run # 321  Reward:  59.5  Progress: % 4.717  Frame count:  29647 
+
+Run # 322  Reward:  31.5  Progress: % 3.7736  Frame count:  29721 
+
+Run # 323  Reward:  57.5  Progress: % 4.717  Frame count:  29826 
+
+Run # 324  Reward:  7.0  Progress: % 1.8868  Frame count:  29870 
+
+Run # 325  Reward:  64.5  Progress: % 4.717  Frame count:  29973 
+
+Run # 326  Reward:  171.5  Progress: % 12.2642  Frame count:  30198 
+
+Run # 327  Reward:  8.0  Progress: % 1.8868  Frame count:  30243 
+
+Run # 328  Reward:  5.0  Progress: % 1.8868  Frame count:  30284 
+
+Run # 329  Reward:  64.0  Progress: % 4.717  Frame count:  30389 
+
+Run # 330  Reward:  7.5  Progress: % 1.8868  Frame count:  30432 
+
+Run # 331  Reward:  120.5  Progress: % 10.3774  Frame count:  30627 
+
+Run # 332  Reward:  7.0  Progress: % 1.8868  Frame count:  30671 
+
+Run # 333  Reward:  72.0  Progress: % 5.6604  Frame count:  30793 
+
+Run # 334  Reward:  36.0  Progress: % 3.7736  Frame count:  30864 
+
+Run # 335  Reward:  13.5  Progress: % 1.8868  Frame count:  30913 
+
+Run # 336  Reward:  28.5  Progress: % 2.8302  Frame count:  30986 
+
+Run # 337  Reward:  -3.5  Progress: % 1.8868  Frame count:  31025 
+
+Run # 338  Reward:  4.5  Progress: % 1.8868  Frame count:  31068 
+
+Run # 339  Reward:  8.0  Progress: % 1.8868  Frame count:  31112 
+
+Run # 340  Reward:  61.0  Progress: % 4.717  Frame count:  31218 
+
+Run # 341  Reward:  35.5  Progress: % 3.7736  Frame count:  31292 
+
+Run # 342  Reward:  29.5  Progress: % 3.7736  Frame count:  31364 
+
+Run # 343  Reward:  59.5  Progress: % 4.717  Frame count:  31466 
+
+Run # 344  Reward:  4.5  Progress: % 1.8868  Frame count:  31506 
+
+Run # 345  Reward:  103.5  Progress: % 8.4906  Frame count:  31672 
+
+Run # 346  Reward:  33.5  Progress: % 3.7736  Frame count:  31745 
+
+Run # 347  Reward:  29.0  Progress: % 3.7736  Frame count:  31817 
+
+Run # 348  Reward:  66.0  Progress: % 4.717  Frame count:  31923 
+
+Run # 349  Reward:  73.5  Progress: % 5.6604  Frame count:  32046 
+
+Run # 350  Reward:  5.0  Progress: % 1.8868  Frame count:  32088 
+
+
+Run: 301 - 350  Average Progress: 4.331938775510205  Average Total Reward: 45.06122448979592 
+Average Total Jumps: 24.53061224489796  Average Jumps Per Progress %: 6.0  Average Epsilon: 0.19660378925337907 
+Average Number of Frames: 89.3265306122449  Average Run Time: 4.466737703401215 Average FPS: 19.998158957090062 
+
+Run # 351  Reward:  9.0  Progress: % 1.8868  Frame count:  32134 
+
+Run # 352  Reward:  124.5  Progress: % 10.3774  Frame count:  32319 
+
+Run # 353  Reward:  57.0  Progress: % 4.717  Frame count:  32425 
+
+Run # 354  Reward:  10.5  Progress: % 1.8868  Frame count:  32470 
+
+Run # 355  Reward:  117.5  Progress: % 8.4906  Frame count:  32634 
+
+Run # 356  Reward:  99.5  Progress: % 8.4906  Frame count:  32798 
+
+Run # 357  Reward:  107.5  Progress: % 8.4906  Frame count:  32961 
+
+Run # 358  Reward:  114.0  Progress: % 8.4906  Frame count:  33128 
+
+Run # 359  Reward:  111.5  Progress: % 8.4906  Frame count:  33296 
+
+Run # 360  Reward:  107.5  Progress: % 8.4906  Frame count:  33461 
+
+Run # 361  Reward:  155.5  Progress: % 11.3208  Frame count:  33671 
+
+Run # 362  Reward:  138.0  Progress: % 10.3774  Frame count:  33868 
+
+Run # 363  Reward:  7.5  Progress: % 1.8868  Frame count:  33911 
+
+Run # 364  Reward:  106.0  Progress: % 8.4906  Frame count:  34071 
+
+Run # 365  Reward:  10.0  Progress: % 1.8868  Frame count:  34116 
+
+Run # 366  Reward:  201.0  Progress: % 15.0943  Frame count:  34390 
+
+Run # 367  Reward:  58.5  Progress: % 5.6604  Frame count:  34511 
+
+Run # 368  Reward:  7.5  Progress: % 1.8868  Frame count:  34555 
+
+Run # 369  Reward:  56.0  Progress: % 4.717  Frame count:  34656 
+
+Run # 370  Reward:  9.0  Progress: % 1.8868  Frame count:  34700 
+
+Run # 371  Reward:  165.0  Progress: % 12.2642  Frame count:  34924 
+
+Run # 372  Reward:  27.5  Progress: % 3.7736  Frame count:  34995 
+
+Run # 373  Reward:  66.0  Progress: % 5.6604  Frame count:  35116 
+
+Run # 374  Reward:  59.5  Progress: % 4.717  Frame count:  35221 
+
+Run # 375  Reward:  61.5  Progress: % 5.6604  Frame count:  35339 
+
+Run # 376  Reward:  139.0  Progress: % 10.3774  Frame count:  35534 
+
+Run # 377  Reward:  103.5  Progress: % 8.4906  Frame count:  35703 
+
+Run # 378  Reward:  62.5  Progress: % 5.6604  Frame count:  35822 
+
+Run # 379  Reward:  3.0  Progress: % 1.8868  Frame count:  35864 
+
+Run # 380  Reward:  7.5  Progress: % 1.8868  Frame count:  35908 
+
+Run # 381  Reward:  4.0  Progress: % 1.8868  Frame count:  35950 
+
+Run # 382  Reward:  4.5  Progress: % 1.8868  Frame count:  35992 
+
+Run # 383  Reward:  3.5  Progress: % 1.8868  Frame count:  36037 
+
+Run # 384  Reward:  3.0  Progress: % 1.8868  Frame count:  36080 
+
+Run # 385  Reward:  37.0  Progress: % 3.7736  Frame count:  36154 
+
+Run # 386  Reward:  9.5  Progress: % 1.8868  Frame count:  36200 
+
+Run # 387  Reward:  27.0  Progress: % 3.7736  Frame count:  36272 
+
+Run # 388  Reward:  63.0  Progress: % 4.717  Frame count:  36376 
+
+Run # 389  Reward:  38.5  Progress: % 3.7736  Frame count:  36451 
+
+Run # 390  Reward:  61.5  Progress: % 4.717  Frame count:  36554 
+
+Run # 391  Reward:  117.0  Progress: % 8.4906  Frame count:  36720 
+
+Run # 392  Reward:  156.0  Progress: % 11.3208  Frame count:  36939 
+
+Run # 393  Reward:  30.0  Progress: % 3.7736  Frame count:  37019 
+
+Run # 394  Reward:  65.0  Progress: % 4.717  Frame count:  37122 
+
+Run # 395  Reward:  178.5  Progress: % 13.2075  Frame count:  37362 
+
+Run # 396  Reward:  59.5  Progress: % 4.717  Frame count:  37466 
+
+Run # 397  Reward:  4.0  Progress: % 1.8868  Frame count:  37509 
+
+Run # 398  Reward:  59.0  Progress: % 4.717  Frame count:  37613 
+
+Run # 399  Reward:  33.0  Progress: % 3.7736  Frame count:  37686 
+
+Run # 400  Reward:  35.0  Progress: % 3.7736  Frame count:  37759 
+
+
+Run: 351 - 400  Average Progress: 5.718155102040816  Average Total Reward: 66.44897959183673 
+Average Total Jumps: 31.591836734693878  Average Jumps Per Progress %: 6.0  Average Epsilon: 0.1530191979431818 
+Average Number of Frames: 114.24489795918367  Average Run Time: 5.719531930222804 Average FPS: 19.974518781073275 
+
+Run # 401  Reward:  1.5  Progress: % 1.8868  Frame count:  37799 
+
+Run # 402  Reward:  144.5  Progress: % 12.2642  Frame count:  38011 
+
+Run # 403  Reward:  53.5  Progress: % 4.717  Frame count:  38111 
+
+Run # 404  Reward:  38.0  Progress: % 3.7736  Frame count:  38186 
+
+Run # 405  Reward:  10.5  Progress: % 1.8868  Frame count:  38233 
+
+Run # 406  Reward:  6.0  Progress: % 1.8868  Frame count:  38276 
+
+Run # 407  Reward:  184.0  Progress: % 13.2075  Frame count:  38528 
+
+Run # 408  Reward:  37.0  Progress: % 3.7736  Frame count:  38602 
+
+Run # 409  Reward:  28.5  Progress: % 3.7736  Frame count:  38675 
+
+Run # 410  Reward:  157.5  Progress: % 12.2642  Frame count:  38894 
+
+Run # 411  Reward:  58.5  Progress: % 4.717  Frame count:  38998 
+
+Run # 412  Reward:  3.0  Progress: % 1.8868  Frame count:  39041 
+
+Run # 413  Reward:  74.0  Progress: % 5.6604  Frame count:  39163 
+
+Run # 414  Reward:  3.5  Progress: % 1.8868  Frame count:  39203 
+
+Run # 415  Reward:  35.5  Progress: % 3.7736  Frame count:  39278 
+
+Run # 416  Reward:  73.5  Progress: % 5.6604  Frame count:  39401 
+
+Run # 417  Reward:  71.5  Progress: % 5.6604  Frame count:  39515 
+
+Run # 418  Reward:  69.0  Progress: % 5.6604  Frame count:  39638 
+
+Run # 419  Reward:  35.5  Progress: % 3.7736  Frame count:  39713 
+
+Run # 420  Reward:  149.0  Progress: % 11.3208  Frame count:  39921 
+
+Run # 421  Reward:  31.5  Progress: % 2.8302  Frame count:  39990 
+
+Run # 422  Reward:  7.5  Progress: % 1.8868  Frame count:  40033 
+
+Run # 423  Reward:  139.0  Progress: % 10.3774  Frame count:  40227 
+
+Run # 424  Reward:  -0.5  Progress: % 1.8868  Frame count:  40269 
+
+Run # 425  Reward:  73.0  Progress: % 5.6604  Frame count:  40389 
+
+Run # 426  Reward:  105.5  Progress: % 8.4906  Frame count:  40550 
+
+Run # 427  Reward:  75.0  Progress: % 5.6604  Frame count:  40669 
+
+Run # 428  Reward:  127.5  Progress: % 10.3774  Frame count:  40862 
+
+Run # 429  Reward:  130.5  Progress: % 10.3774  Frame count:  41056 
+
+Run # 430  Reward:  49.0  Progress: % 4.717  Frame count:  41158 
+
+Run # 431  Reward:  145.5  Progress: % 10.3774  Frame count:  41356 
+
+Run # 432  Reward:  33.0  Progress: % 3.7736  Frame count:  41429 
+
+Run # 433  Reward:  147.0  Progress: % 11.3208  Frame count:  41637 
+
+Run # 434  Reward:  178.5  Progress: % 13.2075  Frame count:  41873 
+
+Run # 435  Reward:  54.5  Progress: % 4.717  Frame count:  41974 
+
+Run # 436  Reward:  33.5  Progress: % 3.7736  Frame count:  42048 
+
+Run # 437  Reward:  167.5  Progress: % 11.3208  Frame count:  42279 
+
+Run # 438  Reward:  62.0  Progress: % 4.717  Frame count:  42383 
+
+Run # 439  Reward:  35.0  Progress: % 3.7736  Frame count:  42454 
+
+Run # 440  Reward:  179.5  Progress: % 14.1509  Frame count:  42705 
+
+Run # 441  Reward:  186.5  Progress: % 14.1509  Frame count:  42967 
+
+Run # 442  Reward:  35.5  Progress: % 3.7736  Frame count:  43041 
+
+Run # 443  Reward:  2.0  Progress: % 1.8868  Frame count:  43080 
+
+Run # 444  Reward:  138.0  Progress: % 10.3774  Frame count:  43272 
+
+Run # 445  Reward:  74.5  Progress: % 5.6604  Frame count:  43394 
+
+Run # 446  Reward:  5.5  Progress: % 1.8868  Frame count:  43440 
+
+Run # 447  Reward:  28.5  Progress: % 2.8302  Frame count:  43509 
+
+Run # 448  Reward:  69.0  Progress: % 5.6604  Frame count:  43616 
+
+Run # 449  Reward:  75.0  Progress: % 5.6604  Frame count:  43738 
+
+Run # 450  Reward:  113.5  Progress: % 8.4906  Frame count:  43900 
+
+
+Run: 401 - 450  Average Progress: 6.218730612244898  Average Total Reward: 73.92857142857143 
+Average Total Jumps: 32.183673469387756  Average Jumps Per Progress %: 5.0  Average Epsilon: 0.11909676323175049 
+Average Number of Frames: 122.0204081632653  Average Run Time: 6.134737686235077 Average FPS: 19.89007752312714 
+
+Run # 451  Reward:  112.0  Progress: % 8.4906  Frame count:  44061 
+
+Run # 452  Reward:  116.5  Progress: % 8.4906  Frame count:  44219 
+
+Run # 453  Reward:  3.5  Progress: % 1.8868  Frame count:  44261 
+
+Run # 454  Reward:  130.0  Progress: % 10.3774  Frame count:  44459 
+
+Run # 455  Reward:  119.0  Progress: % 8.4906  Frame count:  44622 
+
+Run # 456  Reward:  8.0  Progress: % 1.8868  Frame count:  44666 
+
+Run # 457  Reward:  131.0  Progress: % 10.3774  Frame count:  44860 
+
+Run # 458  Reward:  31.5  Progress: % 2.8302  Frame count:  44930 
+
+Run # 459  Reward:  56.5  Progress: % 4.717  Frame count:  45032 
+
+Run # 460  Reward:  193.5  Progress: % 14.1509  Frame count:  45297 
+
+Run # 461  Reward:  78.5  Progress: % 5.6604  Frame count:  45418 
+
+Run # 462  Reward:  154.0  Progress: % 11.3208  Frame count:  45627 
+
+Run # 463  Reward:  70.5  Progress: % 5.6604  Frame count:  45747 
+
+Run # 464  Reward:  136.5  Progress: % 10.3774  Frame count:  45943 
+
+Run # 465  Reward:  65.5  Progress: % 4.717  Frame count:  46046 
+
+Run # 466  Reward:  102.5  Progress: % 8.4906  Frame count:  46206 
+
+Run # 467  Reward:  109.0  Progress: % 8.4906  Frame count:  46369 
+
+Run # 468  Reward:  184.5  Progress: % 14.1509  Frame count:  46623 
+
+Run # 469  Reward:  107.5  Progress: % 8.4906  Frame count:  46783 
+
+Run # 470  Reward:  70.0  Progress: % 5.6604  Frame count:  46902 
+
+Run # 471  Reward:  29.0  Progress: % 2.8302  Frame count:  46973 
+
+Run # 472  Reward:  174.0  Progress: % 13.2075  Frame count:  47207 
+
+Run # 473  Reward:  61.5  Progress: % 4.717  Frame count:  47310 
+
+Run # 474  Reward:  27.0  Progress: % 3.7736  Frame count:  47381 
+
+Run # 475  Reward:  163.5  Progress: % 12.2642  Frame count:  47599 
+
+Run # 476  Reward:  27.5  Progress: % 3.7736  Frame count:  47674 
+
+Run # 477  Reward:  112.0  Progress: % 8.4906  Frame count:  47836 
+
+Run # 478  Reward:  116.0  Progress: % 8.4906  Frame count:  48001 
+
+Run # 479  Reward:  71.5  Progress: % 5.6604  Frame count:  48123 
+
+Run # 480  Reward:  158.5  Progress: % 11.3208  Frame count:  48332 
+
+Run # 481  Reward:  114.0  Progress: % 8.4906  Frame count:  48496 
+
+Run # 482  Reward:  143.0  Progress: % 11.3208  Frame count:  48702 
+
+Run # 483  Reward:  170.0  Progress: % 12.2642  Frame count:  48927 
+
+Run # 484  Reward:  61.0  Progress: % 4.717  Frame count:  49030 
+
+Run # 485  Reward:  113.0  Progress: % 8.4906  Frame count:  49193 
+
+Run # 486  Reward:  28.5  Progress: % 2.8302  Frame count:  49265 
+
+Run # 487  Reward:  32.5  Progress: % 3.7736  Frame count:  49340 
+
+Run # 488  Reward:  83.5  Progress: % 5.6604  Frame count:  49471 
+
+Run # 489  Reward:  29.0  Progress: % 2.8302  Frame count:  49539 
+
+Run # 490  Reward:  103.5  Progress: % 8.4906  Frame count:  49706 
+
+Run # 491  Reward:  158.0  Progress: % 11.3208  Frame count:  49915 
+
+Run # 492  Reward:  184.0  Progress: % 14.1509  Frame count:  50166 
+
+Run # 493  Reward:  181.5  Progress: % 12.2642  Frame count:  50404 
+
+Run # 494  Reward:  32.0  Progress: % 3.7736  Frame count:  50478 
+
+Run # 495  Reward:  30.0  Progress: % 2.8302  Frame count:  50549 
+
+Run # 496  Reward:  33.5  Progress: % 3.7736  Frame count:  50621 
+
+Run # 497  Reward:  28.0  Progress: % 2.8302  Frame count:  50691 
+
+Run # 498  Reward:  30.0  Progress: % 2.8302  Frame count:  50762 
+
+Run # 499  Reward:  115.5  Progress: % 8.4906  Frame count:  50928 
+
+Run # 500  Reward:  163.5  Progress: % 12.2642  Frame count:  51148 
+
+
+Run: 451 - 500  Average Progress: 7.354661224489795  Average Total Reward: 93.6938775510204 
+Average Total Jumps: 35.46938775510204  Average Jumps Per Progress %: 5.0  Average Epsilon: 0.09269450632950231 
+Average Number of Frames: 143.42857142857142  Average Run Time: 7.204874637175579 Average FPS: 19.907157119502305 
+
+Run # 501  Reward:  150.5  Progress: % 11.3208  Frame count:  51358 
+
+Run # 502  Reward:  1.5  Progress: % 1.8868  Frame count:  51396 
+
+Run # 503  Reward:  28.0  Progress: % 2.8302  Frame count:  51466 
+
+Run # 504  Reward:  154.0  Progress: % 11.3208  Frame count:  51674 
+
+Run # 505  Reward:  167.0  Progress: % 12.2642  Frame count:  51898 
+
+Run # 506  Reward:  60.5  Progress: % 4.717  Frame count:  52001 
+
+Run # 507  Reward:  149.0  Progress: % 11.3208  Frame count:  52204 
+
+Run # 508  Reward:  3.5  Progress: % 1.8868  Frame count:  52245 
+
+Run # 509  Reward:  171.0  Progress: % 12.2642  Frame count:  52471 
+
+Run # 510  Reward:  7.0  Progress: % 1.8868  Frame count:  52513 
+
+Run # 511  Reward:  194.5  Progress: % 14.1509  Frame count:  52768 
+
+Run # 512  Reward:  61.0  Progress: % 4.717  Frame count:  52867 
+
+Run # 513  Reward:  113.0  Progress: % 8.4906  Frame count:  53027 
+
+Run # 514  Reward:  183.5  Progress: % 14.1509  Frame count:  53276 
+
+Run # 515  Reward:  30.5  Progress: % 3.7736  Frame count:  53345 
+
+Run # 516  Reward:  139.5  Progress: % 10.3774  Frame count:  53538 
+
+Run # 517  Reward:  153.5  Progress: % 11.3208  Frame count:  53743 
+
+Run # 518  Reward:  100.5  Progress: % 8.4906  Frame count:  53903 
+
+Run # 519  Reward:  229.5  Progress: % 16.0377  Frame count:  54195 
+
+Run # 520  Reward:  32.0  Progress: % 2.8302  Frame count:  54267 
+
+Run # 521  Reward:  158.0  Progress: % 11.3208  Frame count:  54485 
+
+Run # 522  Reward:  7.5  Progress: % 1.8868  Frame count:  54526 
+
+Run # 523  Reward:  3.0  Progress: % 1.8868  Frame count:  54569 
+
+Run # 524  Reward:  75.0  Progress: % 5.6604  Frame count:  54690 
+
+Run # 525  Reward:  148.5  Progress: % 11.3208  Frame count:  54897 
+
+Run # 526  Reward:  73.5  Progress: % 5.6604  Frame count:  55013 
+
+Run # 527  Reward:  7.0  Progress: % 1.8868  Frame count:  55058 
+
+Run # 528  Reward:  144.5  Progress: % 11.3208  Frame count:  55261 
+
+Run # 529  Reward:  57.5  Progress: % 4.717  Frame count:  55361 
+
+Run # 530  Reward:  150.0  Progress: % 11.3208  Frame count:  55569 
+
+Run # 531  Reward:  144.0  Progress: % 11.3208  Frame count:  55772 
+
+Run # 532  Reward:  100.0  Progress: % 8.4906  Frame count:  55932 
+
+Run # 533  Reward:  172.5  Progress: % 12.2642  Frame count:  56155 
+
+Run # 534  Reward:  144.5  Progress: % 11.3208  Frame count:  56363 
+
+Run # 535  Reward:  4.5  Progress: % 1.8868  Frame count:  56406 
+
+Run # 536  Reward:  7.5  Progress: % 1.8868  Frame count:  56448 
+
+Run # 537  Reward:  34.0  Progress: % 3.7736  Frame count:  56526 
+
+Run # 538  Reward:  114.5  Progress: % 8.4906  Frame count:  56687 
+
+Run # 539  Reward:  154.0  Progress: % 11.3208  Frame count:  56893 
+
+Run # 540  Reward:  169.5  Progress: % 12.2642  Frame count:  57115 
+
+Run # 541  Reward:  196.5  Progress: % 14.1509  Frame count:  57373 
+
+Run # 542  Reward:  27.0  Progress: % 2.8302  Frame count:  57441 
+
+Run # 543  Reward:  105.5  Progress: % 8.4906  Frame count:  57605 
+
+Run # 544  Reward:  27.5  Progress: % 2.8302  Frame count:  57674 
+
+Run # 545  Reward:  36.5  Progress: % 3.7736  Frame count:  57751 
+
+Run # 546  Reward:  137.5  Progress: % 11.3208  Frame count:  57951 
+
+Run # 547  Reward:  158.0  Progress: % 11.3208  Frame count:  58163 
+
+Run # 548  Reward:  183.5  Progress: % 13.2075  Frame count:  58401 
+
+Run # 549  Reward:  37.0  Progress: % 3.7736  Frame count:  58474 
+
+Run # 550  Reward:  5.5  Progress: % 1.8868  Frame count:  58515 
+
+
+Run: 501 - 550  Average Progress: 7.912997959183674  Average Total Reward: 100.16326530612245 
+Average Total Jumps: 34.69387755102041  Average Jumps Per Progress %: 4.0  Average Epsilon: 0.07214529824753033 
+Average Number of Frames: 149.51020408163265  Average Run Time: 7.588304612101341 Average FPS: 19.70271512864723 
+
+Run # 551  Reward:  150.5  Progress: % 11.3208  Frame count:  58722 
+
+Run # 552  Reward:  138.0  Progress: % 10.3774  Frame count:  58912 
+
+Run # 553  Reward:  37.0  Progress: % 3.7736  Frame count:  58985 
+
+Run # 554  Reward:  63.5  Progress: % 4.717  Frame count:  59088 
+
+Run # 555  Reward:  143.0  Progress: % 11.3208  Frame count:  59295 
+
+Run # 556  Reward:  148.0  Progress: % 11.3208  Frame count:  59498 
+
+Run # 557  Reward:  11.0  Progress: % 1.8868  Frame count:  59544 
+
+Run # 558  Reward:  119.0  Progress: % 8.4906  Frame count:  59707 
+
+Run # 559  Reward:  152.5  Progress: % 11.3208  Frame count:  59912 
+
+Run # 560  Reward:  146.0  Progress: % 11.3208  Frame count:  60118 
+
+Run # 561  Reward:  143.5  Progress: % 11.3208  Frame count:  60321 
+
+Run # 562  Reward:  184.0  Progress: % 14.1509  Frame count:  60574 
+
+Run # 563  Reward:  29.0  Progress: % 3.7736  Frame count:  60646 
+
+Run # 564  Reward:  164.5  Progress: % 12.2642  Frame count:  60866 
+
+Run # 565  Reward:  211.0  Progress: % 16.0377  Frame count:  61154 
+
+Run # 566  Reward:  188.5  Progress: % 14.1509  Frame count:  61409 
+
+Run # 567  Reward:  101.5  Progress: % 8.4906  Frame count:  61569 
+
+Run # 568  Reward:  78.0  Progress: % 5.6604  Frame count:  61690 
+
+Run # 569  Reward:  137.0  Progress: % 11.3208  Frame count:  61891 
+
+Run # 570  Reward:  161.5  Progress: % 12.2642  Frame count:  62109 
+
+Run # 571  Reward:  26.5  Progress: % 2.8302  Frame count:  62177 
+
+Run # 572  Reward:  28.5  Progress: % 3.7736  Frame count:  62251 
+
+Run # 573  Reward:  59.0  Progress: % 5.6604  Frame count:  62354 
+
+Run # 574  Reward:  177.5  Progress: % 14.1509  Frame count:  62605 
+
+Run # 575  Reward:  67.0  Progress: % 5.6604  Frame count:  62724 
+
+Run # 576  Reward:  127.0  Progress: % 10.3774  Frame count:  62916 
+
+Run # 577  Reward:  30.5  Progress: % 2.8302  Frame count:  62989 
+
+Run # 578  Reward:  105.0  Progress: % 8.4906  Frame count:  63150 
+
+Run # 579  Reward:  144.5  Progress: % 11.3208  Frame count:  63350 
+
+Run # 580  Reward:  179.0  Progress: % 14.1509  Frame count:  63606 
+
+Run # 581  Reward:  138.5  Progress: % 11.3208  Frame count:  63813 
+
+Run # 582  Reward:  151.5  Progress: % 11.3208  Frame count:  64020 
+
+Run # 583  Reward:  31.0  Progress: % 2.8302  Frame count:  64089 
+
+Run # 584  Reward:  185.0  Progress: % 13.2075  Frame count:  64327 
+
+Run # 585  Reward:  79.0  Progress: % 5.6604  Frame count:  64450 
+
+Run # 586  Reward:  112.0  Progress: % 10.3774  Frame count:  64637 
+
+Run # 587  Reward:  191.5  Progress: % 14.1509  Frame count:  64887 
+
+Run # 588  Reward:  208.0  Progress: % 15.0943  Frame count:  65166 
+
+Run # 589  Reward:  213.5  Progress: % 16.9811  Frame count:  65470 
+
+Run # 590  Reward:  47.5  Progress: % 4.717  Frame count:  65570 
+
+Run # 591  Reward:  166.5  Progress: % 14.1509  Frame count:  65821 
+
+Run # 592  Reward:  1.5  Progress: % 1.8868  Frame count:  65863 
+
+Run # 593  Reward:  185.0  Progress: % 14.1509  Frame count:  66119 
+
+Run # 594  Reward:  33.0  Progress: % 3.7736  Frame count:  66192 
+
+Run # 595  Reward:  131.0  Progress: % 11.3208  Frame count:  66393 
+
+Run # 596  Reward:  47.5  Progress: % 5.6604  Frame count:  66496 
+
+Run # 597  Reward:  178.5  Progress: % 14.1509  Frame count:  66748 
+
+Run # 598  Reward:  128.5  Progress: % 10.3774  Frame count:  66940 
+
+Run # 599  Reward:  113.5  Progress: % 8.4906  Frame count:  67101 
+
+Run # 600  Reward:  24.5  Progress: % 2.8302  Frame count:  67170 
+
+
+Run: 551 - 600  Average Progress: 9.472481632653059  Average Total Reward: 118.24489795918367 
+Average Total Jumps: 49.95918367346939  Average Jumps Per Progress %: 5.0  Average Epsilon: 0.05615159155951508 
+Average Number of Frames: 175.22448979591837  Average Run Time: 8.908637956697113 Average FPS: 19.669054983224736 
+
+Run # 601  Reward:  186.5  Progress: % 14.1509  Frame count:  67425 
+
+Run # 602  Reward:  2.5  Progress: % 1.8868  Frame count:  67464 
+
+Run # 603  Reward:  25.5  Progress: % 2.8302  Frame count:  67533 
+
+Run # 604  Reward:  65.0  Progress: % 5.6604  Frame count:  67652 
+
+Run # 605  Reward:  142.5  Progress: % 11.3208  Frame count:  67857 
+
+Run # 606  Reward:  143.5  Progress: % 11.3208  Frame count:  68058 
+
+Run # 607  Reward:  138.0  Progress: % 11.3208  Frame count:  68261 
+
+Run # 608  Reward:  133.0  Progress: % 11.3208  Frame count:  68462 
+
+Run # 609  Reward:  186.5  Progress: % 15.0943  Frame count:  68733 
+
+Run # 610  Reward:  171.0  Progress: % 12.2642  Frame count:  68969 
+
+Run # 611  Reward:  183.0  Progress: % 14.1509  Frame count:  69219 
+
+Run # 612  Reward:  146.5  Progress: % 11.3208  Frame count:  69425 
+
+Run # 613  Reward:  73.5  Progress: % 5.6604  Frame count:  69543 
+
+Run # 614  Reward:  26.5  Progress: % 3.7736  Frame count:  69617 
+
+Run # 615  Reward:  137.0  Progress: % 11.3208  Frame count:  69819 
+
+Run # 616  Reward:  165.0  Progress: % 13.2075  Frame count:  70050 
+
+Run # 617  Reward:  139.0  Progress: % 10.3774  Frame count:  70243 
+
+Run # 618  Reward:  67.0  Progress: % 5.6604  Frame count:  70360 
+
+Run # 619  Reward:  138.5  Progress: % 11.3208  Frame count:  70565 
+
+Run # 620  Reward:  58.0  Progress: % 5.6604  Frame count:  70683 
+
+Run # 621  Reward:  130.0  Progress: % 10.3774  Frame count:  70878 
+
+Run # 622  Reward:  160.5  Progress: % 12.2642  Frame count:  71098 
+
+Run # 623  Reward:  153.5  Progress: % 11.3208  Frame count:  71311 
+
+Run # 624  Reward:  183.0  Progress: % 14.1509  Frame count:  71563 
+
+Run # 625  Reward:  193.0  Progress: % 14.1509  Frame count:  71821 
+
+Run # 626  Reward:  150.5  Progress: % 12.2642  Frame count:  72043 
+
+Run # 627  Reward:  69.0  Progress: % 5.6604  Frame count:  72158 
+
+Run # 628  Reward:  105.0  Progress: % 8.4906  Frame count:  72321 
+
+Run # 629  Reward:  179.5  Progress: % 14.1509  Frame count:  72572 
+
+Run # 630  Reward:  181.5  Progress: % 13.2075  Frame count:  72822 
+
+Run # 631  Reward:  158.5  Progress: % 11.3208  Frame count:  73042 
+
+Run # 632  Reward:  163.0  Progress: % 12.2642  Frame count:  73266 
+
+Run # 633  Reward:  158.0  Progress: % 12.2642  Frame count:  73483 
+
+Run # 634  Reward:  60.0  Progress: % 5.6604  Frame count:  73599 
+
+Run # 635  Reward:  163.5  Progress: % 12.2642  Frame count:  73815 
+
+Run # 636  Reward:  157.5  Progress: % 11.3208  Frame count:  74032 
+
+Run # 637  Reward:  129.5  Progress: % 11.3208  Frame count:  74236 
+
+Run # 638  Reward:  187.5  Progress: % 13.2075  Frame count:  74477 
+
+Run # 639  Reward:  159.0  Progress: % 12.2642  Frame count:  74697 
+
+Run # 640  Reward:  154.0  Progress: % 12.2642  Frame count:  74917 
+
+Run # 641  Reward:  150.0  Progress: % 11.3208  Frame count:  75120 
+
+Run # 642  Reward:  204.0  Progress: % 16.0377  Frame count:  75405 
+
+Run # 643  Reward:  183.0  Progress: % 13.2075  Frame count:  75646 
+
+Run # 644  Reward:  139.5  Progress: % 11.3208  Frame count:  75848 
+
+Run # 645  Reward:  149.5  Progress: % 11.3208  Frame count:  76054 
+
+Run # 646  Reward:  181.0  Progress: % 13.2075  Frame count:  76305 
+
+Run # 647  Reward:  142.0  Progress: % 11.3208  Frame count:  76508 
+
+Run # 648  Reward:  183.0  Progress: % 14.1509  Frame count:  76756 
+
+Run # 649  Reward:  167.0  Progress: % 12.2642  Frame count:  76973 
+
+Run # 650  Reward:  181.0  Progress: % 14.1509  Frame count:  77234 
+
+
+Run: 601 - 650  Average Progress: 10.897206122448981  Average Total Reward: 139.24489795918367 
+Average Total Jumps: 57.63265306122449  Average Jumps Per Progress %: 5.0  Average Epsilon: 0.04370348881016018 
+Average Number of Frames: 200.0612244897959  Average Run Time: 10.174664687137215 Average FPS: 19.662684780434365 
+
+Run # 651  Reward:  76.5  Progress: % 5.6604  Frame count:  77356 
+
+Run # 652  Reward:  -3.0  Progress: % 1.8868  Frame count:  77392 
+
+Run # 653  Reward:  138.5  Progress: % 10.3774  Frame count:  77589 
+
+Run # 654  Reward:  33.5  Progress: % 3.7736  Frame count:  77665 
+
+Run # 655  Reward:  209.5  Progress: % 16.0377  Frame count:  77945 
+
+Run # 656  Reward:  28.5  Progress: % 3.7736  Frame count:  78018 
+
+Run # 657  Reward:  184.5  Progress: % 13.2075  Frame count:  78259 
+
+Run # 658  Reward:  133.5  Progress: % 10.3774  Frame count:  78448 
+
+Run # 659  Reward:  193.5  Progress: % 14.1509  Frame count:  78709 
+
+Run # 660  Reward:  190.0  Progress: % 13.2075  Frame count:  78961 
+
+Run # 661  Reward:  108.0  Progress: % 8.4906  Frame count:  79125 
+
+Run # 662  Reward:  170.5  Progress: % 13.2075  Frame count:  79361 
+
+Run # 663  Reward:  134.0  Progress: % 10.3774  Frame count:  79552 
+
+Run # 664  Reward:  170.5  Progress: % 13.2075  Frame count:  79787 
+
+Run # 665  Reward:  158.0  Progress: % 12.2642  Frame count:  80004 
+
+Run # 666  Reward:  177.0  Progress: % 12.2642  Frame count:  80238 
+
+Run # 667  Reward:  71.0  Progress: % 5.6604  Frame count:  80358 
+
+Run # 668  Reward:  188.5  Progress: % 14.1509  Frame count:  80608 
+
+Run # 669  Reward:  182.0  Progress: % 15.0943  Frame count:  80876 
+
+Run # 670  Reward:  205.5  Progress: % 15.0943  Frame count:  81151 
+
+Run # 671  Reward:  61.5  Progress: % 5.6604  Frame count:  81262 
+
+Run # 672  Reward:  195.0  Progress: % 16.0377  Frame count:  81542 
+
+Run # 673  Reward:  108.0  Progress: % 8.4906  Frame count:  81702 
+
+Run # 674  Reward:  32.5  Progress: % 3.7736  Frame count:  81776 
+
+Run # 675  Reward:  72.0  Progress: % 5.6604  Frame count:  81895 
+
+Run # 676  Reward:  212.0  Progress: % 16.0377  Frame count:  82187 
+
+Run # 677  Reward:  203.5  Progress: % 15.0943  Frame count:  82470 
+
+Run # 678  Reward:  223.0  Progress: % 16.0377  Frame count:  82764 
+
+Run # 679  Reward:  174.5  Progress: % 13.2075  Frame count:  82995 
+
+Run # 680  Reward:  216.5  Progress: % 16.0377  Frame count:  83290 
+
+Run # 681  Reward:  179.5  Progress: % 14.1509  Frame count:  83542 
+
+Run # 682  Reward:  114.0  Progress: % 8.4906  Frame count:  83703 
+
+Run # 683  Reward:  6.5  Progress: % 1.8868  Frame count:  83747 
+
+Run # 684  Reward:  178.5  Progress: % 12.2642  Frame count:  83985 
+
+Run # 685  Reward:  135.5  Progress: % 10.3774  Frame count:  84175 
+
+Run # 686  Reward:  184.0  Progress: % 14.1509  Frame count:  84438 
+
+Run # 687  Reward:  180.5  Progress: % 13.2075  Frame count:  84672 
+
+Run # 688  Reward:  110.5  Progress: % 8.4906  Frame count:  84835 
+
+Run # 689  Reward:  9.5  Progress: % 1.8868  Frame count:  84882 
+
+Run # 690  Reward:  132.0  Progress: % 10.3774  Frame count:  85070 
+
+Run # 691  Reward:  162.0  Progress: % 12.2642  Frame count:  85288 
+
+Run # 692  Reward:  206.0  Progress: % 15.0943  Frame count:  85563 
+
+Run # 693  Reward:  65.5  Progress: % 5.6604  Frame count:  85680 
+
+Run # 694  Reward:  70.0  Progress: % 5.6604  Frame count:  85800 
+
+Run # 695  Reward:  3.5  Progress: % 1.8868  Frame count:  85843 
+
+Run # 696  Reward:  177.0  Progress: % 12.2642  Frame count:  86079 
+
+Run # 697  Reward:  220.5  Progress: % 16.0377  Frame count:  86370 
+
+Run # 698  Reward:  169.0  Progress: % 12.2642  Frame count:  86594 
+
+Run # 699  Reward:  73.0  Progress: % 5.6604  Frame count:  86712 
+
+Run # 700  Reward:  183.5  Progress: % 13.2075  Frame count:  86950 
+
+
+Run: 651 - 700  Average Progress: 10.415865306122448  Average Total Reward: 135.21428571428572 
+Average Total Jumps: 52.42857142857143  Average Jumps Per Progress %: 5.0  Average Epsilon: 0.03401497412865656 
+Average Number of Frames: 193.42857142857142  Average Run Time: 9.815472909382411 Average FPS: 19.706495368519327 
+
+Run # 701  Reward:  197.0  Progress: % 15.0943  Frame count:  87216 
+
+Run # 702  Reward:  267.0  Progress: % 18.8679  Frame count:  87552 
+
+Run # 703  Reward:  26.0  Progress: % 3.7736  Frame count:  87628 
+
+Run # 704  Reward:  178.5  Progress: % 12.2642  Frame count:  87862 
+
+Run # 705  Reward:  184.0  Progress: % 13.2075  Frame count:  88098 
+
+Run # 706  Reward:  77.0  Progress: % 5.6604  Frame count:  88217 
+
+Run # 707  Reward:  178.5  Progress: % 12.2642  Frame count:  88448 
+
+Run # 708  Reward:  212.0  Progress: % 16.0377  Frame count:  88734 
+
+Run # 709  Reward:  59.5  Progress: % 5.6604  Frame count:  88840 
+
+Run # 710  Reward:  179.0  Progress: % 12.2642  Frame count:  89074 
+
+Run # 711  Reward:  224.0  Progress: % 16.0377  Frame count:  89366 
+
+Run # 712  Reward:  152.5  Progress: % 11.3208  Frame count:  89569 
+
+Run # 713  Reward:  176.0  Progress: % 13.2075  Frame count:  89804 
+
+Run # 714  Reward:  240.0  Progress: % 16.9811  Frame count:  90120 
+
+Run # 715  Reward:  314.5  Progress: % 21.6981  Frame count:  90507 
+
+Run # 716  Reward:  78.5  Progress: % 5.6604  Frame count:  90625 
+
+Run # 717  Reward:  77.0  Progress: % 5.6604  Frame count:  90745 
+
+Run # 718  Reward:  145.5  Progress: % 11.3208  Frame count:  90948 
+
+Run # 719  Reward:  75.5  Progress: % 5.6604  Frame count:  91063 
+
+Run # 720  Reward:  159.5  Progress: % 12.2642  Frame count:  91280 
+
+Run # 721  Reward:  161.0  Progress: % 12.2642  Frame count:  91501 
+
+Run # 722  Reward:  159.0  Progress: % 12.2642  Frame count:  91719 
+
+Run # 723  Reward:  176.5  Progress: % 13.2075  Frame count:  91953 
+
+Run # 724  Reward:  149.0  Progress: % 11.3208  Frame count:  92155 
+
+Run # 725  Reward:  130.0  Progress: % 10.3774  Frame count:  92345 
+
+Run # 726  Reward:  191.5  Progress: % 14.1509  Frame count:  92600 
+
+Run # 727  Reward:  142.5  Progress: % 11.3208  Frame count:  92801 
+
+Run # 728  Reward:  166.5  Progress: % 13.2075  Frame count:  93034 
+
+Run # 729  Reward:  65.0  Progress: % 5.6604  Frame count:  93152 
+
+Run # 730  Reward:  145.0  Progress: % 11.3208  Frame count:  93356 
+
+Run # 731  Reward:  76.5  Progress: % 5.6604  Frame count:  93476 
+
+Run # 732  Reward:  164.5  Progress: % 12.2642  Frame count:  93705 
+
+Run # 733  Reward:  177.0  Progress: % 12.2642  Frame count:  93942 
+
+Run # 734  Reward:  170.0  Progress: % 12.2642  Frame count:  94171 
+
+Run # 735  Reward:  176.5  Progress: % 12.2642  Frame count:  94395 
+
+Run # 736  Reward:  157.0  Progress: % 12.2642  Frame count:  94611 
+
+Run # 737  Reward:  176.5  Progress: % 13.2075  Frame count:  94847 
+
+Run # 738  Reward:  74.5  Progress: % 5.6604  Frame count:  94967 
+
+Run # 739  Reward:  216.0  Progress: % 16.0377  Frame count:  95259 
+
+Run # 740  Reward:  165.5  Progress: % 12.2642  Frame count:  95491 
+
+Run # 741  Reward:  191.0  Progress: % 14.1509  Frame count:  95747 
+
+Run # 742  Reward:  228.5  Progress: % 16.0377  Frame count:  96035 
+
+Run # 743  Reward:  213.5  Progress: % 16.0377  Frame count:  96323 
+
+Run # 744  Reward:  211.0  Progress: % 15.0943  Frame count:  96599 
+
+Run # 745  Reward:  199.0  Progress: % 15.0943  Frame count:  96867 
+
+Run # 746  Reward:  196.0  Progress: % 15.0943  Frame count:  97130 
+
+Run # 747  Reward:  195.0  Progress: % 14.1509  Frame count:  97380 
+
+Run # 748  Reward:  249.0  Progress: % 17.9245  Frame count:  97697 
+
+Run # 749  Reward:  166.0  Progress: % 12.2642  Frame count:  97916 
+
+Run # 750  Reward:  224.5  Progress: % 16.0377  Frame count:  98205 
+
+
+Run: 701 - 750  Average Progress: 12.244904081632654  Average Total Reward: 165.1122448979592 
+Average Total Jumps: 53.36734693877551  Average Jumps Per Progress %: 4.0  Average Epsilon: 0.026474281492698357 
+Average Number of Frames: 223.79591836734693  Average Run Time: 11.41963377777411 Average FPS: 19.59746894886578 
+
+Run # 751  Reward:  167.5  Progress: % 12.2642  Frame count:  98440 
+
+Run # 752  Reward:  167.0  Progress: % 12.2642  Frame count:  98668 
+
+Run # 753  Reward:  214.0  Progress: % 16.0377  Frame count:  98953 
+
+Run # 754  Reward:  139.0  Progress: % 10.3774  Frame count:  99145 
+
+Run # 755  Reward:  231.5  Progress: % 16.9811  Frame count:  99452 
+
+Run # 756  Reward:  31.0  Progress: % 3.7736  Frame count:  99522 
+
+Run # 757  Reward:  175.0  Progress: % 12.2642  Frame count:  99753 
+
+Run # 758  Reward:  177.5  Progress: % 13.2075  Frame count:  99985 
+
+Run # 759  Reward:  216.0  Progress: % 16.0377  Frame count:  100277 
+
+Run # 760  Reward:  165.5  Progress: % 12.2642  Frame count:  100494 
+
+Run # 761  Reward:  76.0  Progress: % 5.6604  Frame count:  100612 
+
+Run # 762  Reward:  110.5  Progress: % 8.4906  Frame count:  100773 
+
+Run # 763  Reward:  179.0  Progress: % 13.2075  Frame count:  101010 
+
+Run # 764  Reward:  174.5  Progress: % 12.2642  Frame count:  101244 
+
+Run # 765  Reward:  71.0  Progress: % 5.6604  Frame count:  101361 
+
+Run # 766  Reward:  63.5  Progress: % 5.6604  Frame count:  101470 
+
+Run # 767  Reward:  72.5  Progress: % 5.6604  Frame count:  101589 
+
+Run # 768  Reward:  208.0  Progress: % 15.0943  Frame count:  101866 
+
+Run # 769  Reward:  219.0  Progress: % 16.0377  Frame count:  102151 
+
+Run # 770  Reward:  179.0  Progress: % 12.2642  Frame count:  102386 
+
+Run # 771  Reward:  74.5  Progress: % 5.6604  Frame count:  102501 
+
+Run # 772  Reward:  166.5  Progress: % 11.3208  Frame count:  102721 
+
+Run # 773  Reward:  64.5  Progress: % 5.6604  Frame count:  102829 
+
+Run # 774  Reward:  77.5  Progress: % 5.6604  Frame count:  102948 
+
+Run # 775  Reward:  215.5  Progress: % 15.0943  Frame count:  103227 
+
+Run # 776  Reward:  65.5  Progress: % 4.717  Frame count:  103331 
+
+Run # 777  Reward:  62.5  Progress: % 4.717  Frame count:  103434 
+
+Run # 778  Reward:  211.0  Progress: % 15.0943  Frame count:  103710 
+
+Run # 779  Reward:  230.5  Progress: % 16.0377  Frame count:  104005 
+
+Run # 780  Reward:  163.0  Progress: % 12.2642  Frame count:  104231 
+
+Run # 781  Reward:  113.5  Progress: % 8.4906  Frame count:  104389 
+
+Run # 782  Reward:  210.0  Progress: % 15.0943  Frame count:  104671 
+
+Run # 783  Reward:  207.0  Progress: % 15.0943  Frame count:  104944 
+
+Run # 784  Reward:  233.0  Progress: % 16.0377  Frame count:  105231 
+
+Run # 785  Reward:  9.5  Progress: % 1.8868  Frame count:  105275 
+
+Run # 786  Reward:  223.0  Progress: % 16.9811  Frame count:  105569 
+
+Run # 787  Reward:  72.5  Progress: % 5.6604  Frame count:  105685 
+
+Run # 788  Reward:  71.5  Progress: % 5.6604  Frame count:  105802 
+
+Run # 789  Reward:  74.0  Progress: % 5.6604  Frame count:  105918 
+
+Run # 790  Reward:  34.0  Progress: % 3.7736  Frame count:  105990 
+
+Run # 791  Reward:  64.5  Progress: % 5.6604  Frame count:  106100 
+
+Run # 792  Reward:  194.5  Progress: % 14.1509  Frame count:  106351 
+
+Run # 793  Reward:  66.5  Progress: % 5.6604  Frame count:  106469 
+
+Run # 794  Reward:  227.0  Progress: % 16.0377  Frame count:  106755 
+
+Run # 795  Reward:  176.0  Progress: % 12.2642  Frame count:  106987 
+
+Run # 796  Reward:  218.5  Progress: % 16.0377  Frame count:  107276 
+
+Run # 797  Reward:  207.0  Progress: % 16.0377  Frame count:  107565 
+
+Run # 798  Reward:  176.0  Progress: % 12.2642  Frame count:  107802 
+
+Run # 799  Reward:  217.5  Progress: % 16.0377  Frame count:  108085 
+
+Run # 800  Reward:  208.0  Progress: % 14.1509  Frame count:  108339 
+
+
+Run: 751 - 800  Average Progress: 10.82018163265306  Average Total Reward: 146.19387755102042 
+Average Total Jumps: 46.87755102040816  Average Jumps Per Progress %: 4.0  Average Epsilon: 0.020605265725137076 
+Average Number of Frames: 201.6326530612245  Average Run Time: 10.290796153399409 Average FPS: 19.593494036379116 
+
+Run # 801  Reward:  111.5  Progress: % 8.4906  Frame count:  108502 
+
+Run # 802  Reward:  190.5  Progress: % 13.2075  Frame count:  108744 
+
+Run # 803  Reward:  218.0  Progress: % 15.0943  Frame count:  109021 
+
+Run # 804  Reward:  200.5  Progress: % 15.0943  Frame count:  109287 
+
+Run # 805  Reward:  193.0  Progress: % 13.2075  Frame count:  109537 
+
+Run # 806  Reward:  173.5  Progress: % 12.2642  Frame count:  109772 
+
+Run # 807  Reward:  3.5  Progress: % 1.8868  Frame count:  109810 
+
+Run # 808  Reward:  200.5  Progress: % 15.0943  Frame count:  110079 
+
+Run # 809  Reward:  201.0  Progress: % 14.1509  Frame count:  110335 
+
+Run # 810  Reward:  64.0  Progress: % 5.6604  Frame count:  110453 
+
+Run # 811  Reward:  215.5  Progress: % 15.0943  Frame count:  110731 
+
+Run # 812  Reward:  201.0  Progress: % 14.1509  Frame count:  110982 
+
+Run # 813  Reward:  205.0  Progress: % 14.1509  Frame count:  111242 
+
+Run # 814  Reward:  78.0  Progress: % 5.6604  Frame count:  111361 
+
+Run # 815  Reward:  219.0  Progress: % 16.0377  Frame count:  111642 
+
+Run # 816  Reward:  191.5  Progress: % 14.1509  Frame count:  111887 
+
+Run # 817  Reward:  78.0  Progress: % 5.6604  Frame count:  112006 
+
+Run # 818  Reward:  221.5  Progress: % 15.0943  Frame count:  112283 
+
+Run # 819  Reward:  200.0  Progress: % 14.1509  Frame count:  112543 
+
+Run # 820  Reward:  183.0  Progress: % 14.1509  Frame count:  112798 
+
+Run # 821  Reward:  212.0  Progress: % 15.0943  Frame count:  113074 
+
+Run # 822  Reward:  227.5  Progress: % 16.0377  Frame count:  113369 
+
+Run # 823  Reward:  78.5  Progress: % 5.6604  Frame count:  113487 
+
+Run # 824  Reward:  189.0  Progress: % 14.1509  Frame count:  113737 
+
+Run # 825  Reward:  182.0  Progress: % 13.2075  Frame count:  113985 
+
+Run # 826  Reward:  212.0  Progress: % 16.0377  Frame count:  114271 
+
+Run # 827  Reward:  117.0  Progress: % 8.4906  Frame count:  114431 
+
+Run # 828  Reward:  206.5  Progress: % 15.0943  Frame count:  114709 
+
+Run # 829  Reward:  216.0  Progress: % 15.0943  Frame count:  114983 
+
+Run # 830  Reward:  241.0  Progress: % 17.9245  Frame count:  115300 
+
+Run # 831  Reward:  184.5  Progress: % 14.1509  Frame count:  115556 
+
+Run # 832  Reward:  74.5  Progress: % 5.6604  Frame count:  115671 
+
+Run # 833  Reward:  119.5  Progress: % 9.434  Frame count:  115843 
+
+Run # 834  Reward:  175.0  Progress: % 13.2075  Frame count:  116077 
+
+Run # 835  Reward:  210.0  Progress: % 15.0943  Frame count:  116345 
+
+Run # 836  Reward:  230.0  Progress: % 16.0377  Frame count:  116640 
+
+Run # 837  Reward:  247.0  Progress: % 17.9245  Frame count:  116956 
+
+Run # 838  Reward:  266.5  Progress: % 18.8679  Frame count:  117296 
+
+Run # 839  Reward:  300.5  Progress: % 21.6981  Frame count:  117679 
+
+Run # 840  Reward:  193.0  Progress: % 14.1509  Frame count:  117928 
+
+Run # 841  Reward:  183.5  Progress: % 14.1509  Frame count:  118182 
+
+Run # 842  Reward:  142.0  Progress: % 10.3774  Frame count:  118373 
+
+Run # 843  Reward:  23.0  Progress: % 2.8302  Frame count:  118439 
+
+Run # 844  Reward:  156.5  Progress: % 12.2642  Frame count:  118656 
+
+Run # 845  Reward:  61.0  Progress: % 4.717  Frame count:  118758 
+
+Run # 846  Reward:  113.0  Progress: % 8.4906  Frame count:  118919 
+
+Run # 847  Reward:  115.5  Progress: % 8.4906  Frame count:  119080 
+
+Run # 848  Reward:  179.5  Progress: % 14.1509  Frame count:  119328 
+
+Run # 849  Reward:  221.5  Progress: % 16.9811  Frame count:  119631 
+
+Run # 850  Reward:  206.5  Progress: % 15.0943  Frame count:  119896 
+
+
+Run: 801 - 850  Average Progress: 12.61068775510204  Average Total Reward: 171.9591836734694 
+Average Total Jumps: 52.97959183673469  Average Jumps Per Progress %: 4.0  Average Epsilon: 0.01603733705561028 
+Average Number of Frames: 230.44897959183675  Average Run Time: 11.771829235310458 Average FPS: 19.576310103156125 
+
+Run # 851  Reward:  195.0  Progress: % 14.1509  Frame count:  120146 
+
+Run # 852  Reward:  104.0  Progress: % 8.4906  Frame count:  120301 
+
+Run # 853  Reward:  273.0  Progress: % 18.8679  Frame count:  120634 
+
+Run # 854  Reward:  3.5  Progress: % 1.8868  Frame count:  120677 
+
+Run # 855  Reward:  135.5  Progress: % 10.3774  Frame count:  120868 
+
+Run # 856  Reward:  192.0  Progress: % 14.1509  Frame count:  121121 
+
+Run # 857  Reward:  199.5  Progress: % 14.1509  Frame count:  121378 
+
+Run # 858  Reward:  238.0  Progress: % 16.9811  Frame count:  121675 
+
+Run # 859  Reward:  219.5  Progress: % 15.0943  Frame count:  121952 
+
+Run # 860  Reward:  185.5  Progress: % 14.1509  Frame count:  122212 
+
+Run # 861  Reward:  239.0  Progress: % 17.9245  Frame count:  122528 
+
+Run # 862  Reward:  225.0  Progress: % 16.0377  Frame count:  122812 
+
+Run # 863  Reward:  224.5  Progress: % 16.0377  Frame count:  123098 
+
+Run # 864  Reward:  222.0  Progress: % 16.0377  Frame count:  123389 
+
+Run # 865  Reward:  220.0  Progress: % 16.0377  Frame count:  123679 
+
+Run # 866  Reward:  63.5  Progress: % 5.6604  Frame count:  123786 
+
+Run # 867  Reward:  221.0  Progress: % 16.0377  Frame count:  124076 
+
+Run # 868  Reward:  71.0  Progress: % 5.6604  Frame count:  124192 
+
+Run # 869  Reward:  108.5  Progress: % 8.4906  Frame count:  124350 
+
+Run # 870  Reward:  225.0  Progress: % 16.9811  Frame count:  124653 
+
+Run # 871  Reward:  204.0  Progress: % 15.0943  Frame count:  124928 
+
+Run # 872  Reward:  255.0  Progress: % 18.8679  Frame count:  125267 
+
+Run # 873  Reward:  208.0  Progress: % 15.0943  Frame count:  125536 
+
+Run # 874  Reward:  237.5  Progress: % 17.9245  Frame count:  125846 
+
+Run # 875  Reward:  193.5  Progress: % 14.1509  Frame count:  126108 
+
+Run # 876  Reward:  240.5  Progress: % 17.9245  Frame count:  126416 
+
+Run # 877  Reward:  189.5  Progress: % 14.1509  Frame count:  126669 
+
+Run # 878  Reward:  219.5  Progress: % 16.0377  Frame count:  126957 
+
+Run # 879  Reward:  210.5  Progress: % 16.0377  Frame count:  127247 
+
+Run # 880  Reward:  228.5  Progress: % 16.9811  Frame count:  127548 
+
+Run # 881  Reward:  225.5  Progress: % 16.0377  Frame count:  127838 
+
+Run # 882  Reward:  70.0  Progress: % 5.6604  Frame count:  127951 
+
+Run # 883  Reward:  198.0  Progress: % 14.1509  Frame count:  128202 
+
+Run # 884  Reward:  238.0  Progress: % 16.9811  Frame count:  128504 
+
+Run # 885  Reward:  262.5  Progress: % 18.8679  Frame count:  128839 
+
+Run # 886  Reward:  226.0  Progress: % 16.0377  Frame count:  129127 
+
+Run # 887  Reward:  205.5  Progress: % 15.0943  Frame count:  129397 
+
+Run # 888  Reward:  224.0  Progress: % 16.0377  Frame count:  129682 
+
+Run # 889  Reward:  213.0  Progress: % 15.0943  Frame count:  129956 
+
+Run # 890  Reward:  249.0  Progress: % 16.9811  Frame count:  130259 
+
+Run # 891  Reward:  4.5  Progress: % 1.8868  Frame count:  130304 
+
+Run # 892  Reward:  110.5  Progress: % 8.4906  Frame count:  130467 
+
+Run # 893  Reward:  227.0  Progress: % 16.9811  Frame count:  130767 
+
+Run # 894  Reward:  205.0  Progress: % 15.0943  Frame count:  131033 
+
+Run # 895  Reward:  224.5  Progress: % 16.9811  Frame count:  131335 
+
+Run # 896  Reward:  279.5  Progress: % 19.8113  Frame count:  131694 
+
+Run # 897  Reward:  281.5  Progress: % 19.8113  Frame count:  132053 
+
+Run # 898  Reward:  208.0  Progress: % 15.0943  Frame count:  132329 
+
+Run # 899  Reward:  228.5  Progress: % 16.9811  Frame count:  132628 
+
+Run # 900  Reward:  202.5  Progress: % 15.0943  Frame count:  132903 
+
+
+Run: 851 - 900  Average Progress: 14.439714285714286  Average Total Reward: 196.57142857142858 
+Average Total Jumps: 62.53061224489796  Average Jumps Per Progress %: 4.0  Average Epsilon: 0.012482060812323718 
+Average Number of Frames: 259.83673469387753  Average Run Time: 13.273243587844226 Average FPS: 19.575978770693148 
+
+Run # 901  Reward:  203.5  Progress: % 15.0943  Frame count:  133175 
+
+Run # 902  Reward:  211.5  Progress: % 16.0377  Frame count:  133463 
+
+Run # 903  Reward:  200.5  Progress: % 16.0377  Frame count:  133746 
+
+Run # 904  Reward:  231.0  Progress: % 16.0377  Frame count:  134044 
+
+Run # 905  Reward:  228.5  Progress: % 16.9811  Frame count:  134352 
+
+Run # 906  Reward:  76.5  Progress: % 5.6604  Frame count:  134470 
+
+Run # 907  Reward:  198.0  Progress: % 15.0943  Frame count:  134745 
+
+Run # 908  Reward:  200.5  Progress: % 16.0377  Frame count:  135024 
+
+Run # 909  Reward:  223.0  Progress: % 16.9811  Frame count:  135323 
+
+Run # 910  Reward:  205.5  Progress: % 16.0377  Frame count:  135607 
+
+Run # 911  Reward:  231.0  Progress: % 16.0377  Frame count:  135897 
+
+Run # 912  Reward:  220.0  Progress: % 16.0377  Frame count:  136184 
+
+Run # 913  Reward:  71.0  Progress: % 5.6604  Frame count:  136304 
+
+Run # 914  Reward:  64.0  Progress: % 5.6604  Frame count:  136411 
+
+Run # 915  Reward:  202.5  Progress: % 15.0943  Frame count:  136688 
+
+Run # 916  Reward:  207.0  Progress: % 15.0943  Frame count:  136963 
+
+Run # 917  Reward:  204.0  Progress: % 16.0377  Frame count:  137248 
+
+Run # 918  Reward:  214.0  Progress: % 16.0377  Frame count:  137530 
+
+Run # 919  Reward:  207.0  Progress: % 15.0943  Frame count:  137807 
+
+Run # 920  Reward:  229.0  Progress: % 16.0377  Frame count:  138096 
+
+Run # 921  Reward:  189.5  Progress: % 16.0377  Frame count:  138365 
+
+Run # 922  Reward:  139.5  Progress: % 11.3208  Frame count:  138569 
+
+Run # 923  Reward:  190.0  Progress: % 15.0943  Frame count:  138830 
+
+Run # 924  Reward:  47.5  Progress: % 4.717  Frame count:  138915 
+
+Run # 925  Reward:  206.5  Progress: % 15.0943  Frame count:  139189 
+
+Run # 926  Reward:  214.0  Progress: % 15.0943  Frame count:  139459 
+
+Run # 927  Reward:  215.5  Progress: % 16.0377  Frame count:  139733 
+
+Run # 928  Reward:  31.5  Progress: % 2.8302  Frame count:  139803 
+
+Run # 929  Reward:  60.5  Progress: % 5.6604  Frame count:  139918 
+
+Run # 930  Reward:  308.0  Progress: % 22.6415  Frame count:  140326 
+
+Run # 931  Reward:  214.0  Progress: % 15.0943  Frame count:  140599 
+
+Run # 932  Reward:  13.0  Progress: % 2.8302  Frame count:  140652 
+
+Run # 933  Reward:  76.5  Progress: % 5.6604  Frame count:  140770 
+
+Run # 934  Reward:  209.5  Progress: % 16.0377  Frame count:  141056 
+
+Run # 935  Reward:  226.5  Progress: % 16.0377  Frame count:  141344 
+
+Run # 936  Reward:  199.0  Progress: % 15.0943  Frame count:  141606 
+
+Run # 937  Reward:  68.5  Progress: % 5.6604  Frame count:  141721 
+
+Run # 938  Reward:  213.5  Progress: % 16.0377  Frame count:  142003 
+
+Run # 939  Reward:  191.0  Progress: % 14.1509  Frame count:  142260 
+
+Run # 940  Reward:  82.5  Progress: % 8.4906  Frame count:  142400 
+
+Run # 941  Reward:  208.5  Progress: % 16.0377  Frame count:  142684 
+
+Run # 942  Reward:  172.0  Progress: % 14.1509  Frame count:  142933 
+
+Run # 943  Reward:  100.5  Progress: % 8.4906  Frame count:  143083 
+
+Run # 944  Reward:  152.5  Progress: % 11.3208  Frame count:  143285 
+
+Run # 945  Reward:  216.5  Progress: % 16.0377  Frame count:  143574 
+
+Run # 946  Reward:  211.5  Progress: % 15.0943  Frame count:  143852 
+
+Run # 947  Reward:  209.5  Progress: % 15.0943  Frame count:  144123 
+
+Run # 948  Reward:  194.5  Progress: % 15.0943  Frame count:  144390 
+
+Run # 949  Reward:  157.5  Progress: % 12.2642  Frame count:  144607 
+
+Run # 950  Reward:  187.0  Progress: % 14.1509  Frame count:  144853 
+
+
+Run: 901 - 950  Average Progress: 13.265287755102044  Average Total Reward: 174.4387755102041 
+Average Total Jumps: 64.83673469387755  Average Jumps Per Progress %: 5.0  Average Epsilon: 0.009714944668325965 
+Average Number of Frames: 238.85714285714286  Average Run Time: 12.341400949322448 Average FPS: 19.354135226459544 
+
+Run # 951  Reward:  267.0  Progress: % 18.8679  Frame count:  145190 
+
+Run # 952  Reward:  -15.0  Progress: % 1.8868  Frame count:  145209 
+
+Run # 953  Reward:  301.0  Progress: % 21.6981  Frame count:  145582 
+
+Run # 954  Reward:  75.5  Progress: % 5.6604  Frame count:  145700 
+
+Run # 955  Reward:  195.5  Progress: % 14.1509  Frame count:  145955 
+
+Run # 956  Reward:  237.5  Progress: % 16.9811  Frame count:  146251 
+
+Run # 957  Reward:  98.0  Progress: % 8.4906  Frame count:  146402 
+
+Run # 958  Reward:  78.5  Progress: % 5.6604  Frame count:  146523 
+
+Run # 959  Reward:  270.5  Progress: % 19.8113  Frame count:  146872 
+
+Run # 960  Reward:  265.5  Progress: % 18.8679  Frame count:  147205 
+
+Run # 961  Reward:  312.0  Progress: % 21.6981  Frame count:  147590 
+
+Run # 962  Reward:  40.5  Progress: % 4.717  Frame count:  147674 
+
+Run # 963  Reward:  264.0  Progress: % 19.8113  Frame count:  148024 
+
+Run # 964  Reward:  219.0  Progress: % 16.0377  Frame count:  148312 
+
+Run # 965  Reward:  277.0  Progress: % 21.6981  Frame count:  148673 
+
+Run # 966  Reward:  214.5  Progress: % 16.0377  Frame count:  148961 
+
+Run # 967  Reward:  67.0  Progress: % 5.6604  Frame count:  149077 
+
+Run # 968  Reward:  390.0  Progress: % 27.3585  Frame count:  149558 
+
+Run # 969  Reward:  156.0  Progress: % 12.2642  Frame count:  149767 
+
+Run # 970  Reward:  217.5  Progress: % 16.9811  Frame count:  150067 
+
+Run # 971  Reward:  232.5  Progress: % 17.9245  Frame count:  150381 
+
+Run # 972  Reward:  193.5  Progress: % 15.0943  Frame count:  150646 
+
+Run # 973  Reward:  216.0  Progress: % 16.0377  Frame count:  150932 
+
+Run # 974  Reward:  200.5  Progress: % 15.0943  Frame count:  151207 
+
+Run # 975  Reward:  75.5  Progress: % 5.6604  Frame count:  151325 
+
+Run # 976  Reward:  210.5  Progress: % 16.0377  Frame count:  151607 
+
+Run # 977  Reward:  264.5  Progress: % 19.8113  Frame count:  151955 
+
+Run # 978  Reward:  210.5  Progress: % 16.0377  Frame count:  152242 
+
+Run # 979  Reward:  62.0  Progress: % 5.6604  Frame count:  152355 
+
+Run # 980  Reward:  139.0  Progress: % 11.3208  Frame count:  152558 
+
+Run # 981  Reward:  208.5  Progress: % 15.0943  Frame count:  152830 
+
+Run # 982  Reward:  211.0  Progress: % 16.0377  Frame count:  153110 
+
+Run # 983  Reward:  212.0  Progress: % 16.0377  Frame count:  153400 
+
+Run # 984  Reward:  205.0  Progress: % 15.0943  Frame count:  153674 
+
+Run # 985  Reward:  -2.5  Progress: % 1.8868  Frame count:  153705 
+
+Run # 986  Reward:  265.0  Progress: % 18.8679  Frame count:  154044 
+
+Run # 987  Reward:  211.5  Progress: % 16.0377  Frame count:  154314 
+
+Run # 988  Reward:  211.5  Progress: % 15.0943  Frame count:  154593 
+
+Run # 989  Reward:  305.0  Progress: % 22.6415  Frame count:  154976 
+
+Run # 990  Reward:  216.5  Progress: % 16.0377  Frame count:  155265 
+
+Run # 991  Reward:  212.5  Progress: % 16.0377  Frame count:  155561 
+
+Run # 992  Reward:  107.0  Progress: % 8.4906  Frame count:  155721 
+
+Run # 993  Reward:  11.0  Progress: % 2.8302  Frame count:  155776 
+
+Run # 994  Reward:  159.0  Progress: % 11.3208  Frame count:  155994 
+
+Run # 995  Reward:  503.5  Progress: % 33.9623  Frame count:  156594 
+
+Run # 996  Reward:  203.5  Progress: % 16.0377  Frame count:  156877 
+
+Run # 997  Reward:  204.5  Progress: % 15.0943  Frame count:  157143 
+
+Run # 998  Reward:  201.5  Progress: % 15.0943  Frame count:  157411 
+
+Run # 999  Reward:  207.0  Progress: % 16.0377  Frame count:  157692 
+
+Run # 1000  Reward:  243.5  Progress: % 18.8679  Frame count:  158024 
+
+
+Run: 951 - 1000  Average Progress: 14.709267346938775  Average Total Reward: 195.69387755102042 
+Average Total Jumps: 68.65306122448979  Average Jumps Per Progress %: 5.0  Average Epsilon: 0.007561263426585149 
+Average Number of Frames: 262.0204081632653  Average Run Time: 13.568356523708422 Average FPS: 19.311138213786517 
+
+Run # 1001  Reward:  67.0  Progress: % 5.6604  Frame count:  158145 
+
+Run # 1002  Reward:  185.5  Progress: % 16.0377  Frame count:  158408 
+
+Run # 1003  Reward:  329.5  Progress: % 22.6415  Frame count:  158811 
+
+Run # 1004  Reward:  320.0  Progress: % 22.6415  Frame count:  159212 
+
+Run # 1005  Reward:  221.5  Progress: % 16.0377  Frame count:  159502 
+
+Run # 1006  Reward:  216.5  Progress: % 16.0377  Frame count:  159788 
+
+Run # 1007  Reward:  145.5  Progress: % 11.3208  Frame count:  159989 
+
+Run # 1008  Reward:  254.5  Progress: % 18.8679  Frame count:  160326 
+
+Run # 1009  Reward:  200.0  Progress: % 16.0377  Frame count:  160603 
+
+Run # 1010  Reward:  282.5  Progress: % 22.6415  Frame count:  160987 
+
+Run # 1011  Reward:  211.0  Progress: % 16.9811  Frame count:  161282 
+
+Run # 1012  Reward:  73.5  Progress: % 5.6604  Frame count:  161405 
+
+Run # 1013  Reward:  212.0  Progress: % 16.0377  Frame count:  161688 
+
+Run # 1014  Reward:  255.5  Progress: % 18.8679  Frame count:  162025 
+
+Run # 1015  Reward:  203.5  Progress: % 15.0943  Frame count:  162294 
+
+Run # 1016  Reward:  228.5  Progress: % 16.9811  Frame count:  162593 
+
+Run # 1017  Reward:  247.5  Progress: % 18.8679  Frame count:  162910 
+
+Run # 1018  Reward:  224.5  Progress: % 17.9245  Frame count:  163224 
+
+Run # 1019  Reward:  375.5  Progress: % 28.3019  Frame count:  163714 
+
+Run # 1020  Reward:  330.5  Progress: % 23.5849  Frame count:  164134 
+
+Run # 1021  Reward:  205.5  Progress: % 16.0377  Frame count:  164417 
+
+Run # 1022  Reward:  208.0  Progress: % 15.0943  Frame count:  164691 
+
+Run # 1023  Reward:  213.0  Progress: % 16.0377  Frame count:  164977 
+
+Run # 1024  Reward:  63.5  Progress: % 5.6604  Frame count:  165086 
+
+Run # 1025  Reward:  189.0  Progress: % 14.1509  Frame count:  165335 
+
+Run # 1026  Reward:  329.0  Progress: % 23.5849  Frame count:  165755 
+
+Run # 1027  Reward:  195.5  Progress: % 14.1509  Frame count:  166015 
+
+Run # 1028  Reward:  183.5  Progress: % 15.0943  Frame count:  166272 
+
+Run # 1029  Reward:  224.0  Progress: % 16.9811  Frame count:  166569 
+
+Run # 1030  Reward:  266.5  Progress: % 18.8679  Frame count:  166912 
+
+Run # 1031  Reward:  129.0  Progress: % 11.3208  Frame count:  167111 
+
+Run # 1032  Reward:  338.0  Progress: % 24.5283  Frame count:  167546 
+
+Run # 1033  Reward:  211.0  Progress: % 15.0943  Frame count:  167815 
+
+Run # 1034  Reward:  220.5  Progress: % 16.9811  Frame count:  168119 
+
+Run # 1035  Reward:  256.0  Progress: % 18.8679  Frame count:  168451 
+
+Run # 1036  Reward:  319.0  Progress: % 22.6415  Frame count:  168854 
+
+Run # 1037  Reward:  193.5  Progress: % 16.0377  Frame count:  169130 
+
+Run # 1038  Reward:  27.5  Progress: % 2.8302  Frame count:  169198 
+
+Run # 1039  Reward:  214.5  Progress: % 16.0377  Frame count:  169486 
+
+Run # 1040  Reward:  184.5  Progress: % 14.1509  Frame count:  169737 
+
+Run # 1041  Reward:  211.0  Progress: % 16.0377  Frame count:  170016 
+
+Run # 1042  Reward:  104.5  Progress: % 10.3774  Frame count:  170206 
+
+Run # 1043  Reward:  204.5  Progress: % 15.0943  Frame count:  170480 
+
+Run # 1044  Reward:  205.5  Progress: % 16.0377  Frame count:  170764 
+
+Run # 1045  Reward:  189.5  Progress: % 14.1509  Frame count:  171009 
+
+Run # 1046  Reward:  200.0  Progress: % 15.0943  Frame count:  171281 
+
+Run # 1047  Reward:  316.5  Progress: % 22.6415  Frame count:  171681 
+
+Run # 1048  Reward:  226.5  Progress: % 16.9811  Frame count:  171980 
+
+Run # 1049  Reward:  194.5  Progress: % 16.0377  Frame count:  172251 
+
+Run # 1050  Reward:  319.0  Progress: % 22.6415  Frame count:  172651 
+
+
+Run: 1001 - 1050  Average Progress: 16.3842693877551  Average Total Reward: 216.48979591836735 
+Average Total Jumps: 83.71428571428571  Average Jumps Per Progress %: 5.0  Average Epsilon: 0.005885026272215088 
+Average Number of Frames: 290.3469387755102  Average Run Time: 14.998231493696874 Average FPS: 19.358744989202947 
+
+Run # 1051  Reward:  195.5  Progress: % 16.0377  Frame count:  172936 
+
+Run # 1052  Reward:  152.5  Progress: % 13.2075  Frame count:  173156 
+
+Run # 1053  Reward:  209.5  Progress: % 16.9811  Frame count:  173455 
+
+Run # 1054  Reward:  221.5  Progress: % 16.9811  Frame count:  173756 
+
+Run # 1055  Reward:  251.0  Progress: % 18.8679  Frame count:  174089 
+
+Run # 1056  Reward:  32.0  Progress: % 3.7736  Frame count:  174166 
+
+Run # 1057  Reward:  257.5  Progress: % 18.8679  Frame count:  174497 
+
+Run # 1058  Reward:  210.0  Progress: % 16.0377  Frame count:  174786 
+
+Run # 1059  Reward:  152.0  Progress: % 12.2642  Frame count:  174992 
+
+Run # 1060  Reward:  249.5  Progress: % 18.8679  Frame count:  175325 
+
+Run # 1061  Reward:  207.5  Progress: % 15.0943  Frame count:  175599 
+
+Run # 1062  Reward:  203.0  Progress: % 16.0377  Frame count:  175884 
+
+Run # 1063  Reward:  326.0  Progress: % 23.5849  Frame count:  176303 
+
+Run # 1064  Reward:  347.5  Progress: % 25.4717  Frame count:  176742 
+
+Run # 1065  Reward:  200.0  Progress: % 16.0377  Frame count:  177031 
+
+Run # 1066  Reward:  187.0  Progress: % 14.1509  Frame count:  177275 
+
+Run # 1067  Reward:  219.5  Progress: % 16.9811  Frame count:  177575 
+
+Run # 1068  Reward:  246.0  Progress: % 18.8679  Frame count:  177911 
+
+Run # 1069  Reward:  205.5  Progress: % 16.0377  Frame count:  178198 
+
+Run # 1070  Reward:  216.0  Progress: % 16.0377  Frame count:  178486 
+
+Run # 1071  Reward:  234.0  Progress: % 17.9245  Frame count:  178798 
+
+Run # 1072  Reward:  220.0  Progress: % 16.9811  Frame count:  179096 
+
+Run # 1073  Reward:  220.0  Progress: % 16.9811  Frame count:  179391 
+
+Run # 1074  Reward:  330.0  Progress: % 23.5849  Frame count:  179813 
+
+Run # 1075  Reward:  138.0  Progress: % 11.3208  Frame count:  180010 
+
+Run # 1076  Reward:  201.5  Progress: % 15.0943  Frame count:  180270 
+
+Run # 1077  Reward:  10.5  Progress: % 1.8868  Frame count:  180314 
+
+Run # 1078  Reward:  28.0  Progress: % 2.8302  Frame count:  180384 
+
+Run # 1079  Reward:  184.0  Progress: % 14.1509  Frame count:  180634 
+
+Run # 1080  Reward:  209.5  Progress: % 15.0943  Frame count:  180913 
+
+Run # 1081  Reward:  339.0  Progress: % 23.5849  Frame count:  181333 
+
+Run # 1082  Reward:  107.5  Progress: % 9.434  Frame count:  181491 
+
+Run # 1083  Reward:  63.0  Progress: % 5.6604  Frame count:  181601 
+
+Run # 1084  Reward:  114.5  Progress: % 8.4906  Frame count:  181762 
+
+Run # 1085  Reward:  212.0  Progress: % 15.0943  Frame count:  182030 
+
+Run # 1086  Reward:  257.0  Progress: % 18.8679  Frame count:  182365 
+
+Run # 1087  Reward:  18.0  Progress: % 3.7736  Frame count:  182428 
+
+Run # 1088  Reward:  30.5  Progress: % 2.8302  Frame count:  182500 
+
+Run # 1089  Reward:  332.5  Progress: % 23.5849  Frame count:  182923 
+
+Run # 1090  Reward:  71.0  Progress: % 5.6604  Frame count:  183034 
+
+Run # 1091  Reward:  205.0  Progress: % 16.0377  Frame count:  183313 
+
+Run # 1092  Reward:  226.0  Progress: % 16.9811  Frame count:  183613 
+
+Run # 1093  Reward:  186.5  Progress: % 14.1509  Frame count:  183864 
+
+Run # 1094  Reward:  231.5  Progress: % 17.9245  Frame count:  184173 
+
+Run # 1095  Reward:  3.0  Progress: % 1.8868  Frame count:  184211 
+
+Run # 1096  Reward:  262.0  Progress: % 18.8679  Frame count:  184549 
+
+Run # 1097  Reward:  218.5  Progress: % 16.0377  Frame count:  184838 
+
+Run # 1098  Reward:  227.0  Progress: % 16.9811  Frame count:  185139 
+
+Run # 1099  Reward:  341.5  Progress: % 23.5849  Frame count:  185553 
+
+Run # 1100  Reward:  115.5  Progress: % 8.4906  Frame count:  185714 
+
+
+Run: 1051 - 1100  Average Progress: 14.80552857142857  Average Total Reward: 194.09183673469389 
+Average Total Jumps: 74.42857142857143  Average Jumps Per Progress %: 5.0  Average Epsilon: 0.004989732858125146 
+Average Number of Frames: 263.3061224489796  Average Run Time: 13.598577625897466 Average FPS: 19.362769378727737 
+
+Run # 1101  Reward:  58.5  Progress: % 5.6604  Frame count:  185825 
+
+Run # 1102  Reward:  212.5  Progress: % 16.0377  Frame count:  186107 
+
+Run # 1103  Reward:  214.5  Progress: % 16.0377  Frame count:  186388 
+
+Run # 1104  Reward:  219.5  Progress: % 16.9811  Frame count:  186691 
+
+Run # 1105  Reward:  232.5  Progress: % 16.9811  Frame count:  186993 
+
+Run # 1106  Reward:  42.5  Progress: % 4.717  Frame count:  187076 
+
+Run # 1107  Reward:  234.0  Progress: % 16.9811  Frame count:  187380 
+
+Run # 1108  Reward:  185.0  Progress: % 15.0943  Frame count:  187646 
+
+Run # 1109  Reward:  355.5  Progress: % 24.5283  Frame count:  188076 
+
+Run # 1110  Reward:  508.5  Progress: % 33.9623  Frame count:  188679 
+
+Run # 1111  Reward:  61.0  Progress: % 5.6604  Frame count:  188788 
+
+Run # 1112  Reward:  260.0  Progress: % 18.8679  Frame count:  189125 
+
+Run # 1113  Reward:  59.5  Progress: % 5.6604  Frame count:  189235 
+
+Run # 1114  Reward:  318.5  Progress: % 23.5849  Frame count:  189644 
+
+Run # 1115  Reward:  219.5  Progress: % 15.0943  Frame count:  189924 
+
+Run # 1116  Reward:  57.0  Progress: % 5.6604  Frame count:  190029 
+
+Run # 1117  Reward:  224.5  Progress: % 16.9811  Frame count:  190331 
+
+Run # 1118  Reward:  196.0  Progress: % 14.1509  Frame count:  190594 
+
+Run # 1119  Reward:  191.0  Progress: % 14.1509  Frame count:  190842 
+
+Run # 1120  Reward:  209.5  Progress: % 16.0377  Frame count:  191125 
+
+Run # 1121  Reward:  218.5  Progress: % 16.9811  Frame count:  191418 
+
+Run # 1122  Reward:  60.5  Progress: % 5.6604  Frame count:  191527 
+
+Run # 1123  Reward:  234.5  Progress: % 16.9811  Frame count:  191826 
+
+Run # 1124  Reward:  74.5  Progress: % 5.6604  Frame count:  191944 
+
+Run # 1125  Reward:  59.0  Progress: % 5.6604  Frame count:  192052 
+
+Run # 1126  Reward:  209.0  Progress: % 15.0943  Frame count:  192324 
+
+Run # 1127  Reward:  197.0  Progress: % 16.0377  Frame count:  192586 
+
+Run # 1128  Reward:  224.0  Progress: % 16.0377  Frame count:  192876 
+
+Run # 1129  Reward:  231.5  Progress: % 16.9811  Frame count:  193177 
+
+Run # 1130  Reward:  31.5  Progress: % 2.8302  Frame count:  193248 
+
+Run # 1131  Reward:  219.5  Progress: % 15.0943  Frame count:  193519 
+
+Run # 1132  Reward:  202.5  Progress: % 15.0943  Frame count:  193793 
+
+Run # 1133  Reward:  203.5  Progress: % 14.1509  Frame count:  194053 
+
+Run # 1134  Reward:  219.5  Progress: % 16.9811  Frame count:  194353 
+
+Run # 1135  Reward:  69.5  Progress: % 5.6604  Frame count:  194471 
+
+Run # 1136  Reward:  214.5  Progress: % 16.9811  Frame count:  194770 
+
+Run # 1137  Reward:  235.5  Progress: % 16.9811  Frame count:  195069 
+
+Run # 1138  Reward:  63.5  Progress: % 5.6604  Frame count:  195177 
+
+Run # 1139  Reward:  3.5  Progress: % 1.8868  Frame count:  195220 
+
+Run # 1140  Reward:  226.0  Progress: % 16.9811  Frame count:  195517 
+
+Run # 1141  Reward:  226.0  Progress: % 16.9811  Frame count:  195814 
+
+Run # 1142  Reward:  78.5  Progress: % 5.6604  Frame count:  195934 
+
+Run # 1143  Reward:  205.0  Progress: % 16.0377  Frame count:  196219 
+
+Run # 1144  Reward:  184.5  Progress: % 14.1509  Frame count:  196468 
+
+Run # 1145  Reward:  155.5  Progress: % 12.2642  Frame count:  196681 
+
+Run # 1146  Reward:  212.5  Progress: % 16.0377  Frame count:  196964 
+
+Run # 1147  Reward:  269.0  Progress: % 18.8679  Frame count:  197302 
+
+Run # 1148  Reward:  217.5  Progress: % 16.0377  Frame count:  197588 
+
+Run # 1149  Reward:  235.5  Progress: % 16.9811  Frame count:  197885 
+
+Run # 1150  Reward:  191.5  Progress: % 14.1509  Frame count:  198139 
+
+
+Run: 1101 - 1150  Average Progress: 13.862132653061225  Average Total Reward: 184.51020408163265 
+Average Total Jumps: 63.755102040816325  Average Jumps Per Progress %: 5.0  Average Epsilon: 0.004975301787985069 
+Average Number of Frames: 248.3877551020408  Average Run Time: 12.784804300386078 Average FPS: 19.42835801518995 
+
+Run # 1151  Reward:  65.5  Progress: % 5.6604  Frame count:  198251 
+
+Run # 1152  Reward:  187.0  Progress: % 14.1509  Frame count:  198495 
+
+Run # 1153  Reward:  223.5  Progress: % 16.0377  Frame count:  198782 
+
+Run # 1154  Reward:  226.0  Progress: % 16.9811  Frame count:  199085 
+
+Run # 1155  Reward:  220.0  Progress: % 16.0377  Frame count:  199373 
+
+Run # 1156  Reward:  193.5  Progress: % 15.0943  Frame count:  199639 
+
+Run # 1157  Reward:  193.5  Progress: % 14.1509  Frame count:  199892 
+
+Run # 1158  Reward:  206.5  Progress: % 15.0943  Frame count:  200164 
+
+Run # 1159  Reward:  355.0  Progress: % 25.4717  Frame count:  200620 
+
+Run # 1160  Reward:  205.5  Progress: % 16.0377  Frame count:  200898 
+
+Run # 1161  Reward:  222.5  Progress: % 16.0377  Frame count:  201188 
+
+Run # 1162  Reward:  193.0  Progress: % 14.1509  Frame count:  201446 
+
+Run # 1163  Reward:  155.5  Progress: % 11.3208  Frame count:  201659 
+
+Run # 1164  Reward:  223.0  Progress: % 16.9811  Frame count:  201960 
+
+Run # 1165  Reward:  211.5  Progress: % 16.0377  Frame count:  202243 
+
+Run # 1166  Reward:  147.0  Progress: % 12.2642  Frame count:  202456 
+
+Run # 1167  Reward:  218.0  Progress: % 16.0377  Frame count:  202743 
+
+Run # 1168  Reward:  203.5  Progress: % 15.0943  Frame count:  203014 
+
+Run # 1169  Reward:  232.0  Progress: % 16.9811  Frame count:  203319 
+
+Run # 1170  Reward:  7.0  Progress: % 1.8868  Frame count:  203365 
+
+Run # 1171  Reward:  232.0  Progress: % 16.9811  Frame count:  203670 
+
+Run # 1172  Reward:  243.0  Progress: % 16.9811  Frame count:  203983 
+
+Run # 1173  Reward:  240.5  Progress: % 16.9811  Frame count:  204288 
+
+Run # 1174  Reward:  216.5  Progress: % 16.0377  Frame count:  204563 
+
+Run # 1175  Reward:  211.0  Progress: % 16.0377  Frame count:  204848 
+
+Run # 1176  Reward:  234.5  Progress: % 16.9811  Frame count:  205146 
+
+Run # 1177  Reward:  188.5  Progress: % 15.0943  Frame count:  205408 
+
+Run # 1178  Reward:  218.0  Progress: % 16.0377  Frame count:  205697 
+
+Run # 1179  Reward:  203.0  Progress: % 15.0943  Frame count:  205965 
+
+Run # 1180  Reward:  157.0  Progress: % 12.2642  Frame count:  206180 
+
+Run # 1181  Reward:  240.5  Progress: % 16.9811  Frame count:  206490 
+
+Run # 1182  Reward:  202.0  Progress: % 16.0377  Frame count:  206770 
+
+Run # 1183  Reward:  229.5  Progress: % 16.9811  Frame count:  207068 
+
+Run # 1184  Reward:  224.0  Progress: % 16.9811  Frame count:  207367 
+
+Run # 1185  Reward:  236.0  Progress: % 16.9811  Frame count:  207676 
+
+Run # 1186  Reward:  207.0  Progress: % 16.0377  Frame count:  207946 
+
+Run # 1187  Reward:  224.0  Progress: % 16.0377  Frame count:  208232 
+
+Run # 1188  Reward:  342.0  Progress: % 23.5849  Frame count:  208654 
+
+Run # 1189  Reward:  193.0  Progress: % 15.0943  Frame count:  208925 
+
+Run # 1190  Reward:  221.0  Progress: % 16.9811  Frame count:  209225 
+
+Run # 1191  Reward:  217.0  Progress: % 16.0377  Frame count:  209513 
+
+Run # 1192  Reward:  208.5  Progress: % 15.0943  Frame count:  209778 
+
+Run # 1193  Reward:  194.0  Progress: % 15.0943  Frame count:  210034 
+
+Run # 1194  Reward:  233.0  Progress: % 16.9811  Frame count:  210337 
+
+Run # 1195  Reward:  185.0  Progress: % 15.0943  Frame count:  210605 
+
+Run # 1196  Reward:  215.5  Progress: % 16.0377  Frame count:  210887 
+
+Run # 1197  Reward:  216.5  Progress: % 16.0377  Frame count:  211168 
+
+Run # 1198  Reward:  232.5  Progress: % 16.9811  Frame count:  211471 
+
+Run # 1199  Reward:  220.0  Progress: % 16.0377  Frame count:  211757 
+
+Run # 1200  Reward:  207.5  Progress: % 16.0377  Frame count:  212030 
+
+
+Run: 1151 - 1200  Average Progress: 15.614142857142856  Average Total Reward: 209.6734693877551 
+Average Total Jumps: 72.48979591836735  Average Jumps Per Progress %: 5.0  Average Epsilon: 0.004975301787985069 
+Average Number of Frames: 277.9183673469388  Average Run Time: 14.267074142183576 Average FPS: 19.479703026510197 
+
+Run # 1201  Reward:  135.5  Progress: % 10.3774  Frame count:  212221 
+
+Run # 1202  Reward:  227.0  Progress: % 17.9245  Frame count:  212525 
+
+Run # 1203  Reward:  223.0  Progress: % 16.0377  Frame count:  212816 
+
+Run # 1204  Reward:  228.5  Progress: % 16.9811  Frame count:  213116 
+
+Run # 1205  Reward:  209.5  Progress: % 16.0377  Frame count:  213399 
+
+Run # 1206  Reward:  211.5  Progress: % 15.0943  Frame count:  213675 
+
+Run # 1207  Reward:  204.5  Progress: % 16.0377  Frame count:  213951 
+
+Run # 1208  Reward:  207.5  Progress: % 15.0943  Frame count:  214227 
+
+Run # 1209  Reward:  268.5  Progress: % 18.8679  Frame count:  214569 
+
+Run # 1210  Reward:  218.0  Progress: % 16.0377  Frame count:  214862 
+
+Run # 1211  Reward:  322.5  Progress: % 22.6415  Frame count:  215258 
+
+Run # 1212  Reward:  235.0  Progress: % 16.9811  Frame count:  215556 
+
+Run # 1213  Reward:  222.0  Progress: % 16.9811  Frame count:  215856 
+
+Run # 1214  Reward:  133.0  Progress: % 10.3774  Frame count:  216043 
+
+Run # 1215  Reward:  224.5  Progress: % 16.0377  Frame count:  216330 
+
+Run # 1216  Reward:  499.5  Progress: % 33.9623  Frame count:  216928 
+
+Run # 1217  Reward:  245.0  Progress: % 17.9245  Frame count:  217241 
+
+Run # 1218  Reward:  244.0  Progress: % 17.9245  Frame count:  217552 
+
+Run # 1219  Reward:  243.0  Progress: % 17.9245  Frame count:  217865 
+
+Run # 1220  Reward:  78.0  Progress: % 5.6604  Frame count:  217986 
+
+Run # 1221  Reward:  219.0  Progress: % 16.0377  Frame count:  218271 
+
+Run # 1222  Reward:  -9.0  Progress: % 1.8868  Frame count:  218295 
+
+Run # 1223  Reward:  330.5  Progress: % 23.5849  Frame count:  218715 
+
+Run # 1224  Reward:  305.5  Progress: % 21.6981  Frame count:  219102 
+
+Run # 1225  Reward:  220.0  Progress: % 15.0943  Frame count:  219379 
+
+Run # 1226  Reward:  238.0  Progress: % 16.9811  Frame count:  219679 
+
+Run # 1227  Reward:  212.5  Progress: % 15.0943  Frame count:  219954 
+
+Run # 1228  Reward:  211.5  Progress: % 16.0377  Frame count:  220245 
+
+Run # 1229  Reward:  60.5  Progress: % 5.6604  Frame count:  220355 
+
+Run # 1230  Reward:  226.0  Progress: % 16.0377  Frame count:  220642 
+
+Run # 1231  Reward:  206.0  Progress: % 16.0377  Frame count:  220922 
+
+Run # 1232  Reward:  210.5  Progress: % 16.0377  Frame count:  221208 
+
+Run # 1233  Reward:  223.0  Progress: % 16.9811  Frame count:  221504 
+
+Run # 1234  Reward:  241.5  Progress: % 17.9245  Frame count:  221817 
+
+Run # 1235  Reward:  52.0  Progress: % 5.6604  Frame count:  221914 
+
+Run # 1236  Reward:  236.0  Progress: % 16.9811  Frame count:  222213 
+
+Run # 1237  Reward:  252.5  Progress: % 17.9245  Frame count:  222531 
+
+Run # 1238  Reward:  209.0  Progress: % 16.0377  Frame count:  222813 
+
+Run # 1239  Reward:  306.0  Progress: % 21.6981  Frame count:  223193 
+
+Run # 1240  Reward:  219.5  Progress: % 16.0377  Frame count:  223476 
+
+Run # 1241  Reward:  225.5  Progress: % 16.0377  Frame count:  223758 
+
+Run # 1242  Reward:  25.0  Progress: % 2.8302  Frame count:  223821 
+
+Run # 1243  Reward:  202.5  Progress: % 15.0943  Frame count:  224085 
+
+Run # 1244  Reward:  178.5  Progress: % 12.2642  Frame count:  224319 
+
+Run # 1245  Reward:  242.5  Progress: % 17.9245  Frame count:  224634 
+
+Run # 1246  Reward:  220.5  Progress: % 16.0377  Frame count:  224918 
+
+Run # 1247  Reward:  62.5  Progress: % 5.6604  Frame count:  225025 
+
+Run # 1248  Reward:  27.0  Progress: % 2.8302  Frame count:  225095 
+
+Run # 1249  Reward:  242.5  Progress: % 17.9245  Frame count:  225408 
+
+Run # 1250  Reward:  71.0  Progress: % 5.6604  Frame count:  225525 
+
+
+Run: 1201 - 1250  Average Progress: 15.325357142857143  Average Total Reward: 207.69387755102042 
+Average Total Jumps: 66.65306122448979  Average Jumps Per Progress %: 4.0  Average Epsilon: 0.004975301787985069 
+Average Number of Frames: 273.0204081632653  Average Run Time: 14.063799522360977 Average FPS: 19.412990616737098 
+
+Run # 1251  Reward:  233.0  Progress: % 16.9811  Frame count:  225822 
+
+Run # 1252  Reward:  -17.5  Progress: % 1.8868  Frame count:  225841 
+
+Run # 1253  Reward:  329.5  Progress: % 21.6981  Frame count:  226235 
+
+Run # 1254  Reward:  218.0  Progress: % 15.0943  Frame count:  226508 
+
+Run # 1255  Reward:  238.0  Progress: % 17.9245  Frame count:  226824 
+
+Run # 1256  Reward:  175.0  Progress: % 14.1509  Frame count:  227071 
+
+Run # 1257  Reward:  214.0  Progress: % 15.0943  Frame count:  227347 
+
+Run # 1258  Reward:  511.5  Progress: % 33.9623  Frame count:  227951 
+
+Run # 1259  Reward:  207.5  Progress: % 15.0943  Frame count:  228229 
+
+Run # 1260  Reward:  316.0  Progress: % 22.6415  Frame count:  228625 
+
+Run # 1261  Reward:  244.5  Progress: % 17.9245  Frame count:  228938 
+
+Run # 1262  Reward:  203.5  Progress: % 15.0943  Frame count:  229213 
+
+Run # 1263  Reward:  239.5  Progress: % 16.9811  Frame count:  229518 
+
+Run # 1264  Reward:  407.5  Progress: % 27.3585  Frame count:  230003 
+
+Run # 1265  Reward:  130.0  Progress: % 11.3208  Frame count:  230190 
+
+Run # 1266  Reward:  217.5  Progress: % 16.0377  Frame count:  230482 
+
+Run # 1267  Reward:  155.0  Progress: % 12.2642  Frame count:  230700 
+
+Run # 1268  Reward:  298.5  Progress: % 21.6981  Frame count:  231071 
+
+Run # 1269  Reward:  249.0  Progress: % 17.9245  Frame count:  231385 
+
+Run # 1270  Reward:  236.0  Progress: % 17.9245  Frame count:  231698 
+
+Run # 1271  Reward:  323.5  Progress: % 22.6415  Frame count:  232093 
+
+Run # 1272  Reward:  103.5  Progress: % 8.4906  Frame count:  232256 
+
+Run # 1273  Reward:  195.5  Progress: % 14.1509  Frame count:  232510 
+
+Run # 1274  Reward:  241.5  Progress: % 17.9245  Frame count:  232824 
+
+Run # 1275  Reward:  192.5  Progress: % 15.0943  Frame count:  233085 
+
+Run # 1276  Reward:  511.0  Progress: % 33.9623  Frame count:  233685 
+
+Run # 1277  Reward:  227.5  Progress: % 16.0377  Frame count:  233977 
+
+Run # 1278  Reward:  191.5  Progress: % 14.1509  Frame count:  234225 
+
+Run # 1279  Reward:  86.5  Progress: % 8.4906  Frame count:  234373 
+
+Run # 1280  Reward:  160.5  Progress: % 11.3208  Frame count:  234590 
+
+Run # 1281  Reward:  313.0  Progress: % 21.6981  Frame count:  234971 
+
+Run # 1282  Reward:  155.0  Progress: % 12.2642  Frame count:  235185 
+
+Run # 1283  Reward:  236.0  Progress: % 16.9811  Frame count:  235492 
+
+Run # 1284  Reward:  222.5  Progress: % 16.0377  Frame count:  235784 
+
+Run # 1285  Reward:  211.5  Progress: % 16.0377  Frame count:  236059 
+
+Run # 1286  Reward:  225.0  Progress: % 16.0377  Frame count:  236347 
+
+Run # 1287  Reward:  248.5  Progress: % 17.9245  Frame count:  236661 
+
+Run # 1288  Reward:  236.0  Progress: % 17.9245  Frame count:  236976 
+
+Run # 1289  Reward:  317.0  Progress: % 21.6981  Frame count:  237355 
+
+Run # 1290  Reward:  208.0  Progress: % 15.0943  Frame count:  237625 
+
+Run # 1291  Reward:  410.0  Progress: % 28.3019  Frame count:  238120 
+
+Run # 1292  Reward:  236.0  Progress: % 16.9811  Frame count:  238422 
+
+Run # 1293  Reward:  223.5  Progress: % 16.0377  Frame count:  238708 
+
+Run # 1294  Reward:  240.5  Progress: % 16.9811  Frame count:  239013 
+
+Run # 1295  Reward:  36.5  Progress: % 2.8302  Frame count:  239085 
+
+Run # 1296  Reward:  125.5  Progress: % 10.3774  Frame count:  239272 
+
+Run # 1297  Reward:  523.5  Progress: % 33.9623  Frame count:  239872 
+
+Run # 1298  Reward:  213.0  Progress: % 16.0377  Frame count:  240159 
+
+Run # 1299  Reward:  177.5  Progress: % 14.1509  Frame count:  240410 
+
+Run # 1300  Reward:  228.5  Progress: % 16.9811  Frame count:  240714 
+
+
+Run: 1251 - 1300  Average Progress: 17.115889795918367  Average Total Reward: 236.69387755102042 
+Average Total Jumps: 70.16326530612245  Average Jumps Per Progress %: 4.0  Average Epsilon: 0.004975301787985069 
+Average Number of Frames: 303.7755102040816  Average Run Time: 15.592702714764343 Average FPS: 19.481902256524403 
+
+Run # 1301  Reward:  319.5  Progress: % 22.6415  Frame count:  241119 
+
+Run # 1302  Reward:  -12.5  Progress: % 1.8868  Frame count:  241140 
+
+Run # 1303  Reward:  235.0  Progress: % 17.9245  Frame count:  241456 
+
+Run # 1304  Reward:  190.0  Progress: % 15.0943  Frame count:  241720 
+
+Run # 1305  Reward:  202.5  Progress: % 15.0943  Frame count:  241987 
+
+Run # 1306  Reward:  198.0  Progress: % 16.0377  Frame count:  242269 
+
+Run # 1307  Reward:  188.0  Progress: % 14.1509  Frame count:  242520 
+
+Run # 1308  Reward:  295.5  Progress: % 22.6415  Frame count:  242915 
+
+Run # 1309  Reward:  29.5  Progress: % 2.8302  Frame count:  242983 
+
+Run # 1310  Reward:  297.5  Progress: % 21.6981  Frame count:  243363 
+
+Run # 1311  Reward:  77.0  Progress: % 5.6604  Frame count:  243484 
+
+Run # 1312  Reward:  197.0  Progress: % 14.1509  Frame count:  243735 
+
+Run # 1313  Reward:  198.0  Progress: % 15.0943  Frame count:  243997 
+
+Run # 1314  Reward:  392.0  Progress: % 27.3585  Frame count:  244479 
+
+Run # 1315  Reward:  212.5  Progress: % 16.0377  Frame count:  244762 
+
+Run # 1316  Reward:  224.5  Progress: % 16.0377  Frame count:  245051 
+
+Run # 1317  Reward:  127.5  Progress: % 10.3774  Frame count:  245232 
+
+Run # 1318  Reward:  321.0  Progress: % 22.6415  Frame count:  245633 
+
+Run # 1319  Reward:  304.0  Progress: % 21.6981  Frame count:  246017 
+
+Run # 1320  Reward:  203.5  Progress: % 15.0943  Frame count:  246290 
+
+Run # 1321  Reward:  218.5  Progress: % 16.0377  Frame count:  246577 
+
+Run # 1322  Reward:  233.5  Progress: % 16.9811  Frame count:  246875 
+
+Run # 1323  Reward:  70.0  Progress: % 5.6604  Frame count:  246994 
+
+Run # 1324  Reward:  345.5  Progress: % 25.4717  Frame count:  247439 
+
+Run # 1325  Reward:  213.5  Progress: % 15.0943  Frame count:  247715 
+
+Run # 1326  Reward:  215.0  Progress: % 16.0377  Frame count:  247999 
+
+Run # 1327  Reward:  208.5  Progress: % 16.0377  Frame count:  248273 
+
+Run # 1328  Reward:  221.0  Progress: % 16.0377  Frame count:  248565 
+
+Run # 1329  Reward:  191.0  Progress: % 15.0943  Frame count:  248831 
+
+Run # 1330  Reward:  212.5  Progress: % 15.0943  Frame count:  249110 
+
+Run # 1331  Reward:  224.0  Progress: % 16.0377  Frame count:  249399 
+
+Run # 1332  Reward:  200.0  Progress: % 14.1509  Frame count:  249661 
+
+Run # 1333  Reward:  201.0  Progress: % 15.0943  Frame count:  249926 
+
+Run # 1334  Reward:  176.0  Progress: % 14.1509  Frame count:  250171 
+
+Run # 1335  Reward:  203.5  Progress: % 15.0943  Frame count:  250445 
+
+Run # 1336  Reward:  183.0  Progress: % 14.1509  Frame count:  250693 
+
+Run # 1337  Reward:  141.5  Progress: % 11.3208  Frame count:  250897 
+
+Run # 1338  Reward:  210.0  Progress: % 16.0377  Frame count:  251178 
+
+Run # 1339  Reward:  217.0  Progress: % 16.0377  Frame count:  251467 
+
+Run # 1340  Reward:  202.0  Progress: % 16.0377  Frame count:  251749 
+
+Run # 1341  Reward:  75.0  Progress: % 5.6604  Frame count:  251870 
+
+Run # 1342  Reward:  223.5  Progress: % 16.0377  Frame count:  252155 
+
+Run # 1343  Reward:  207.0  Progress: % 16.0377  Frame count:  252429 
+
+Run # 1344  Reward:  202.5  Progress: % 15.0943  Frame count:  252704 
+
+Run # 1345  Reward:  195.5  Progress: % 14.1509  Frame count:  252968 
+
+Run # 1346  Reward:  219.5  Progress: % 15.0943  Frame count:  253245 
+
+Run # 1347  Reward:  211.0  Progress: % 16.0377  Frame count:  253523 
+
+Run # 1348  Reward:  267.5  Progress: % 18.8679  Frame count:  253864 
+
+Run # 1349  Reward:  72.0  Progress: % 5.6604  Frame count:  253989 
+
+Run # 1350  Reward:  266.0  Progress: % 18.8679  Frame count:  254337 
+
+
+Run: 1301 - 1350  Average Progress: 15.152075510204083  Average Total Reward: 203.27551020408163 
+Average Total Jumps: 71.28571428571429  Average Jumps Per Progress %: 5.0  Average Epsilon: 0.004975301787985069 
+Average Number of Frames: 270.9183673469388  Average Run Time: 13.919664319680662 Average FPS: 19.462995739336485 
+
+Run # 1351  Reward:  220.5  Progress: % 16.0377  Frame count:  254626 
+
+Run # 1352  Reward:  213.0  Progress: % 16.0377  Frame count:  254905 
+
+Run # 1353  Reward:  206.5  Progress: % 15.0943  Frame count:  255176 
+
+Run # 1354  Reward:  219.0  Progress: % 16.0377  Frame count:  255458 
+
+Run # 1355  Reward:  190.5  Progress: % 15.0943  Frame count:  255729 
+
+Run # 1356  Reward:  191.5  Progress: % 14.1509  Frame count:  255983 
+
+Run # 1357  Reward:  211.0  Progress: % 15.0943  Frame count:  256259 
+
+Run # 1358  Reward:  61.5  Progress: % 5.6604  Frame count:  256372 
+
+Run # 1359  Reward:  200.0  Progress: % 14.1509  Frame count:  256630 
+
+Run # 1360  Reward:  203.0  Progress: % 14.1509  Frame count:  256891 
+
+Run # 1361  Reward:  202.0  Progress: % 15.0943  Frame count:  257163 
+
+Run # 1362  Reward:  186.5  Progress: % 14.1509  Frame count:  257415 
+
+Run # 1363  Reward:  209.0  Progress: % 15.0943  Frame count:  257690 
+
+Run # 1364  Reward:  207.0  Progress: % 16.0377  Frame count:  257971 
+
+Run # 1365  Reward:  181.0  Progress: % 14.1509  Frame count:  258220 
+
+Run # 1366  Reward:  181.0  Progress: % 14.1509  Frame count:  258470 
+
+Run # 1367  Reward:  243.0  Progress: % 16.9811  Frame count:  258773 
+
+Run # 1368  Reward:  218.5  Progress: % 16.0377  Frame count:  259063 
+
+Run # 1369  Reward:  28.5  Progress: % 2.8302  Frame count:  259134 
+
+Run # 1370  Reward:  195.5  Progress: % 15.0943  Frame count:  259410 
+
+Run # 1371  Reward:  29.5  Progress: % 2.8302  Frame count:  259478 
+
+Run # 1372  Reward:  296.5  Progress: % 21.6981  Frame count:  259858 
+
+Run # 1373  Reward:  223.0  Progress: % 16.9811  Frame count:  260157 
+
+Run # 1374  Reward:  23.5  Progress: % 3.7736  Frame count:  260232 
+
+Run # 1375  Reward:  230.0  Progress: % 16.9811  Frame count:  260534 
+
+Run # 1376  Reward:  143.0  Progress: % 11.3208  Frame count:  260724 
+
+Run # 1377  Reward:  1.0  Progress: % 1.8868  Frame count:  260762 
+
+Run # 1378  Reward:  34.5  Progress: % 2.8302  Frame count:  260833 
+
+Run # 1379  Reward:  213.0  Progress: % 15.0943  Frame count:  261105 
+
+Run # 1380  Reward:  167.0  Progress: % 12.2642  Frame count:  261335 
+
+Run # 1381  Reward:  191.0  Progress: % 14.1509  Frame count:  261591 
+
+Run # 1382  Reward:  179.5  Progress: % 14.1509  Frame count:  261838 
+
+Run # 1383  Reward:  35.0  Progress: % 2.8302  Frame count:  261911 
+
+Run # 1384  Reward:  191.5  Progress: % 14.1509  Frame count:  262167 
+
+Run # 1385  Reward:  226.0  Progress: % 16.0377  Frame count:  262451 
+
+Run # 1386  Reward:  217.5  Progress: % 16.0377  Frame count:  262739 
+
+Run # 1387  Reward:  239.0  Progress: % 17.9245  Frame count:  263052 
+
+Run # 1388  Reward:  193.0  Progress: % 15.0943  Frame count:  263313 
+
+Run # 1389  Reward:  123.0  Progress: % 10.3774  Frame count:  263504 
+
+Run # 1390  Reward:  29.0  Progress: % 2.8302  Frame count:  263572 
+
+Run # 1391  Reward:  34.5  Progress: % 2.8302  Frame count:  263642 
+
+Run # 1392  Reward:  193.5  Progress: % 14.1509  Frame count:  263898 
+
+Run # 1393  Reward:  213.5  Progress: % 16.0377  Frame count:  264182 
+
+Run # 1394  Reward:  226.5  Progress: % 16.9811  Frame count:  264486 
+
+Run # 1395  Reward:  201.5  Progress: % 15.0943  Frame count:  264763 
+
+Run # 1396  Reward:  219.5  Progress: % 16.0377  Frame count:  265045 
+
+Run # 1397  Reward:  26.5  Progress: % 2.8302  Frame count:  265116 
+
+Run # 1398  Reward:  198.5  Progress: % 16.0377  Frame count:  265404 
+
+Run # 1399  Reward:  205.5  Progress: % 16.0377  Frame count:  265687 
+
+Run # 1400  Reward:  192.5  Progress: % 15.0943  Frame count:  265963 
+
+
+Run: 1351 - 1400  Average Progress: 12.783959183673469  Average Total Reward: 168.8469387755102 
+Average Total Jumps: 61.57142857142857  Average Jumps Per Progress %: 5.0  Average Epsilon: 0.004975301787985069 
+Average Number of Frames: 231.6326530612245  Average Run Time: 11.903957911900111 Average FPS: 19.458456991826786 
+
+Run # 1401  Reward:  34.5  Progress: % 2.8302  Frame count:  266035 
+
+Run # 1402  Reward:  59.5  Progress: % 5.6604  Frame count:  266145 
+
+Run # 1403  Reward:  313.0  Progress: % 22.6415  Frame count:  266557 
+
+Run # 1404  Reward:  68.0  Progress: % 5.6604  Frame count:  266676 
+
+Run # 1405  Reward:  22.5  Progress: % 2.8302  Frame count:  266745 
+
+Run # 1406  Reward:  39.5  Progress: % 2.8302  Frame count:  266823 
+
+Run # 1407  Reward:  26.0  Progress: % 2.8302  Frame count:  266897 
+
+Run # 1408  Reward:  211.0  Progress: % 15.0943  Frame count:  267173 
+
+Run # 1409  Reward:  209.5  Progress: % 16.0377  Frame count:  267453 
+
+Run # 1410  Reward:  32.5  Progress: % 2.8302  Frame count:  267523 
+
+Run # 1411  Reward:  150.5  Progress: % 1.8868  Frame count:  267740 
+
+Run # 1412  Reward:  213.5  Progress: % 16.0377  Frame count:  268015 
+
+Run # 1413  Reward:  27.5  Progress: % 2.8302  Frame count:  268085 
+
+Run # 1414  Reward:  217.0  Progress: % 16.0377  Frame count:  268373 
+
+Run # 1415  Reward:  25.0  Progress: % 2.8302  Frame count:  268442 
+
+Run # 1416  Reward:  33.0  Progress: % 2.8302  Frame count:  268514 
+
+Run # 1417  Reward:  36.0  Progress: % 2.8302  Frame count:  268587 
+
+Run # 1418  Reward:  147.0  Progress: % 12.2642  Frame count:  268803 
+
+Run # 1419  Reward:  208.0  Progress: % 15.0943  Frame count:  269067 
+
+Run # 1420  Reward:  25.5  Progress: % 2.8302  Frame count:  269140 
+
+Run # 1421  Reward:  30.0  Progress: % 2.8302  Frame count:  269211 
+
+Run # 1422  Reward:  217.5  Progress: % 16.0377  Frame count:  269494 
+
+Run # 1423  Reward:  174.0  Progress: % 14.1509  Frame count:  269742 
+
+Run # 1424  Reward:  227.5  Progress: % 16.9811  Frame count:  270043 
+
+Run # 1425  Reward:  31.5  Progress: % 2.8302  Frame count:  270115 
+
+Run # 1426  Reward:  32.5  Progress: % 2.8302  Frame count:  270186 
+
+Run # 1427  Reward:  30.5  Progress: % 2.8302  Frame count:  270257 
+
+Run # 1428  Reward:  29.0  Progress: % 2.8302  Frame count:  270324 
+
+Run # 1429  Reward:  77.0  Progress: % 5.6604  Frame count:  270445 
+
+Run # 1430  Reward:  230.0  Progress: % 16.0377  Frame count:  270734 
+
+Run # 1431  Reward:  73.0  Progress: % 5.6604  Frame count:  270856 
+
+Run # 1432  Reward:  67.0  Progress: % 5.6604  Frame count:  270971 
+
+Run # 1433  Reward:  184.5  Progress: % 14.1509  Frame count:  271222 
+
+Run # 1434  Reward:  196.0  Progress: % 14.1509  Frame count:  271473 
+
+Run # 1435  Reward:  195.0  Progress: % 16.0377  Frame count:  271752 
+
+Run # 1436  Reward:  185.5  Progress: % 14.1509  Frame count:  272011 
+
+Run # 1437  Reward:  388.0  Progress: % 27.3585  Frame count:  272494 
+
+Run # 1438  Reward:  28.0  Progress: % 2.8302  Frame count:  272563 
+
+Run # 1439  Reward:  181.5  Progress: % 14.1509  Frame count:  272815 
+
+Run # 1440  Reward:  222.0  Progress: % 16.9811  Frame count:  273115 
+
+Run # 1441  Reward:  182.0  Progress: % 14.1509  Frame count:  273376 
+
+Run # 1442  Reward:  198.5  Progress: % 14.1509  Frame count:  273629 
+
+Run # 1443  Reward:  131.5  Progress: % 10.3774  Frame count:  273820 
+
+Run # 1444  Reward:  194.0  Progress: % 15.0943  Frame count:  274086 
+
+Run # 1445  Reward:  233.5  Progress: % 16.9811  Frame count:  274385 
+
+Run # 1446  Reward:  266.0  Progress: % 18.8679  Frame count:  274732 
+
+Run # 1447  Reward:  211.0  Progress: % 16.0377  Frame count:  275022 
+
+Run # 1448  Reward:  210.5  Progress: % 16.0377  Frame count:  275308 
+
+Run # 1449  Reward:  195.5  Progress: % 15.0943  Frame count:  275577 
+
+Run # 1450  Reward:  130.0  Progress: % 10.3774  Frame count:  275768 
+
+
+Run: 1401 - 1450  Average Progress: 10.319589795918368  Average Total Reward: 137.1734693877551 
+Average Total Jumps: 54.06122448979592  Average Jumps Per Progress %: 5.0  Average Epsilon: 0.004975301787985069 
+Average Number of Frames: 196.20408163265307  Average Run Time: 10.096322755424344 Average FPS: 19.433222014147734 
+
+Run # 1451  Reward:  211.0  Progress: % 16.0377  Frame count:  276053 
+
+Run # 1452  Reward:  205.5  Progress: % 16.0377  Frame count:  276329 
+
+Run # 1453  Reward:  221.0  Progress: % 16.9811  Frame count:  276628 
+
+Run # 1454  Reward:  219.5  Progress: % 15.0943  Frame count:  276904 
+
+Run # 1455  Reward:  304.0  Progress: % 21.6981  Frame count:  277283 
+
+Run # 1456  Reward:  23.5  Progress: % 2.8302  Frame count:  277353 
+
+Run # 1457  Reward:  203.0  Progress: % 15.0943  Frame count:  277628 
+
+Run # 1458  Reward:  389.5  Progress: % 27.3585  Frame count:  278114 
+
+Run # 1459  Reward:  205.5  Progress: % 16.0377  Frame count:  278398 
+
+Run # 1460  Reward:  205.5  Progress: % 16.0377  Frame count:  278690 
+
+Run # 1461  Reward:  209.0  Progress: % 15.0943  Frame count:  278966 
+
+Run # 1462  Reward:  185.0  Progress: % 14.1509  Frame count:  279214 
+
+Run # 1463  Reward:  230.0  Progress: % 16.9811  Frame count:  279517 
+
+Run # 1464  Reward:  176.0  Progress: % 14.1509  Frame count:  279764 
+
+Run # 1465  Reward:  197.0  Progress: % 15.0943  Frame count:  280032 
+
+Run # 1466  Reward:  177.0  Progress: % 15.0943  Frame count:  280297 
+
+Run # 1467  Reward:  369.0  Progress: % 25.4717  Frame count:  280756 
+
+Run # 1468  Reward:  210.5  Progress: % 16.0377  Frame count:  281043 
+
+Run # 1469  Reward:  333.0  Progress: % 23.5849  Frame count:  281467 
+
+Run # 1470  Reward:  201.5  Progress: % 15.0943  Frame count:  281740 
+
+Run # 1471  Reward:  174.5  Progress: % 13.2075  Frame count:  281986 
+
+Run # 1472  Reward:  163.0  Progress: % 13.2075  Frame count:  282221 
+
+Run # 1473  Reward:  169.0  Progress: % 12.2642  Frame count:  282450 
+
+Run # 1474  Reward:  213.0  Progress: % 16.0377  Frame count:  282728 
+
+Run # 1475  Reward:  162.5  Progress: % 12.2642  Frame count:  282955 
+
+Run # 1476  Reward:  220.0  Progress: % 16.9811  Frame count:  283257 
+
+Run # 1477  Reward:  176.5  Progress: % 14.1509  Frame count:  283503 
+
+Run # 1478  Reward:  222.0  Progress: % 16.0377  Frame count:  283800 
+
+Run # 1479  Reward:  160.5  Progress: % 12.2642  Frame count:  284031 
+
+Run # 1480  Reward:  226.0  Progress: % 16.9811  Frame count:  284330 
+
+Run # 1481  Reward:  170.5  Progress: % 13.2075  Frame count:  284562 
+
+Run # 1482  Reward:  73.0  Progress: % 5.6604  Frame count:  284680 
+
+Run # 1483  Reward:  101.5  Progress: % 8.4906  Frame count:  284833 
+
+Run # 1484  Reward:  182.0  Progress: % 14.1509  Frame count:  285091 
+
+Run # 1485  Reward:  205.5  Progress: % 16.0377  Frame count:  285380 
+
+Run # 1486  Reward:  182.5  Progress: % 15.0943  Frame count:  285643 
+
+Run # 1487  Reward:  196.0  Progress: % 14.1509  Frame count:  285905 
+
+Run # 1488  Reward:  201.0  Progress: % 15.0943  Frame count:  286179 
+
+Run # 1489  Reward:  75.0  Progress: % 5.6604  Frame count:  286299 
+
+Run # 1490  Reward:  201.0  Progress: % 16.0377  Frame count:  286577 
+
+Run # 1491  Reward:  308.5  Progress: % 22.6415  Frame count:  286980 
+
+Run # 1492  Reward:  316.5  Progress: % 23.5849  Frame count:  287386 
+
+Run # 1493  Reward:  213.5  Progress: % 15.0943  Frame count:  287660 
+
+Run # 1494  Reward:  216.0  Progress: % 16.9811  Frame count:  287958 
+
+Run # 1495  Reward:  217.5  Progress: % 16.0377  Frame count:  288250 
+
+Run # 1496  Reward:  221.0  Progress: % 16.9811  Frame count:  288546 
+
+Run # 1497  Reward:  316.0  Progress: % 22.6415  Frame count:  288944 
+
+Run # 1498  Reward:  213.5  Progress: % 16.9811  Frame count:  289242 
+
+Run # 1499  Reward:  200.5  Progress: % 14.1509  Frame count:  289499 
+
+Run # 1500  Reward:  239.0  Progress: % 16.9811  Frame count:  289799 
+
+
+Run: 1451 - 1500  Average Progress: 15.6334  Average Total Reward: 207.6326530612245 
+Average Total Jumps: 81.18367346938776  Average Jumps Per Progress %: 5.0  Average Epsilon: 0.004975301787985069 
+Average Number of Frames: 280.2244897959184  Average Run Time: 14.397864395258377 Average FPS: 19.462920479248588 
+
+Run # 1501  Reward:  185.5  Progress: % 14.1509  Frame count:  290049 
+
+Run # 1502  Reward:  196.5  Progress: % 16.0377  Frame count:  290317 
+
+Run # 1503  Reward:  225.5  Progress: % 16.9811  Frame count:  290617 
+
+Run # 1504  Reward:  212.0  Progress: % 16.0377  Frame count:  290905 
+
+Run # 1505  Reward:  157.5  Progress: % 13.2075  Frame count:  291135 
+
+Run # 1506  Reward:  68.5  Progress: % 5.6604  Frame count:  291250 
+
+Run # 1507  Reward:  221.0  Progress: % 16.0377  Frame count:  291541 
+
+Run # 1508  Reward:  183.5  Progress: % 14.1509  Frame count:  291791 
+
+Run # 1509  Reward:  69.0  Progress: % 5.6604  Frame count:  291908 
+
+Run # 1510  Reward:  219.5  Progress: % 16.0377  Frame count:  292196 
+
+Run # 1511  Reward:  177.0  Progress: % 13.2075  Frame count:  292431 
+
+Run # 1512  Reward:  70.5  Progress: % 5.6604  Frame count:  292550 
+
+Run # 1513  Reward:  235.0  Progress: % 16.9811  Frame count:  292856 
+
+Run # 1514  Reward:  237.0  Progress: % 16.9811  Frame count:  293156 
+
+Run # 1515  Reward:  173.0  Progress: % 13.2075  Frame count:  293389 
+
+Run # 1516  Reward:  112.0  Progress: % 8.4906  Frame count:  293548 
+
+Run # 1517  Reward:  223.5  Progress: % 16.0377  Frame count:  293835 
+
+Run # 1518  Reward:  46.5  Progress: % 4.717  Frame count:  293924 
+
+Run # 1519  Reward:  313.0  Progress: % 21.6981  Frame count:  294308 
+
+Run # 1520  Reward:  171.5  Progress: % 13.2075  Frame count:  294543 
+
+Run # 1521  Reward:  160.5  Progress: % 11.3208  Frame count:  294761 
+
+Run # 1522  Reward:  61.5  Progress: % 5.6604  Frame count:  294872 
+
+Run # 1523  Reward:  205.5  Progress: % 16.0377  Frame count:  295154 
+
+Run # 1524  Reward:  89.0  Progress: % 8.4906  Frame count:  295306 
+
+Run # 1525  Reward:  198.0  Progress: % 14.1509  Frame count:  295565 
+
+Run # 1526  Reward:  188.5  Progress: % 15.0943  Frame count:  295828 
+
+Run # 1527  Reward:  216.0  Progress: % 16.0377  Frame count:  296113 
+
+Run # 1528  Reward:  295.0  Progress: % 21.6981  Frame count:  296489 
+
+Run # 1529  Reward:  212.5  Progress: % 16.0377  Frame count:  296779 
+
+Run # 1530  Reward:  169.5  Progress: % 14.1509  Frame count:  297024 
+
+Run # 1531  Reward:  201.5  Progress: % 15.0943  Frame count:  297290 
+
+Run # 1532  Reward:  222.5  Progress: % 16.0377  Frame count:  297579 
+
+Run # 1533  Reward:  218.0  Progress: % 15.0943  Frame count:  297852 
+
+Run # 1534  Reward:  212.5  Progress: % 16.0377  Frame count:  298141 
+
+Run # 1535  Reward:  206.5  Progress: % 15.0943  Frame count:  298404 
+
+Run # 1536  Reward:  199.5  Progress: % 15.0943  Frame count:  298671 
+
+Run # 1537  Reward:  216.5  Progress: % 16.0377  Frame count:  298955 
+
+Run # 1538  Reward:  127.0  Progress: % 10.3774  Frame count:  299144 
+
+Run # 1539  Reward:  202.0  Progress: % 15.0943  Frame count:  299408 
+
+Run # 1540  Reward:  215.0  Progress: % 16.0377  Frame count:  299697 
+
+Run # 1541  Reward:  212.0  Progress: % 15.0943  Frame count:  299973 
+
+Run # 1542  Reward:  216.5  Progress: % 16.0377  Frame count:  300252 
+
+Run # 1543  Reward:  215.5  Progress: % 15.0943  Frame count:  300525 
+
+Run # 1544  Reward:  227.5  Progress: % 16.9811  Frame count:  300826 
+
+Run # 1545  Reward:  214.0  Progress: % 16.0377  Frame count:  301110 
+
+Run # 1546  Reward:  310.0  Progress: % 21.6981  Frame count:  301489 
+
+Run # 1547  Reward:  180.5  Progress: % 13.2075  Frame count:  301733 
+
+Run # 1548  Reward:  181.0  Progress: % 13.2075  Frame count:  301973 
+
+Run # 1549  Reward:  167.5  Progress: % 12.2642  Frame count:  302208 
+
+Run # 1550  Reward:  175.0  Progress: % 13.2075  Frame count:  302449 
+
+
+Run: 1501 - 1550  Average Progress: 14.131667346938775  Average Total Reward: 188.55102040816325 
+Average Total Jumps: 65.38775510204081  Average Jumps Per Progress %: 5.0  Average Epsilon: 0.004975301787985069 
+Average Number of Frames: 253.24489795918367  Average Run Time: 13.027388339139977 Average FPS: 19.43942188307423 
+
+Run # 1551  Reward:  55.5  Progress: % 5.6604  Frame count:  302555 
+
+Run # 1552  Reward:  183.5  Progress: % 15.0943  Frame count:  302808 
+
+Run # 1553  Reward:  219.5  Progress: % 16.0377  Frame count:  303099 
+
+Run # 1554  Reward:  209.0  Progress: % 15.0943  Frame count:  303371 
+
+Run # 1555  Reward:  205.5  Progress: % 15.0943  Frame count:  303637 
+
+Run # 1556  Reward:  207.5  Progress: % 15.0943  Frame count:  303905 
+
+Run # 1557  Reward:  218.0  Progress: % 16.0377  Frame count:  304183 
+
+Run # 1558  Reward:  164.5  Progress: % 13.2075  Frame count:  304416 
+
+Run # 1559  Reward:  210.5  Progress: % 16.0377  Frame count:  304701 
+
+Run # 1560  Reward:  170.5  Progress: % 13.2075  Frame count:  304941 
+
+Run # 1561  Reward:  202.0  Progress: % 15.0943  Frame count:  305205 
+
+Run # 1562  Reward:  185.5  Progress: % 13.2075  Frame count:  305454 
+
+Run # 1563  Reward:  177.5  Progress: % 13.2075  Frame count:  305690 
+
+Run # 1564  Reward:  201.0  Progress: % 15.0943  Frame count:  305956 
+
+Run # 1565  Reward:  221.5  Progress: % 16.0377  Frame count:  306248 
+
+Run # 1566  Reward:  193.0  Progress: % 15.0943  Frame count:  306512 
+
+Run # 1567  Reward:  218.0  Progress: % 16.0377  Frame count:  306795 
+
+Run # 1568  Reward:  215.5  Progress: % 16.0377  Frame count:  307082 
+
+Run # 1569  Reward:  198.5  Progress: % 15.0943  Frame count:  307356 
+
+Run # 1570  Reward:  199.5  Progress: % 15.0943  Frame count:  307625 
+
+Run # 1571  Reward:  199.0  Progress: % 15.0943  Frame count:  307899 
+
+Run # 1572  Reward:  53.5  Progress: % 5.6604  Frame count:  308000 
+
+Run # 1573  Reward:  226.5  Progress: % 16.9811  Frame count:  308300 
+
+Run # 1574  Reward:  202.0  Progress: % 15.0943  Frame count:  308575 
+
+Run # 1575  Reward:  202.5  Progress: % 15.0943  Frame count:  308839 
+
+Run # 1576  Reward:  235.0  Progress: % 16.9811  Frame count:  309144 
+
+Run # 1577  Reward:  216.5  Progress: % 15.0943  Frame count:  309419 
+
+Run # 1578  Reward:  228.0  Progress: % 16.0377  Frame count:  309705 
+
+Run # 1579  Reward:  162.0  Progress: % 12.2642  Frame count:  309922 
+
+Run # 1580  Reward:  235.5  Progress: % 16.9811  Frame count:  310227 
+
+Run # 1581  Reward:  75.0  Progress: % 5.6604  Frame count:  310343 
+
+Run # 1582  Reward:  202.5  Progress: % 16.0377  Frame count:  310633 
+
+Run # 1583  Reward:  209.0  Progress: % 15.0943  Frame count:  310904 
+
+Run # 1584  Reward:  213.0  Progress: % 15.0943  Frame count:  311180 
+
+Run # 1585  Reward:  235.5  Progress: % 16.9811  Frame count:  311481 
+
+Run # 1586  Reward:  213.5  Progress: % 15.0943  Frame count:  311750 
+
+Run # 1587  Reward:  206.0  Progress: % 15.0943  Frame count:  312021 
+
+Run # 1588  Reward:  177.0  Progress: % 13.2075  Frame count:  312258 
+
+Run # 1589  Reward:  313.5  Progress: % 22.6415  Frame count:  312660 
+
+Run # 1590  Reward:  207.0  Progress: % 15.0943  Frame count:  312935 
+
+Run # 1591  Reward:  225.0  Progress: % 16.0377  Frame count:  313224 
+
+Run # 1592  Reward:  195.0  Progress: % 15.0943  Frame count:  313485 
+
+Run # 1593  Reward:  172.0  Progress: % 12.2642  Frame count:  313720 
+
+Run # 1594  Reward:  198.5  Progress: % 15.0943  Frame count:  313987 
+
+Run # 1595  Reward:  199.0  Progress: % 14.1509  Frame count:  314243 
+
+Run # 1596  Reward:  219.0  Progress: % 16.0377  Frame count:  314529 
+
+Run # 1597  Reward:  183.0  Progress: % 13.2075  Frame count:  314774 
+
+Run # 1598  Reward:  216.5  Progress: % 16.0377  Frame count:  315062 
+
+Run # 1599  Reward:  -5.5  Progress: % 1.8868  Frame count:  315091 
+
+Run # 1600  Reward:  191.0  Progress: % 14.1509  Frame count:  315340 
+
+
+Run: 1551 - 1600  Average Progress: 14.40120204081633  Average Total Reward: 193.28571428571428 
+Average Total Jumps: 65.42857142857143  Average Jumps Per Progress %: 5.0  Average Epsilon: 0.004975301787985069 
+Average Number of Frames: 258.0  Average Run Time: 13.227771861212593 Average FPS: 19.5044186358041 
+
+Run # 1601  Reward:  191.0  Progress: % 15.0943  Frame count:  315611 
+
+Run # 1602  Reward:  219.5  Progress: % 16.9811  Frame count:  315902 
+
+Run # 1603  Reward:  225.0  Progress: % 16.0377  Frame count:  316190 
+
+Run # 1604  Reward:  171.0  Progress: % 13.2075  Frame count:  316427 
+
+Run # 1605  Reward:  206.0  Progress: % 15.0943  Frame count:  316696 
+
+Run # 1606  Reward:  219.5  Progress: % 16.0377  Frame count:  316983 
+
+Run # 1607  Reward:  181.5  Progress: % 14.1509  Frame count:  317234 
+
+Run # 1608  Reward:  232.0  Progress: % 16.9811  Frame count:  317535 
+
+Run # 1609  Reward:  201.5  Progress: % 15.0943  Frame count:  317798 
+
+Run # 1610  Reward:  220.0  Progress: % 15.0943  Frame count:  318079 
+
+Run # 1611  Reward:  202.0  Progress: % 15.0943  Frame count:  318344 
+
+Run # 1612  Reward:  204.5  Progress: % 15.0943  Frame count:  318621 
+
+Run # 1613  Reward:  166.0  Progress: % 11.3208  Frame count:  318841 
+
+Run # 1614  Reward:  221.5  Progress: % 16.0377  Frame count:  319121 
+
+Run # 1615  Reward:  192.5  Progress: % 15.0943  Frame count:  319388 
+
+Run # 1616  Reward:  221.5  Progress: % 16.0377  Frame count:  319679 
+
+Run # 1617  Reward:  135.0  Progress: % 11.3208  Frame count:  319868 
+
+Run # 1618  Reward:  153.0  Progress: % 11.3208  Frame count:  320081 
+
+Run # 1619  Reward:  181.0  Progress: % 14.1509  Frame count:  320341 
+
+Run # 1620  Reward:  216.0  Progress: % 16.0377  Frame count:  320627 
+
+Run # 1621  Reward:  194.0  Progress: % 15.0943  Frame count:  320898 
+
+Run # 1622  Reward:  106.5  Progress: % 8.4906  Frame count:  321057 
+
+Run # 1623  Reward:  318.0  Progress: % 22.6415  Frame count:  321459 
+
+Run # 1624  Reward:  200.0  Progress: % 15.0943  Frame count:  321728 
+
+Run # 1625  Reward:  209.0  Progress: % 16.0377  Frame count:  322016 
+
+Run # 1626  Reward:  210.0  Progress: % 15.0943  Frame count:  322283 
+
+Run # 1627  Reward:  206.0  Progress: % 15.0943  Frame count:  322558 
+
+Run # 1628  Reward:  272.0  Progress: % 18.8679  Frame count:  322895 
+
+Run # 1629  Reward:  219.5  Progress: % 15.0943  Frame count:  323188 
+
+Run # 1630  Reward:  207.5  Progress: % 16.0377  Frame count:  323467 
+
+Run # 1631  Reward:  237.0  Progress: % 17.9245  Frame count:  323780 
+
+Run # 1632  Reward:  212.0  Progress: % 16.0377  Frame count:  324062 
+
+Run # 1633  Reward:  111.5  Progress: % 8.4906  Frame count:  324224 
+
+Run # 1634  Reward:  195.0  Progress: % 14.1509  Frame count:  324477 
+
+Run # 1635  Reward:  223.0  Progress: % 16.9811  Frame count:  324774 
+
+Run # 1636  Reward:  214.0  Progress: % 16.0377  Frame count:  325058 
+
+Run # 1637  Reward:  190.0  Progress: % 14.1509  Frame count:  325305 
+
+Run # 1638  Reward:  391.0  Progress: % 27.3585  Frame count:  325788 
+
+Run # 1639  Reward:  104.0  Progress: % 8.4906  Frame count:  325950 
+
+Run # 1640  Reward:  217.5  Progress: % 16.0377  Frame count:  326234 
+
+Run # 1641  Reward:  223.0  Progress: % 16.0377  Frame count:  326519 
+
+Run # 1642  Reward:  212.5  Progress: % 15.0943  Frame count:  326798 
+
+Run # 1643  Reward:  228.0  Progress: % 16.9811  Frame count:  327096 
+
+Run # 1644  Reward:  174.0  Progress: % 12.2642  Frame count:  327325 
+
+Run # 1645  Reward:  226.0  Progress: % 16.9811  Frame count:  327626 
+
+Run # 1646  Reward:  196.5  Progress: % 14.1509  Frame count:  327881 
+
+Run # 1647  Reward:  214.0  Progress: % 16.0377  Frame count:  328170 
+
+Run # 1648  Reward:  225.5  Progress: % 16.0377  Frame count:  328455 
+
+Run # 1649  Reward:  221.0  Progress: % 16.9811  Frame count:  328756 
+
+Run # 1650  Reward:  29.5  Progress: % 2.8302  Frame count:  328823 
+
+
+Run: 1601 - 1650  Average Progress: 15.286844897959183  Average Total Reward: 206.48979591836735 
+Average Total Jumps: 70.61224489795919  Average Jumps Per Progress %: 5.0  Average Epsilon: 0.004975301787985069 
+Average Number of Frames: 273.7959183673469  Average Run Time: 14.054961447813072 Average FPS: 19.480374911305724 
+
+Run # 1651  Reward:  180.5  Progress: % 14.1509  Frame count:  329066 
+
+Run # 1652  Reward:  257.5  Progress: % 18.8679  Frame count:  329401 
+
+Run # 1653  Reward:  210.5  Progress: % 15.0943  Frame count:  329676 
+
+Run # 1654  Reward:  188.5  Progress: % 13.2075  Frame count:  329925 
+
+Run # 1655  Reward:  266.0  Progress: % 18.8679  Frame count:  330260 
+
+Run # 1656  Reward:  4.0  Progress: % 1.8868  Frame count:  330303 
+
+Run # 1657  Reward:  79.5  Progress: % 5.6604  Frame count:  330423 
+
+Run # 1658  Reward:  224.0  Progress: % 16.0377  Frame count:  330711 
+
+Run # 1659  Reward:  255.0  Progress: % 18.8679  Frame count:  331048 
+
+Run # 1660  Reward:  150.5  Progress: % 12.2642  Frame count:  331257 
+
+Run # 1661  Reward:  200.5  Progress: % 16.0377  Frame count:  331523 
+
+Run # 1662  Reward:  222.5  Progress: % 16.0377  Frame count:  331807 
+
+Run # 1663  Reward:  214.5  Progress: % 16.0377  Frame count:  332094 
+
+Run # 1664  Reward:  215.5  Progress: % 16.9811  Frame count:  332391 
+
+Run # 1665  Reward:  267.0  Progress: % 18.8679  Frame count:  332727 
+
+Run # 1666  Reward:  109.0  Progress: % 8.4906  Frame count:  332888 
+
+Run # 1667  Reward:  270.0  Progress: % 18.8679  Frame count:  333225 
+
+Run # 1668  Reward:  215.0  Progress: % 16.0377  Frame count:  333512 
+
+Run # 1669  Reward:  215.5  Progress: % 16.0377  Frame count:  333799 
+
+Run # 1670  Reward:  309.0  Progress: % 21.6981  Frame count:  334185 
+
+Run # 1671  Reward:  216.0  Progress: % 16.0377  Frame count:  334472 
+
+Run # 1672  Reward:  217.0  Progress: % 16.0377  Frame count:  334761 
+
+Run # 1673  Reward:  309.5  Progress: % 22.6415  Frame count:  335161 
+
+Run # 1674  Reward:  30.5  Progress: % 3.7736  Frame count:  335234 
+
+Run # 1675  Reward:  71.5  Progress: % 5.6604  Frame count:  335353 
+
+Run # 1676  Reward:  202.5  Progress: % 14.1509  Frame count:  335612 
+
+Run # 1677  Reward:  234.5  Progress: % 16.9811  Frame count:  335917 
+
+Run # 1678  Reward:  184.0  Progress: % 14.1509  Frame count:  336169 
+
+Run # 1679  Reward:  106.0  Progress: % 8.4906  Frame count:  336331 
+
+Run # 1680  Reward:  206.0  Progress: % 16.0377  Frame count:  336611 
+
+Run # 1681  Reward:  218.5  Progress: % 16.9811  Frame count:  336911 
+
+Run # 1682  Reward:  75.0  Progress: % 5.6604  Frame count:  337031 
+
+Run # 1683  Reward:  200.5  Progress: % 15.0943  Frame count:  337297 
+
+Run # 1684  Reward:  224.0  Progress: % 16.9811  Frame count:  337588 
+
+Run # 1685  Reward:  65.5  Progress: % 5.6604  Frame count:  337696 
+
+Run # 1686  Reward:  277.5  Progress: % 19.8113  Frame count:  338051 
+
+Run # 1687  Reward:  227.0  Progress: % 16.9811  Frame count:  338353 
+
+Run # 1688  Reward:  181.0  Progress: % 14.1509  Frame count:  338606 
+
+Run # 1689  Reward:  205.5  Progress: % 16.0377  Frame count:  338884 
+
+Run # 1690  Reward:  186.5  Progress: % 14.1509  Frame count:  339138 
+
+Run # 1691  Reward:  228.0  Progress: % 16.9811  Frame count:  339434 
+
+Run # 1692  Reward:  256.0  Progress: % 18.8679  Frame count:  339769 
+
+Run # 1693  Reward:  222.0  Progress: % 16.0377  Frame count:  340056 
+
+Run # 1694  Reward:  210.0  Progress: % 16.0377  Frame count:  340337 
+
+Run # 1695  Reward:  104.0  Progress: % 8.4906  Frame count:  340502 
+
+Run # 1696  Reward:  205.0  Progress: % 16.0377  Frame count:  340793 
+
+Run # 1697  Reward:  112.0  Progress: % 8.4906  Frame count:  340953 
+
+Run # 1698  Reward:  193.5  Progress: % 14.1509  Frame count:  341206 
+
+Run # 1699  Reward:  72.0  Progress: % 5.6604  Frame count:  341324 
+
+Run # 1700  Reward:  214.0  Progress: % 16.0377  Frame count:  341619 
+
+
+Run: 1651 - 1700  Average Progress: 14.208683673469388  Average Total Reward: 189.70408163265307 
+Average Total Jumps: 66.83673469387755  Average Jumps Per Progress %: 5.0  Average Epsilon: 0.004975301787985069 
+Average Number of Frames: 255.12244897959184  Average Run Time: 13.107246106984665 Average FPS: 19.4642297014352 
+
+Run # 1701  Reward:  73.5  Progress: % 5.6604  Frame count:  341737 
+
+Run # 1702  Reward:  215.0  Progress: % 16.9811  Frame count:  342029 
+
+Run # 1703  Reward:  339.0  Progress: % 23.5849  Frame count:  342448 
+
+Run # 1704  Reward:  204.5  Progress: % 15.0943  Frame count:  342722 
+
+Run # 1705  Reward:  272.0  Progress: % 19.8113  Frame count:  343082 
+
+Run # 1706  Reward:  209.0  Progress: % 16.0377  Frame count:  343357 
+
+Run # 1707  Reward:  127.0  Progress: % 10.3774  Frame count:  343548 
+
+Run # 1708  Reward:  219.0  Progress: % 16.9811  Frame count:  343847 
+
+Run # 1709  Reward:  225.5  Progress: % 16.0377  Frame count:  344135 
+
+Run # 1710  Reward:  69.0  Progress: % 5.6604  Frame count:  344254 
+
+Run # 1711  Reward:  211.0  Progress: % 15.0943  Frame count:  344519 
+
+Run # 1712  Reward:  230.0  Progress: % 16.0377  Frame count:  344810 
+
+Run # 1713  Reward:  47.5  Progress: % 5.6604  Frame count:  344912 
+
+Run # 1714  Reward:  233.0  Progress: % 16.0377  Frame count:  345211 
+
+Run # 1715  Reward:  203.5  Progress: % 16.0377  Frame count:  345500 
+
+Run # 1716  Reward:  195.0  Progress: % 15.0943  Frame count:  345761 
+
+Run # 1717  Reward:  210.0  Progress: % 16.0377  Frame count:  346049 
+
+Run # 1718  Reward:  106.5  Progress: % 8.4906  Frame count:  346212 
+
+Run # 1719  Reward:  143.0  Progress: % 11.3208  Frame count:  346414 
+
+Run # 1720  Reward:  219.0  Progress: % 16.0377  Frame count:  346702 
+
+Run # 1721  Reward:  170.5  Progress: % 13.2075  Frame count:  346938 
+
+Run # 1722  Reward:  5.5  Progress: % 1.8868  Frame count:  346980 
+
+Run # 1723  Reward:  229.5  Progress: % 16.9811  Frame count:  347279 
+
+Run # 1724  Reward:  203.0  Progress: % 16.0377  Frame count:  347561 
+
+Run # 1725  Reward:  106.5  Progress: % 8.4906  Frame count:  347722 
+
+Run # 1726  Reward:  209.0  Progress: % 16.0377  Frame count:  348011 
+
+Run # 1727  Reward:  221.5  Progress: % 16.0377  Frame count:  348293 
+
+Run # 1728  Reward:  303.0  Progress: % 21.6981  Frame count:  348680 
+
+Run # 1729  Reward:  226.0  Progress: % 16.9811  Frame count:  348980 
+
+Run # 1730  Reward:  212.5  Progress: % 16.9811  Frame count:  349276 
+
+Run # 1731  Reward:  217.0  Progress: % 16.0377  Frame count:  349563 
+
+Run # 1732  Reward:  231.5  Progress: % 17.9245  Frame count:  349875 
+
+Run # 1733  Reward:  296.0  Progress: % 21.6981  Frame count:  350253 
+
+Run # 1734  Reward:  201.0  Progress: % 15.0943  Frame count:  350520 
+
+Run # 1735  Reward:  223.0  Progress: % 16.9811  Frame count:  350823 
+
+Run # 1736  Reward:  223.5  Progress: % 16.0377  Frame count:  351112 
+
+Run # 1737  Reward:  200.0  Progress: % 16.0377  Frame count:  351399 
+
+Run # 1738  Reward:  211.0  Progress: % 15.0943  Frame count:  351674 
+
+Run # 1739  Reward:  218.0  Progress: % 16.0377  Frame count:  351966 
+
+Run # 1740  Reward:  312.5  Progress: % 22.6415  Frame count:  352368 
+
+Run # 1741  Reward:  232.0  Progress: % 16.0377  Frame count:  352656 
+
+Run # 1742  Reward:  210.0  Progress: % 16.9811  Frame count:  352954 
+
+Run # 1743  Reward:  234.0  Progress: % 16.9811  Frame count:  353254 
+
+Run # 1744  Reward:  71.0  Progress: % 5.6604  Frame count:  353370 
+
+Run # 1745  Reward:  305.0  Progress: % 21.6981  Frame count:  353753 
+
+Run # 1746  Reward:  235.5  Progress: % 16.9811  Frame count:  354051 
+
+Run # 1747  Reward:  272.5  Progress: % 18.8679  Frame count:  354396 
+
+Run # 1748  Reward:  219.5  Progress: % 16.0377  Frame count:  354679 
+
+Run # 1749  Reward:  112.5  Progress: % 8.4906  Frame count:  354843 
+
+Run # 1750  Reward:  327.5  Progress: % 23.5849  Frame count:  355256 
+
+
+Run: 1701 - 1750  Average Progress: 15.055814285714286  Average Total Reward: 201.31632653061226 
+Average Total Jumps: 73.12244897959184  Average Jumps Per Progress %: 5.0  Average Epsilon: 0.004975301787985069 
+Average Number of Frames: 269.8775510204082  Average Run Time: 13.829958409679179 Average FPS: 19.513981389237504 
+
+Run # 1751  Reward:  172.5  Progress: % 13.2075  Frame count:  355501 
+
+Run # 1752  Reward:  250.0  Progress: % 18.8679  Frame count:  355828 
+
+Run # 1753  Reward:  226.5  Progress: % 16.9811  Frame count:  356129 
+
+Run # 1754  Reward:  211.0  Progress: % 15.0943  Frame count:  356407 
+
+Run # 1755  Reward:  204.0  Progress: % 16.0377  Frame count:  356685 
+
+Run # 1756  Reward:  115.5  Progress: % 8.4906  Frame count:  356852 
+
+Run # 1757  Reward:  103.5  Progress: % 8.4906  Frame count:  357015 
+
+Run # 1758  Reward:  226.0  Progress: % 16.9811  Frame count:  357315 
+
+Run # 1759  Reward:  294.5  Progress: % 21.6981  Frame count:  357694 
+
+Run # 1760  Reward:  232.0  Progress: % 16.9811  Frame count:  357994 
+
+Run # 1761  Reward:  225.0  Progress: % 16.9811  Frame count:  358295 
+
+Run # 1762  Reward:  233.0  Progress: % 16.0377  Frame count:  358599 
+
+Run # 1763  Reward:  352.5  Progress: % 25.4717  Frame count:  359052 
+
+Run # 1764  Reward:  209.0  Progress: % 16.0377  Frame count:  359336 
+
+Run # 1765  Reward:  96.5  Progress: % 8.4906  Frame count:  359480 
+
+Run # 1766  Reward:  108.5  Progress: % 8.4906  Frame count:  359642 
+
+Run # 1767  Reward:  224.5  Progress: % 16.0377  Frame count:  359929 
+
+Run # 1768  Reward:  98.5  Progress: % 8.4906  Frame count:  360086 
+
+Run # 1769  Reward:  220.0  Progress: % 16.0377  Frame count:  360378 
+
+Run # 1770  Reward:  188.0  Progress: % 14.1509  Frame count:  360623 
+
+Run # 1771  Reward:  336.0  Progress: % 23.5849  Frame count:  361044 
+
+Run # 1772  Reward:  220.0  Progress: % 16.0377  Frame count:  361331 
+
+Run # 1773  Reward:  240.0  Progress: % 16.9811  Frame count:  361642 
+
+Run # 1774  Reward:  108.0  Progress: % 8.4906  Frame count:  361805 
+
+Run # 1775  Reward:  183.5  Progress: % 14.1509  Frame count:  362051 
+
+Run # 1776  Reward:  211.5  Progress: % 15.0943  Frame count:  362326 
+
+Run # 1777  Reward:  110.5  Progress: % 8.4906  Frame count:  362486 
+
+Run # 1778  Reward:  399.5  Progress: % 27.3585  Frame count:  362966 
+
+Run # 1779  Reward:  193.0  Progress: % 15.0943  Frame count:  363232 
+
+Run # 1780  Reward:  142.0  Progress: % 10.3774  Frame count:  363424 
+
+Run # 1781  Reward:  245.5  Progress: % 17.9245  Frame count:  363742 
+
+Run # 1782  Reward:  215.5  Progress: % 16.0377  Frame count:  364032 
+
+Run # 1783  Reward:  224.5  Progress: % 16.0377  Frame count:  364320 
+
+Run # 1784  Reward:  190.0  Progress: % 14.1509  Frame count:  364568 
+
+Run # 1785  Reward:  223.5  Progress: % 16.9811  Frame count:  364870 
+
+Run # 1786  Reward:  209.0  Progress: % 16.0377  Frame count:  365155 
+
+Run # 1787  Reward:  220.5  Progress: % 16.0377  Frame count:  365446 
+
+Run # 1788  Reward:  340.5  Progress: % 23.5849  Frame count:  365862 
+
+Run # 1789  Reward:  105.0  Progress: % 8.4906  Frame count:  366023 
+
+Run # 1790  Reward:  217.0  Progress: % 16.0377  Frame count:  366308 
+
+Run # 1791  Reward:  211.0  Progress: % 16.0377  Frame count:  366591 
+
+Run # 1792  Reward:  196.5  Progress: % 15.0943  Frame count:  366857 
+
+Run # 1793  Reward:  219.5  Progress: % 16.9811  Frame count:  367154 
+
+Run # 1794  Reward:  66.0  Progress: % 5.6604  Frame count:  367273 
+
+Run # 1795  Reward:  225.5  Progress: % 16.9811  Frame count:  367575 
+
+Run # 1796  Reward:  178.0  Progress: % 13.2075  Frame count:  367826 
+
+Run # 1797  Reward:  333.5  Progress: % 23.5849  Frame count:  368249 
+
+Run # 1798  Reward:  216.0  Progress: % 16.0377  Frame count:  368536 
+
+Run # 1799  Reward:  339.5  Progress: % 24.5283  Frame count:  368961 
+
+Run # 1800  Reward:  214.5  Progress: % 16.0377  Frame count:  369252 
+
+
+Run: 1751 - 1800  Average Progress: 15.5949  Average Total Reward: 210.4387755102041 
+Average Total Jumps: 74.51020408163265  Average Jumps Per Progress %: 5.0  Average Epsilon: 0.004975301787985069 
+Average Number of Frames: 279.6938775510204  Average Run Time: 14.330646271608314 Average FPS: 19.517185216213605 
+
+Run # 1801  Reward:  157.5  Progress: % 12.2642  Frame count:  369473 
+
+Run # 1802  Reward:  225.0  Progress: % 16.9811  Frame count:  369773 
+
+Run # 1803  Reward:  113.5  Progress: % 8.4906  Frame count:  369936 
+
+Run # 1804  Reward:  61.0  Progress: % 4.717  Frame count:  370040 
+
+Run # 1805  Reward:  153.0  Progress: % 12.2642  Frame count:  370256 
+
+Run # 1806  Reward:  175.0  Progress: % 14.1509  Frame count:  370506 
+
+Run # 1807  Reward:  215.5  Progress: % 16.0377  Frame count:  370787 
+
+Run # 1808  Reward:  330.5  Progress: % 23.5849  Frame count:  371202 
+
+Run # 1809  Reward:  162.0  Progress: % 12.2642  Frame count:  371421 
+
+Run # 1810  Reward:  162.0  Progress: % 12.2642  Frame count:  371642 
+
+Run # 1811  Reward:  198.5  Progress: % 15.0943  Frame count:  371918 
+
+Run # 1812  Reward:  279.5  Progress: % 19.8113  Frame count:  372280 
+
+Run # 1813  Reward:  215.0  Progress: % 16.0377  Frame count:  372559 
+
+Run # 1814  Reward:  3.5  Progress: % 1.8868  Frame count:  372600 
+
+Run # 1815  Reward:  255.5  Progress: % 19.8113  Frame count:  372959 
+
+Run # 1816  Reward:  205.5  Progress: % 16.0377  Frame count:  373240 
+
+Run # 1817  Reward:  221.0  Progress: % 16.0377  Frame count:  373526 
+
+Run # 1818  Reward:  100.5  Progress: % 8.4906  Frame count:  373687 
+
+Run # 1819  Reward:  226.0  Progress: % 16.9811  Frame count:  373986 
+
+Run # 1820  Reward:  7.0  Progress: % 1.8868  Frame count:  374030 
+
+Run # 1821  Reward:  191.0  Progress: % 14.1509  Frame count:  374289 
+
+Run # 1822  Reward:  206.0  Progress: % 15.0943  Frame count:  374563 
+
+Run # 1823  Reward:  205.0  Progress: % 16.0377  Frame count:  374842 
+
+Run # 1824  Reward:  219.0  Progress: % 16.0377  Frame count:  375135 
+
+Run # 1825  Reward:  216.0  Progress: % 16.0377  Frame count:  375419 
+
+Run # 1826  Reward:  276.0  Progress: % 19.8113  Frame count:  375774 
+
+Run # 1827  Reward:  106.0  Progress: % 8.4906  Frame count:  375939 
+
+Run # 1828  Reward:  172.5  Progress: % 13.2075  Frame count:  376186 
+
+Run # 1829  Reward:  220.0  Progress: % 16.9811  Frame count:  376485 
+
+Run # 1830  Reward:  270.0  Progress: % 18.8679  Frame count:  376830 
+
+Run # 1831  Reward:  57.0  Progress: % 4.717  Frame count:  376930 
+
+Run # 1832  Reward:  220.0  Progress: % 16.0377  Frame count:  377217 
+
+Run # 1833  Reward:  153.0  Progress: % 12.2642  Frame count:  377433 
+
+Run # 1834  Reward:  209.5  Progress: % 16.0377  Frame count:  377714 
+
+Run # 1835  Reward:  98.0  Progress: % 8.4906  Frame count:  377875 
+
+Run # 1836  Reward:  111.0  Progress: % 8.4906  Frame count:  378041 
+
+Run # 1837  Reward:  184.0  Progress: % 15.0943  Frame count:  378303 
+
+Run # 1838  Reward:  110.0  Progress: % 8.4906  Frame count:  378470 
+
+Run # 1839  Reward:  264.0  Progress: % 18.8679  Frame count:  378806 
+
+Run # 1840  Reward:  131.0  Progress: % 10.3774  Frame count:  378996 
+
+Run # 1841  Reward:  209.5  Progress: % 16.0377  Frame count:  379283 
+
+Run # 1842  Reward:  94.5  Progress: % 8.4906  Frame count:  379444 
+
+Run # 1843  Reward:  25.5  Progress: % 3.7736  Frame count:  379518 
+
+Run # 1844  Reward:  211.0  Progress: % 15.0943  Frame count:  379794 
+
+Run # 1845  Reward:  203.5  Progress: % 15.0943  Frame count:  380066 
+
+Run # 1846  Reward:  102.5  Progress: % 8.4906  Frame count:  380227 
+
+Run # 1847  Reward:  112.5  Progress: % 8.4906  Frame count:  380387 
+
+Run # 1848  Reward:  219.0  Progress: % 16.0377  Frame count:  380672 
+
+Run # 1849  Reward:  377.0  Progress: % 27.3585  Frame count:  381150 
+
+Run # 1850  Reward:  212.5  Progress: % 16.0377  Frame count:  381438 
+
+
+Run: 1801 - 1850  Average Progress: 13.419324489795919  Average Total Reward: 176.3469387755102 
+Average Total Jumps: 68.93877551020408  Average Jumps Per Progress %: 5.0  Average Epsilon: 0.004975301787985069 
+Average Number of Frames: 242.81632653061226  Average Run Time: 12.437396049499512 Average FPS: 19.52308389667975 
+
+Run # 1851  Reward:  224.5  Progress: % 16.0377  Frame count:  381731 
+
+Run # 1852  Reward:  213.5  Progress: % 16.0377  Frame count:  382013 
+
+Run # 1853  Reward:  208.0  Progress: % 15.0943  Frame count:  382289 
+
+Run # 1854  Reward:  94.5  Progress: % 8.4906  Frame count:  382451 
+
+Run # 1855  Reward:  211.5  Progress: % 16.9811  Frame count:  382755 
+
+Run # 1856  Reward:  281.0  Progress: % 18.8679  Frame count:  383102 
+
+Run # 1857  Reward:  198.5  Progress: % 16.0377  Frame count:  383387 
+
+Run # 1858  Reward:  205.5  Progress: % 15.0943  Frame count:  383661 
+
+Run # 1859  Reward:  240.0  Progress: % 18.8679  Frame count:  383994 
+
+Run # 1860  Reward:  107.0  Progress: % 8.4906  Frame count:  384157 
+
+Run # 1861  Reward:  208.0  Progress: % 16.0377  Frame count:  384442 
+
+Run # 1862  Reward:  3.5  Progress: % 1.8868  Frame count:  384484 
+
+Run # 1863  Reward:  109.0  Progress: % 8.4906  Frame count:  384659 
+
+Run # 1864  Reward:  225.5  Progress: % 16.9811  Frame count:  384955 
+
+Run # 1865  Reward:  30.5  Progress: % 3.7736  Frame count:  385028 
+
+Run # 1866  Reward:  184.0  Progress: % 14.1509  Frame count:  385290 
+
+Run # 1867  Reward:  218.5  Progress: % 16.0377  Frame count:  385574 
+
+Run # 1868  Reward:  229.0  Progress: % 17.9245  Frame count:  385887 
+
+Run # 1869  Reward:  103.5  Progress: % 8.4906  Frame count:  386049 
+
+Run # 1870  Reward:  34.5  Progress: % 2.8302  Frame count:  386125 
+
+Run # 1871  Reward:  233.5  Progress: % 16.9811  Frame count:  386423 
+
+Run # 1872  Reward:  143.5  Progress: % 12.2642  Frame count:  386637 
+
+Run # 1873  Reward:  212.5  Progress: % 16.0377  Frame count:  386929 
+
+Run # 1874  Reward:  121.0  Progress: % 10.3774  Frame count:  387115 
+
+Run # 1875  Reward:  109.0  Progress: % 8.4906  Frame count:  387279 
+
+Run # 1876  Reward:  107.5  Progress: % 8.4906  Frame count:  387441 
+
+Run # 1877  Reward:  207.0  Progress: % 16.0377  Frame count:  387727 
+
+Run # 1878  Reward:  222.5  Progress: % 16.0377  Frame count:  388017 
+
+Run # 1879  Reward:  261.5  Progress: % 19.8113  Frame count:  388368 
+
+Run # 1880  Reward:  504.5  Progress: % 33.9623  Frame count:  388969 
+
+Run # 1881  Reward:  53.0  Progress: % 5.6604  Frame count:  389073 
+
+Run # 1882  Reward:  204.0  Progress: % 15.0943  Frame count:  389350 
+
+Run # 1883  Reward:  214.0  Progress: % 16.9811  Frame count:  389649 
+
+Run # 1884  Reward:  271.0  Progress: % 18.8679  Frame count:  389994 
+
+Run # 1885  Reward:  67.0  Progress: % 5.6604  Frame count:  390108 
+
+Run # 1886  Reward:  207.5  Progress: % 15.0943  Frame count:  390374 
+
+Run # 1887  Reward:  260.5  Progress: % 18.8679  Frame count:  390722 
+
+Run # 1888  Reward:  44.5  Progress: % 4.717  Frame count:  390821 
+
+Run # 1889  Reward:  102.0  Progress: % 8.4906  Frame count:  390979 
+
+Run # 1890  Reward:  217.0  Progress: % 16.0377  Frame count:  391269 
+
+Run # 1891  Reward:  207.0  Progress: % 15.0943  Frame count:  391543 
+
+Run # 1892  Reward:  202.5  Progress: % 15.0943  Frame count:  391811 
+
+Run # 1893  Reward:  213.5  Progress: % 15.0943  Frame count:  392089 
+
+Run # 1894  Reward:  218.5  Progress: % 16.9811  Frame count:  392391 
+
+Run # 1895  Reward:  271.0  Progress: % 18.8679  Frame count:  392727 
+
+Run # 1896  Reward:  225.0  Progress: % 16.0377  Frame count:  393013 
+
+Run # 1897  Reward:  206.5  Progress: % 15.0943  Frame count:  393286 
+
+Run # 1898  Reward:  105.5  Progress: % 8.4906  Frame count:  393449 
+
+Run # 1899  Reward:  166.5  Progress: % 13.2075  Frame count:  393684 
+
+Run # 1900  Reward:  266.5  Progress: % 18.8679  Frame count:  394026 
+
+
+Run: 1851 - 1900  Average Progress: 13.765871428571428  Average Total Reward: 181.81632653061226 
+Average Total Jumps: 72.20408163265306  Average Jumps Per Progress %: 5.0  Average Epsilon: 0.004975301787985069 
+Average Number of Frames: 249.91836734693877  Average Run Time: 12.772838728768486 Average FPS: 19.566391829879077 
+
+Run # 1901  Reward:  59.0  Progress: % 5.6604  Frame count:  394129 
+
+Run # 1902  Reward:  192.0  Progress: % 15.0943  Frame count:  394399 
+
+Run # 1903  Reward:  214.0  Progress: % 15.0943  Frame count:  394664 
+
+Run # 1904  Reward:  225.5  Progress: % 16.9811  Frame count:  394966 
+
+Run # 1905  Reward:  214.5  Progress: % 16.0377  Frame count:  395248 
+
+Run # 1906  Reward:  283.5  Progress: % 19.8113  Frame count:  395600 
+
+Run # 1907  Reward:  63.0  Progress: % 5.6604  Frame count:  395718 
+
+Run # 1908  Reward:  328.5  Progress: % 23.5849  Frame count:  396136 
+
+Run # 1909  Reward:  320.0  Progress: % 22.6415  Frame count:  396536 
+
+Run # 1910  Reward:  106.5  Progress: % 8.4906  Frame count:  396697 
+
+Run # 1911  Reward:  221.5  Progress: % 16.0377  Frame count:  396983 
+
+Run # 1912  Reward:  310.0  Progress: % 22.6415  Frame count:  397387 
+
+Run # 1913  Reward:  231.0  Progress: % 16.0377  Frame count:  397676 
+
+Run # 1914  Reward:  104.0  Progress: % 8.4906  Frame count:  397838 
+
+Run # 1915  Reward:  208.0  Progress: % 16.0377  Frame count:  398128 
+
+Run # 1916  Reward:  204.0  Progress: % 16.0377  Frame count:  398411 
+
+Run # 1917  Reward:  297.0  Progress: % 21.6981  Frame count:  398794 
+
+Run # 1918  Reward:  220.5  Progress: % 16.0377  Frame count:  399087 
+
+Run # 1919  Reward:  203.0  Progress: % 15.0943  Frame count:  399361 
+
+Run # 1920  Reward:  492.5  Progress: % 33.9623  Frame count:  399949 
+
+Run # 1921  Reward:  273.5  Progress: % 19.8113  Frame count:  400296 
+
+Run # 1922  Reward:  67.5  Progress: % 5.6604  Frame count:  400415 
+
+Run # 1923  Reward:  73.5  Progress: % 5.6604  Frame count:  400538 
+
+Run # 1924  Reward:  208.5  Progress: % 16.0377  Frame count:  400826 
+
+Run # 1925  Reward:  320.0  Progress: % 22.6415  Frame count:  401233 
+
+Run # 1926  Reward:  220.0  Progress: % 15.0943  Frame count:  401518 
+
+Run # 1927  Reward:  113.0  Progress: % 8.4906  Frame count:  401684 
+
+Run # 1928  Reward:  210.0  Progress: % 16.0377  Frame count:  401972 
+
+Run # 1929  Reward:  263.0  Progress: % 18.8679  Frame count:  402312 
+
+Run # 1930  Reward:  227.0  Progress: % 16.0377  Frame count:  402600 
+
+Run # 1931  Reward:  221.5  Progress: % 16.0377  Frame count:  402890 
+
+Run # 1932  Reward:  504.0  Progress: % 33.9623  Frame count:  403498 
+
+Run # 1933  Reward:  265.0  Progress: % 18.8679  Frame count:  403834 
+
+Run # 1934  Reward:  310.0  Progress: % 21.6981  Frame count:  404217 
+
+Run # 1935  Reward:  220.5  Progress: % 16.0377  Frame count:  404502 
+
+Run # 1936  Reward:  68.5  Progress: % 5.6604  Frame count:  404621 
+
+Run # 1937  Reward:  214.0  Progress: % 16.0377  Frame count:  404906 
+
+Run # 1938  Reward:  299.5  Progress: % 21.6981  Frame count:  405284 
+
+Run # 1939  Reward:  218.5  Progress: % 16.0377  Frame count:  405570 
+
+Run # 1940  Reward:  237.5  Progress: % 17.9245  Frame count:  405879 
+
+Run # 1941  Reward:  302.5  Progress: % 21.6981  Frame count:  406259 
+
+Run # 1942  Reward:  302.5  Progress: % 21.6981  Frame count:  406643 
+
+Run # 1943  Reward:  238.0  Progress: % 17.9245  Frame count:  406958 
+
+Run # 1944  Reward:  316.0  Progress: % 21.6981  Frame count:  407348 
+
+Run # 1945  Reward:  295.0  Progress: % 21.6981  Frame count:  407730 
+
+Run # 1946  Reward:  302.5  Progress: % 21.6981  Frame count:  408111 
+
+Run # 1947  Reward:  305.5  Progress: % 21.6981  Frame count:  408487 
+
+Run # 1948  Reward:  237.0  Progress: % 16.9811  Frame count:  408792 
+
+Run # 1949  Reward:  310.5  Progress: % 21.6981  Frame count:  409176 
+
+Run # 1950  Reward:  201.0  Progress: % 15.0943  Frame count:  409448 
+
+
+Run: 1901 - 1950  Average Progress: 17.26991224489796  Average Total Reward: 237.60204081632654 
+Average Total Jumps: 79.16326530612245  Average Jumps Per Progress %: 5.0  Average Epsilon: 0.004975301787985069 
+Average Number of Frames: 309.18367346938777  Average Run Time: 15.81263002084226 Average FPS: 19.55295691240862 
+
+Run # 1951  Reward:  111.0  Progress: % 8.4906  Frame count:  409611 
+
+Run # 1952  Reward:  216.5  Progress: % 16.0377  Frame count:  409894 
+
+Run # 1953  Reward:  295.0  Progress: % 21.6981  Frame count:  410273 
+
+Run # 1954  Reward:  65.5  Progress: % 5.6604  Frame count:  410382 
+
+Run # 1955  Reward:  211.0  Progress: % 15.0943  Frame count:  410656 
+
+Run # 1956  Reward:  296.5  Progress: % 21.6981  Frame count:  411037 
+
+Run # 1957  Reward:  219.0  Progress: % 16.0377  Frame count:  411323 
+
+Run # 1958  Reward:  156.5  Progress: % 12.2642  Frame count:  411540 
+
+Run # 1959  Reward:  58.5  Progress: % 4.717  Frame count:  411640 
+
+Run # 1960  Reward:  301.0  Progress: % 21.6981  Frame count:  412027 
+
+Run # 1961  Reward:  403.5  Progress: % 28.3019  Frame count:  412516 
+
+Run # 1962  Reward:  149.0  Progress: % 11.3208  Frame count:  412720 
+
+Run # 1963  Reward:  149.0  Progress: % 11.3208  Frame count:  412925 
+
+Run # 1964  Reward:  14.5  Progress: % 1.8868  Frame count:  412978 
+
+Run # 1965  Reward:  141.0  Progress: % 11.3208  Frame count:  413179 
+
+Run # 1966  Reward:  111.0  Progress: % 8.4906  Frame count:  413342 
+
+Run # 1967  Reward:  335.0  Progress: % 23.5849  Frame count:  413758 
+
+Run # 1968  Reward:  182.0  Progress: % 14.1509  Frame count:  414010 
+
+Run # 1969  Reward:  108.5  Progress: % 8.4906  Frame count:  414171 
+
+Run # 1970  Reward:  68.5  Progress: % 5.6604  Frame count:  414281 
+
+Run # 1971  Reward:  173.5  Progress: % 14.1509  Frame count:  414530 
+
+Run # 1972  Reward:  105.5  Progress: % 8.4906  Frame count:  414689 
+
+Run # 1973  Reward:  76.0  Progress: % 5.6604  Frame count:  414808 
+
+Run # 1974  Reward:  310.5  Progress: % 21.6981  Frame count:  415189 
+
+Run # 1975  Reward:  218.5  Progress: % 16.0377  Frame count:  415479 
+
+Run # 1976  Reward:  77.0  Progress: % 5.6604  Frame count:  415597 
+
+Run # 1977  Reward:  55.5  Progress: % 5.6604  Frame count:  415700 
+
+Run # 1978  Reward:  209.5  Progress: % 15.0943  Frame count:  415969 
+
+Run # 1979  Reward:  195.0  Progress: % 14.1509  Frame count:  416227 
+
+Run # 1980  Reward:  383.0  Progress: % 27.3585  Frame count:  416714 
+
+Run # 1981  Reward:  69.5  Progress: % 5.6604  Frame count:  416824 
+
+Run # 1982  Reward:  379.5  Progress: % 25.4717  Frame count:  417284 
+
+Run # 1983  Reward:  222.0  Progress: % 16.0377  Frame count:  417575 
+
+Run # 1984  Reward:  7.0  Progress: % 1.8868  Frame count:  417619 
+
+Run # 1985  Reward:  235.5  Progress: % 16.0377  Frame count:  417909 
+
+Run # 1986  Reward:  313.0  Progress: % 21.6981  Frame count:  418286 
+
+Run # 1987  Reward:  108.0  Progress: % 8.4906  Frame count:  418450 
+
+Run # 1988  Reward:  223.5  Progress: % 16.0377  Frame count:  418741 
+
+Run # 1989  Reward:  306.0  Progress: % 21.6981  Frame count:  419122 
+
+Run # 1990  Reward:  141.0  Progress: % 10.3774  Frame count:  419315 
+
+Run # 1991  Reward:  213.0  Progress: % 16.0377  Frame count:  419595 
+
+Run # 1992  Reward:  68.5  Progress: % 5.6604  Frame count:  419714 
+
+Run # 1993  Reward:  301.0  Progress: % 21.6981  Frame count:  420093 
+
+Run # 1994  Reward:  112.0  Progress: % 8.4906  Frame count:  420258 
+
+Run # 1995  Reward:  74.0  Progress: % 5.6604  Frame count:  420378 
+
+Run # 1996  Reward:  149.0  Progress: % 11.3208  Frame count:  420596 
+
+Run # 1997  Reward:  7.0  Progress: % 1.8868  Frame count:  420636 
+
+Run # 1998  Reward:  79.0  Progress: % 5.6604  Frame count:  420756 
+
+Run # 1999  Reward:  212.0  Progress: % 16.0377  Frame count:  421039 
+
+Run # 2000  Reward:  106.0  Progress: % 8.4906  Frame count:  421195 
+
+
+Run: 1951 - 2000  Average Progress: 13.015020408163265  Average Total Reward: 175.85714285714286 
+Average Total Jumps: 57.38775510204081  Average Jumps Per Progress %: 4.0  Average Epsilon: 0.004975301787985069 
+Average Number of Frames: 236.55102040816325  Average Run Time: 12.108478979188568 Average FPS: 19.53598142382169 
+
+Run # 2001  Reward:  187.5  Progress: % 14.1509  Frame count:  421444 
+
+Run # 2002  Reward:  64.0  Progress: % 5.6604  Frame count:  421551 
+
+Run # 2003  Reward:  105.5  Progress: % 8.4906  Frame count:  421716 
+
+Run # 2004  Reward:  215.0  Progress: % 15.0943  Frame count:  421992 
+
+Run # 2005  Reward:  207.0  Progress: % 14.1509  Frame count:  422249 
+
+Run # 2006  Reward:  58.0  Progress: % 5.6604  Frame count:  422360 
+
+Run # 2007  Reward:  71.0  Progress: % 5.6604  Frame count:  422468 
+
+Run # 2008  Reward:  214.5  Progress: % 16.0377  Frame count:  422751 
+
+Run # 2009  Reward:  391.0  Progress: % 27.3585  Frame count:  423238 
+
+Run # 2010  Reward:  226.5  Progress: % 16.0377  Frame count:  423528 
+
+Run # 2011  Reward:  30.5  Progress: % 3.7736  Frame count:  423597 
+
+Run # 2012  Reward:  67.0  Progress: % 5.6604  Frame count:  423706 
+
+Run # 2013  Reward:  151.5  Progress: % 12.2642  Frame count:  423922 
+
+Run # 2014  Reward:  63.5  Progress: % 5.6604  Frame count:  424033 
+
+Run # 2015  Reward:  197.5  Progress: % 15.0943  Frame count:  424304 
+
+Run # 2016  Reward:  53.5  Progress: % 4.717  Frame count:  424402 
+
+Run # 2017  Reward:  62.5  Progress: % 5.6604  Frame count:  424514 
+
+Run # 2018  Reward:  163.0  Progress: % 12.2642  Frame count:  424735 
+
+Run # 2019  Reward:  333.5  Progress: % 22.6415  Frame count:  425144 
+
+Run # 2020  Reward:  213.0  Progress: % 16.0377  Frame count:  425420 
+
+Run # 2021  Reward:  111.0  Progress: % 8.4906  Frame count:  425578 
+
+Run # 2022  Reward:  58.0  Progress: % 5.6604  Frame count:  425679 
+
+Run # 2023  Reward:  202.5  Progress: % 15.0943  Frame count:  425945 
+
+Run # 2024  Reward:  380.0  Progress: % 27.3585  Frame count:  426418 
+
+Run # 2025  Reward:  341.0  Progress: % 23.5849  Frame count:  426839 
+
+Run # 2026  Reward:  224.0  Progress: % 16.0377  Frame count:  427122 
+
+Run # 2027  Reward:  150.0  Progress: % 10.3774  Frame count:  427323 
+
+Run # 2028  Reward:  344.5  Progress: % 23.5849  Frame count:  427742 
+
+Run # 2029  Reward:  279.5  Progress: % 19.8113  Frame count:  428095 
+
+Run # 2030  Reward:  9.0  Progress: % 1.8868  Frame count:  428137 
+
+Run # 2031  Reward:  199.5  Progress: % 15.0943  Frame count:  428410 
+
+Run # 2032  Reward:  76.5  Progress: % 5.6604  Frame count:  428527 
+
+Run # 2033  Reward:  190.5  Progress: % 15.0943  Frame count:  428794 
+
+Run # 2034  Reward:  227.0  Progress: % 16.0377  Frame count:  429079 
+
+Run # 2035  Reward:  330.5  Progress: % 23.5849  Frame count:  429497 
+
+Run # 2036  Reward:  227.5  Progress: % 15.0943  Frame count:  429776 
+
+Run # 2037  Reward:  311.0  Progress: % 21.6981  Frame count:  430162 
+
+Run # 2038  Reward:  300.5  Progress: % 21.6981  Frame count:  430549 
+
+Run # 2039  Reward:  109.0  Progress: % 8.4906  Frame count:  430708 
+
+Run # 2040  Reward:  383.5  Progress: % 27.3585  Frame count:  431190 
+
+Run # 2041  Reward:  310.0  Progress: % 21.6981  Frame count:  431578 
+
+Run # 2042  Reward:  68.0  Progress: % 5.6604  Frame count:  431695 
+
+Run # 2043  Reward:  335.5  Progress: % 23.5849  Frame count:  432109 
+
+Run # 2044  Reward:  4.5  Progress: % 1.8868  Frame count:  432154 
+
+Run # 2045  Reward:  208.0  Progress: % 15.0943  Frame count:  432428 
+
+Run # 2046  Reward:  23.5  Progress: % 2.8302  Frame count:  432500 
+
+Run # 2047  Reward:  361.0  Progress: % 27.3585  Frame count:  432981 
+
+Run # 2048  Reward:  190.0  Progress: % 13.2075  Frame count:  433231 
+
+Run # 2049  Reward:  103.0  Progress: % 8.4906  Frame count:  433390 
+
+Run # 2050  Reward:  106.5  Progress: % 8.4906  Frame count:  433548 
+
+
+Run: 2001 - 2050  Average Progress: 13.746628571428571  Average Total Reward: 186.40816326530611 
+Average Total Jumps: 60.93877551020408  Average Jumps Per Progress %: 4.0  Average Epsilon: 0.004975301787985069 
+Average Number of Frames: 248.87755102040816  Average Run Time: 12.711236827227534 Average FPS: 19.579333970657455 
+
+Run # 2051  Reward:  73.5  Progress: % 5.6604  Frame count:  433671 
+
+Run # 2052  Reward:  63.5  Progress: % 5.6604  Frame count:  433783 
+
+Run # 2053  Reward:  35.5  Progress: % 2.8302  Frame count:  433855 
+
+Run # 2054  Reward:  3.0  Progress: % 1.8868  Frame count:  433897 
+
+Run # 2055  Reward:  391.0  Progress: % 28.3019  Frame count:  434393 
+
+Run # 2056  Reward:  214.5  Progress: % 15.0943  Frame count:  434666 
+
+Run # 2057  Reward:  63.5  Progress: % 5.6604  Frame count:  434783 
+
+Run # 2058  Reward:  263.5  Progress: % 18.8679  Frame count:  435129 
+
+Run # 2059  Reward:  206.0  Progress: % 15.0943  Frame count:  435402 
+
+Run # 2060  Reward:  234.0  Progress: % 16.0377  Frame count:  435696 
+
+Run # 2061  Reward:  213.0  Progress: % 16.0377  Frame count:  435979 
+
+Run # 2062  Reward:  214.0  Progress: % 16.0377  Frame count:  436265 
+
+Run # 2063  Reward:  219.0  Progress: % 16.0377  Frame count:  436553 
+
+Run # 2064  Reward:  212.5  Progress: % 16.9811  Frame count:  436850 
+
+Run # 2065  Reward:  134.5  Progress: % 10.3774  Frame count:  437041 
+
+Run # 2066  Reward:  217.5  Progress: % 16.0377  Frame count:  437328 
+
+Run # 2067  Reward:  126.0  Progress: % 10.3774  Frame count:  437518 
+
+Run # 2068  Reward:  189.0  Progress: % 14.1509  Frame count:  437769 
+
+Run # 2069  Reward:  230.0  Progress: % 16.0377  Frame count:  438062 
+
+Run # 2070  Reward:  77.5  Progress: % 5.6604  Frame count:  438180 
+
+Run # 2071  Reward:  269.0  Progress: % 18.8679  Frame count:  438512 
+
+Run # 2072  Reward:  8.0  Progress: % 1.8868  Frame count:  438556 
+
+Run # 2073  Reward:  300.0  Progress: % 21.6981  Frame count:  438937 
+
+Run # 2074  Reward:  212.0  Progress: % 16.0377  Frame count:  439227 
+
+Run # 2075  Reward:  169.5  Progress: % 11.3208  Frame count:  439445 
+
+Run # 2076  Reward:  192.5  Progress: % 14.1509  Frame count:  439698 
+
+Run # 2077  Reward:  136.0  Progress: % 10.3774  Frame count:  439892 
+
+Run # 2078  Reward:  215.0  Progress: % 16.0377  Frame count:  440180 
+
+Run # 2079  Reward:  116.5  Progress: % 8.4906  Frame count:  440344 
+
+Run # 2080  Reward:  193.0  Progress: % 15.0943  Frame count:  440617 
+
+Run # 2081  Reward:  222.5  Progress: % 16.0377  Frame count:  440908 
+
+Run # 2082  Reward:  325.0  Progress: % 22.6415  Frame count:  441313 
+
+Run # 2083  Reward:  332.0  Progress: % 22.6415  Frame count:  441718 
+
+Run # 2084  Reward:  154.5  Progress: % 12.2642  Frame count:  441935 
+
+Run # 2085  Reward:  314.5  Progress: % 22.6415  Frame count:  442333 
+
+Run # 2086  Reward:  117.5  Progress: % 8.4906  Frame count:  442495 
+
+Run # 2087  Reward:  218.5  Progress: % 15.0943  Frame count:  442767 
+
+Run # 2088  Reward:  211.0  Progress: % 16.0377  Frame count:  443048 
+
+Run # 2089  Reward:  198.5  Progress: % 14.1509  Frame count:  443304 
+
+Run # 2090  Reward:  206.0  Progress: % 15.0943  Frame count:  443581 
+
+Run # 2091  Reward:  193.5  Progress: % 14.1509  Frame count:  443838 
+
+Run # 2092  Reward:  222.5  Progress: % 16.0377  Frame count:  444121 
+
+Run # 2093  Reward:  33.0  Progress: % 3.7736  Frame count:  444192 
+
+Run # 2094  Reward:  210.0  Progress: % 15.0943  Frame count:  444469 
+
+Run # 2095  Reward:  215.5  Progress: % 15.0943  Frame count:  444741 
+
+Run # 2096  Reward:  387.0  Progress: % 27.3585  Frame count:  445219 
+
+Run # 2097  Reward:  240.0  Progress: % 16.9811  Frame count:  445520 
+
+Run # 2098  Reward:  110.0  Progress: % 8.4906  Frame count:  445680 
+
+Run # 2099  Reward:  278.5  Progress: % 18.8679  Frame count:  446027 
+
+Run # 2100  Reward:  108.5  Progress: % 8.4906  Frame count:  446184 
+
+
+Run: 2051 - 2100  Average Progress: 14.035414285714287  Average Total Reward: 191.4795918367347 
+Average Total Jumps: 62.38775510204081  Average Jumps Per Progress %: 4.0  Average Epsilon: 0.004975301787985069 
+Average Number of Frames: 254.6734693877551  Average Run Time: 13.03847236535987 Average FPS: 19.532462258719978 
+
+Run # 2101  Reward:  219.5  Progress: % 16.0377  Frame count:  446469 
+
+Run # 2102  Reward:  205.5  Progress: % 15.0943  Frame count:  446727 
+
+Run # 2103  Reward:  146.0  Progress: % 11.3208  Frame count:  446929 
+
+Run # 2104  Reward:  234.5  Progress: % 16.0377  Frame count:  447219 
+
+Run # 2105  Reward:  404.0  Progress: % 27.3585  Frame count:  447701 
+
+Run # 2106  Reward:  27.5  Progress: % 2.8302  Frame count:  447768 
+
+Run # 2107  Reward:  81.0  Progress: % 5.6604  Frame count:  447885 
+
+Run # 2108  Reward:  224.0  Progress: % 16.0377  Frame count:  448176 
+
+Run # 2109  Reward:  324.5  Progress: % 22.6415  Frame count:  448571 
+
+Run # 2110  Reward:  221.0  Progress: % 16.0377  Frame count:  448860 
+
+Run # 2111  Reward:  84.5  Progress: % 5.6604  Frame count:  448988 
+
+Run # 2112  Reward:  224.0  Progress: % 16.0377  Frame count:  449274 
+
+Run # 2113  Reward:  228.5  Progress: % 16.0377  Frame count:  449557 
+
+Run # 2114  Reward:  366.0  Progress: % 24.5283  Frame count:  449999 
+
+Run # 2115  Reward:  302.0  Progress: % 21.6981  Frame count:  450377 
+
+Run # 2116  Reward:  224.0  Progress: % 16.0377  Frame count:  450667 
+
+Run # 2117  Reward:  105.5  Progress: % 8.4906  Frame count:  450817 
+
+Run # 2118  Reward:  330.0  Progress: % 22.6415  Frame count:  451222 
+
+Run # 2119  Reward:  210.0  Progress: % 15.0943  Frame count:  451497 
+
+Run # 2120  Reward:  213.5  Progress: % 16.0377  Frame count:  451777 
+
+Run # 2121  Reward:  223.0  Progress: % 16.0377  Frame count:  452064 
+
+Run # 2122  Reward:  3.0  Progress: % 1.8868  Frame count:  452107 
+
+Run # 2123  Reward:  394.0  Progress: % 26.4151  Frame count:  452568 
+
+Run # 2124  Reward:  60.5  Progress: % 5.6604  Frame count:  452671 
+
+Run # 2125  Reward:  214.0  Progress: % 16.0377  Frame count:  452954 
+
+Run # 2126  Reward:  73.0  Progress: % 5.6604  Frame count:  453072 
+
+Run # 2127  Reward:  226.5  Progress: % 15.0943  Frame count:  453358 
+
+Run # 2128  Reward:  357.0  Progress: % 23.5849  Frame count:  453784 
+
+Run # 2129  Reward:  116.0  Progress: % 8.4906  Frame count:  453947 
+
+Run # 2130  Reward:  74.0  Progress: % 5.6604  Frame count:  454065 
+
+Run # 2131  Reward:  306.0  Progress: % 21.6981  Frame count:  454448 
+
+Run # 2132  Reward:  328.0  Progress: % 23.5849  Frame count:  454860 
+
+Run # 2133  Reward:  230.0  Progress: % 16.0377  Frame count:  455147 
+
+Run # 2134  Reward:  218.5  Progress: % 16.0377  Frame count:  455430 
+
+Run # 2135  Reward:  215.5  Progress: % 16.0377  Frame count:  455714 
+
+Run # 2136  Reward:  222.5  Progress: % 16.0377  Frame count:  455999 
+
+Run # 2137  Reward:  213.5  Progress: % 16.0377  Frame count:  456288 
+
+Run # 2138  Reward:  236.0  Progress: % 16.0377  Frame count:  456579 
+
+Run # 2139  Reward:  316.5  Progress: % 21.6981  Frame count:  456964 
+
+Run # 2140  Reward:  303.0  Progress: % 21.6981  Frame count:  457343 
+
+Run # 2141  Reward:  111.0  Progress: % 8.4906  Frame count:  457504 
+
+Run # 2142  Reward:  346.0  Progress: % 23.5849  Frame count:  457924 
+
+Run # 2143  Reward:  117.0  Progress: % 8.4906  Frame count:  458086 
+
+Run # 2144  Reward:  218.5  Progress: % 16.0377  Frame count:  458374 
+
+Run # 2145  Reward:  63.5  Progress: % 5.6604  Frame count:  458481 
+
+Run # 2146  Reward:  304.5  Progress: % 21.6981  Frame count:  458870 
+
+Run # 2147  Reward:  341.5  Progress: % 22.6415  Frame count:  459278 
+
+Run # 2148  Reward:  230.0  Progress: % 16.0377  Frame count:  459562 
+
+Run # 2149  Reward:  308.0  Progress: % 21.6981  Frame count:  459947 
+
+Run # 2150  Reward:  208.0  Progress: % 16.0377  Frame count:  460227 
+
+
+Run: 2101 - 2150  Average Progress: 15.614159183673468  Average Total Reward: 219.30612244897958 
+Average Total Jumps: 59.142857142857146  Average Jumps Per Progress %: 4.0  Average Epsilon: 0.004975301787985069 
+Average Number of Frames: 280.8775510204082  Average Run Time: 14.332882915224348 Average FPS: 19.596724028357258 
+
+Run # 2151  Reward:  227.5  Progress: % 16.0377  Frame count:  460511 
+
+Run # 2152  Reward:  207.0  Progress: % 16.0377  Frame count:  460781 
+
+Run # 2153  Reward:  26.5  Progress: % 2.8302  Frame count:  460850 
+
+Run # 2154  Reward:  105.0  Progress: % 8.4906  Frame count:  461009 
+
+Run # 2155  Reward:  79.0  Progress: % 5.6604  Frame count:  461131 
+
+Run # 2156  Reward:  234.0  Progress: % 16.9811  Frame count:  461430 
+
+Run # 2157  Reward:  217.0  Progress: % 16.0377  Frame count:  461719 
+
+Run # 2158  Reward:  320.0  Progress: % 21.6981  Frame count:  462114 
+
+Run # 2159  Reward:  214.5  Progress: % 16.0377  Frame count:  462399 
+
+Run # 2160  Reward:  305.5  Progress: % 21.6981  Frame count:  462786 
+
+Run # 2161  Reward:  198.0  Progress: % 14.1509  Frame count:  463045 
+
+Run # 2162  Reward:  81.5  Progress: % 5.6604  Frame count:  463166 
+
+Run # 2163  Reward:  323.0  Progress: % 23.5849  Frame count:  463579 
+
+Run # 2164  Reward:  179.0  Progress: % 15.0943  Frame count:  463842 
+
+Run # 2165  Reward:  335.5  Progress: % 23.5849  Frame count:  464261 
+
+Run # 2166  Reward:  165.5  Progress: % 12.2642  Frame count:  464495 
+
+Run # 2167  Reward:  212.5  Progress: % 15.0943  Frame count:  464774 
+
+Run # 2168  Reward:  148.0  Progress: % 11.3208  Frame count:  464987 
+
+Run # 2169  Reward:  143.0  Progress: % 10.3774  Frame count:  465182 
+
+Run # 2170  Reward:  209.0  Progress: % 16.0377  Frame count:  465464 
+
+Run # 2171  Reward:  188.5  Progress: % 14.1509  Frame count:  465723 
+
+Run # 2172  Reward:  298.5  Progress: % 22.6415  Frame count:  466123 
+
+Run # 2173  Reward:  210.5  Progress: % 16.0377  Frame count:  466411 
+
+Run # 2174  Reward:  201.5  Progress: % 14.1509  Frame count:  466664 
+
+Run # 2175  Reward:  74.0  Progress: % 5.6604  Frame count:  466784 
+
+Run # 2176  Reward:  242.0  Progress: % 16.9811  Frame count:  467090 
+
+Run # 2177  Reward:  196.0  Progress: % 15.0943  Frame count:  467364 
+
+Run # 2178  Reward:  297.0  Progress: % 21.6981  Frame count:  467750 
+
+Run # 2179  Reward:  216.5  Progress: % 16.0377  Frame count:  468035 
+
+Run # 2180  Reward:  328.0  Progress: % 22.6415  Frame count:  468441 
+
+Run # 2181  Reward:  211.5  Progress: % 16.0377  Frame count:  468725 
+
+Run # 2182  Reward:  214.5  Progress: % 15.0943  Frame count:  468992 
+
+Run # 2183  Reward:  365.5  Progress: % 25.4717  Frame count:  469440 
+
+Run # 2184  Reward:  67.0  Progress: % 5.6604  Frame count:  469553 
+
+Run # 2185  Reward:  263.0  Progress: % 18.8679  Frame count:  469895 
+
+Run # 2186  Reward:  218.5  Progress: % 16.0377  Frame count:  470184 
+
+Run # 2187  Reward:  31.0  Progress: % 2.8302  Frame count:  470254 
+
+Run # 2188  Reward:  166.5  Progress: % 13.2075  Frame count:  470487 
+
+Run # 2189  Reward:  32.0  Progress: % 2.8302  Frame count:  470558 
+
+Run # 2190  Reward:  119.5  Progress: % 9.434  Frame count:  470733 
+
+Run # 2191  Reward:  314.0  Progress: % 22.6415  Frame count:  471138 
+
+Run # 2192  Reward:  3.5  Progress: % 1.8868  Frame count:  471180 
+
+Run # 2193  Reward:  288.5  Progress: % 19.8113  Frame count:  471542 
+
+Run # 2194  Reward:  2.5  Progress: % 1.8868  Frame count:  471582 
+
+Run # 2195  Reward:  222.0  Progress: % 16.0377  Frame count:  471866 
+
+Run # 2196  Reward:  73.0  Progress: % 5.6604  Frame count:  471987 
+
+Run # 2197  Reward:  296.0  Progress: % 21.6981  Frame count:  472369 
+
+Run # 2198  Reward:  166.5  Progress: % 12.2642  Frame count:  472591 
+
+Run # 2199  Reward:  176.5  Progress: % 13.2075  Frame count:  472823 
+
+Run # 2200  Reward:  343.0  Progress: % 23.5849  Frame count:  473243 
+
+
+Run: 2151 - 2200  Average Progress: 14.170185714285713  Average Total Reward: 192.14285714285714 
+Average Total Jumps: 65.83673469387755  Average Jumps Per Progress %: 5.0  Average Epsilon: 0.004975301787985069 
+Average Number of Frames: 257.0612244897959  Average Run Time: 13.115933914573825 Average FPS: 19.599155208014675 
+
+Run # 2201  Reward:  74.0  Progress: % 5.6604  Frame count:  473363 
+
+Run # 2202  Reward:  211.5  Progress: % 16.0377  Frame count:  473650 
+
+Run # 2203  Reward:  226.0  Progress: % 16.9811  Frame count:  473947 
+
+Run # 2204  Reward:  225.0  Progress: % 16.9811  Frame count:  474246 
+
+Run # 2205  Reward:  167.0  Progress: % 12.2642  Frame count:  474480 
+
+Run # 2206  Reward:  208.0  Progress: % 15.0943  Frame count:  474755 
+
+Run # 2207  Reward:  222.0  Progress: % 16.0377  Frame count:  475044 
+
+Run # 2208  Reward:  2.5  Progress: % 1.8868  Frame count:  475086 
+
+Run # 2209  Reward:  314.0  Progress: % 21.6981  Frame count:  475471 
+
+Run # 2210  Reward:  154.0  Progress: % 11.3208  Frame count:  475676 
+
+Run # 2211  Reward:  219.5  Progress: % 16.0377  Frame count:  475958 
+
+Run # 2212  Reward:  306.5  Progress: % 22.6415  Frame count:  476357 
+
+Run # 2213  Reward:  182.0  Progress: % 13.2075  Frame count:  476590 
+
+Run # 2214  Reward:  214.5  Progress: % 16.0377  Frame count:  476874 
+
+Run # 2215  Reward:  312.5  Progress: % 21.6981  Frame count:  477257 
+
+Run # 2216  Reward:  4.5  Progress: % 1.8868  Frame count:  477299 
+
+Run # 2217  Reward:  373.0  Progress: % 25.4717  Frame count:  477747 
+
+Run # 2218  Reward:  135.5  Progress: % 11.3208  Frame count:  477942 
+
+Run # 2219  Reward:  146.0  Progress: % 11.3208  Frame count:  478142 
+
+Run # 2220  Reward:  217.0  Progress: % 16.0377  Frame count:  478431 
+
+Run # 2221  Reward:  106.5  Progress: % 8.4906  Frame count:  478593 
+
+Run # 2222  Reward:  209.0  Progress: % 15.0943  Frame count:  478860 
+
+Run # 2223  Reward:  158.5  Progress: % 12.2642  Frame count:  479076 
+
+Run # 2224  Reward:  217.0  Progress: % 16.0377  Frame count:  479363 
+
+Run # 2225  Reward:  313.0  Progress: % 21.6981  Frame count:  479746 
+
+Run # 2226  Reward:  256.5  Progress: % 18.8679  Frame count:  480094 
+
+Run # 2227  Reward:  291.5  Progress: % 21.6981  Frame count:  480477 
+
+Run # 2228  Reward:  107.5  Progress: % 8.4906  Frame count:  480638 
+
+Run # 2229  Reward:  141.5  Progress: % 10.3774  Frame count:  480827 
+
+Run # 2230  Reward:  204.5  Progress: % 15.0943  Frame count:  481099 
+
+Run # 2231  Reward:  229.5  Progress: % 16.0377  Frame count:  481391 
+
+Run # 2232  Reward:  28.0  Progress: % 3.7736  Frame count:  481465 
+
+Run # 2233  Reward:  155.0  Progress: % 12.2642  Frame count:  481684 
+
+Run # 2234  Reward:  72.0  Progress: % 5.6604  Frame count:  481805 
+
+Run # 2235  Reward:  214.5  Progress: % 16.0377  Frame count:  482093 
+
+Run # 2236  Reward:  316.5  Progress: % 22.6415  Frame count:  482488 
+
+Run # 2237  Reward:  5.0  Progress: % 1.8868  Frame count:  482531 
+
+Run # 2238  Reward:  260.0  Progress: % 18.8679  Frame count:  482868 
+
+Run # 2239  Reward:  75.0  Progress: % 5.6604  Frame count:  482987 
+
+Run # 2240  Reward:  223.5  Progress: % 16.0377  Frame count:  483276 
+
+Run # 2241  Reward:  227.0  Progress: % 16.9811  Frame count:  483578 
+
+Run # 2242  Reward:  65.0  Progress: % 5.6604  Frame count:  483697 
+
+Run # 2243  Reward:  138.0  Progress: % 10.3774  Frame count:  483889 
+
+Run # 2244  Reward:  74.0  Progress: % 5.6604  Frame count:  484006 
+
+Run # 2245  Reward:  66.5  Progress: % 5.6604  Frame count:  484126 
+
+Run # 2246  Reward:  115.0  Progress: % 8.4906  Frame count:  484285 
+
+Run # 2247  Reward:  165.0  Progress: % 12.2642  Frame count:  484501 
+
+Run # 2248  Reward:  297.5  Progress: % 21.6981  Frame count:  484875 
+
+Run # 2249  Reward:  334.0  Progress: % 23.5849  Frame count:  485296 
+
+Run # 2250  Reward:  153.0  Progress: % 12.2642  Frame count:  485512 
+
+
+Run: 2201 - 2250  Average Progress: 13.611859183673468  Average Total Reward: 183.29591836734693 
+Average Total Jumps: 61.36734693877551  Average Jumps Per Progress %: 5.0  Average Epsilon: 0.004975301787985069 
+Average Number of Frames: 245.9795918367347  Average Run Time: 12.590265600048767 Average FPS: 19.537283775473483 
+
+Run # 2251  Reward:  300.5  Progress: % 21.6981  Frame count:  485897 
+
+Run # 2252  Reward:  149.0  Progress: % 11.3208  Frame count:  486096 
+
+Run # 2253  Reward:  152.0  Progress: % 12.2642  Frame count:  486315 
+
+Run # 2254  Reward:  318.0  Progress: % 21.6981  Frame count:  486698 
+
+Run # 2255  Reward:  95.5  Progress: % 8.4906  Frame count:  486859 
+
+Run # 2256  Reward:  303.5  Progress: % 21.6981  Frame count:  487248 
+
+Run # 2257  Reward:  343.0  Progress: % 24.5283  Frame count:  487673 
+
+Run # 2258  Reward:  207.0  Progress: % 15.0943  Frame count:  487952 
+
+Run # 2259  Reward:  297.5  Progress: % 21.6981  Frame count:  488330 
+
+Run # 2260  Reward:  206.0  Progress: % 16.0377  Frame count:  488616 
+
+Run # 2261  Reward:  226.0  Progress: % 16.0377  Frame count:  488901 
+
+Run # 2262  Reward:  129.5  Progress: % 10.3774  Frame count:  489093 
+
+Run # 2263  Reward:  301.0  Progress: % 21.6981  Frame count:  489474 
+
+Run # 2264  Reward:  206.0  Progress: % 16.0377  Frame count:  489758 
+
+Run # 2265  Reward:  155.5  Progress: % 10.3774  Frame count:  489961 
+
+Run # 2266  Reward:  317.5  Progress: % 21.6981  Frame count:  490350 
+
+Run # 2267  Reward:  318.5  Progress: % 22.6415  Frame count:  490753 
+
+Run # 2268  Reward:  307.5  Progress: % 22.6415  Frame count:  491154 
+
+Run # 2269  Reward:  261.0  Progress: % 18.8679  Frame count:  491492 
+
+Run # 2270  Reward:  161.5  Progress: % 12.2642  Frame count:  491722 
+
+Run # 2271  Reward:  491.0  Progress: % 33.9623  Frame count:  492339 
+
+Run # 2272  Reward:  132.5  Progress: % 10.3774  Frame count:  492531 
+
+Run # 2273  Reward:  3.0  Progress: % 1.8868  Frame count:  492571 
+
+Run # 2274  Reward:  166.5  Progress: % 12.2642  Frame count:  492789 
+
+Run # 2275  Reward:  92.0  Progress: % 9.434  Frame count:  492932 
+
+Run # 2276  Reward:  103.0  Progress: % 8.4906  Frame count:  493087 
+
+Run # 2277  Reward:  136.0  Progress: % 10.3774  Frame count:  493282 
+
+Run # 2278  Reward:  143.5  Progress: % 11.3208  Frame count:  493481 
+
+Run # 2279  Reward:  136.5  Progress: % 10.3774  Frame count:  493671 
+
+Run # 2280  Reward:  219.0  Progress: % 16.0377  Frame count:  493957 
+
+Run # 2281  Reward:  155.0  Progress: % 12.2642  Frame count:  494172 
+
+Run # 2282  Reward:  192.0  Progress: % 14.1509  Frame count:  494430 
+
+Run # 2283  Reward:  103.5  Progress: % 8.4906  Frame count:  494592 
+
+Run # 2284  Reward:  77.5  Progress: % 5.6604  Frame count:  494709 
+
+Run # 2285  Reward:  218.5  Progress: % 16.0377  Frame count:  494994 
+
+Run # 2286  Reward:  161.0  Progress: % 12.2642  Frame count:  495215 
+
+Run # 2287  Reward:  145.0  Progress: % 11.3208  Frame count:  495418 
+
+Run # 2288  Reward:  162.0  Progress: % 12.2642  Frame count:  495641 
+
+Run # 2289  Reward:  216.5  Progress: % 16.0377  Frame count:  495926 
+
+Run # 2290  Reward:  159.0  Progress: % 12.2642  Frame count:  496155 
+
+Run # 2291  Reward:  80.0  Progress: % 5.6604  Frame count:  496278 
+
+Run # 2292  Reward:  145.5  Progress: % 12.2642  Frame count:  496493 
+
+Run # 2293  Reward:  217.0  Progress: % 15.0943  Frame count:  496775 
+
+Run # 2294  Reward:  126.0  Progress: % 10.3774  Frame count:  496965 
+
+Run # 2295  Reward:  175.0  Progress: % 12.2642  Frame count:  497194 
+
+Run # 2296  Reward:  190.0  Progress: % 15.0943  Frame count:  497458 
+
+Run # 2297  Reward:  142.5  Progress: % 12.2642  Frame count:  497675 
+
+Run # 2298  Reward:  7.0  Progress: % 1.8868  Frame count:  497721 
+
+Run # 2299  Reward:  205.5  Progress: % 15.0943  Frame count:  497998 
+
+Run # 2300  Reward:  197.5  Progress: % 14.1509  Frame count:  498262 
+
+
+Run: 2251 - 2300  Average Progress: 14.131702040816327  Average Total Reward: 188.92857142857142 
+Average Total Jumps: 67.77551020408163  Average Jumps Per Progress %: 5.0  Average Epsilon: 0.004975301787985069 
+Average Number of Frames: 254.81632653061226  Average Run Time: 13.047304727593247 Average FPS: 19.530188943292703 
+
+Run # 2301  Reward:  122.0  Progress: % 10.3774  Frame count:  498449 
+
+Run # 2302  Reward:  189.5  Progress: % 14.1509  Frame count:  498702 
+
+Run # 2303  Reward:  143.5  Progress: % 11.3208  Frame count:  498908 
+
+Run # 2304  Reward:  71.5  Progress: % 5.6604  Frame count:  499026 
+
+Run # 2305  Reward:  210.0  Progress: % 16.0377  Frame count:  499313 
+
+Run # 2306  Reward:  9.0  Progress: % 1.8868  Frame count:  499358 
+
+Run # 2307  Reward:  67.0  Progress: % 5.6604  Frame count:  499473 
+
+Run # 2308  Reward:  152.0  Progress: % 12.2642  Frame count:  499692 
+
+Run # 2309  Reward:  124.5  Progress: % 10.3774  Frame count:  499883 
+
+Run # 2310  Reward:  284.5  Progress: % 21.6981  Frame count:  500265 
+
+Run # 2311  Reward:  204.5  Progress: % 16.0377  Frame count:  500545 
+
+Run # 2312  Reward:  505.5  Progress: % 33.9623  Frame count:  501147 
+
+Run # 2313  Reward:  209.0  Progress: % 16.0377  Frame count:  501434 
+
+Run # 2314  Reward:  163.0  Progress: % 11.3208  Frame count:  501648 
+
+Run # 2315  Reward:  312.5  Progress: % 21.6981  Frame count:  502039 
+
+Run # 2316  Reward:  209.0  Progress: % 15.0943  Frame count:  502313 
+
+Run # 2317  Reward:  319.0  Progress: % 21.6981  Frame count:  502701 
+
+Run # 2318  Reward:  196.5  Progress: % 14.1509  Frame count:  502960 
+
+Run # 2319  Reward:  205.0  Progress: % 15.0943  Frame count:  503227 
+
+Run # 2320  Reward:  234.5  Progress: % 16.0377  Frame count:  503525 
+
+Run # 2321  Reward:  109.5  Progress: % 8.4906  Frame count:  503688 
+
+Run # 2322  Reward:  203.5  Progress: % 16.0377  Frame count:  503972 
+
+Run # 2323  Reward:  189.0  Progress: % 13.2075  Frame count:  504222 
+
+Run # 2324  Reward:  210.5  Progress: % 16.0377  Frame count:  504506 
+
+Run # 2325  Reward:  208.5  Progress: % 15.0943  Frame count:  504778 
+
+Run # 2326  Reward:  75.5  Progress: % 5.6604  Frame count:  504900 
+
+Run # 2327  Reward:  310.0  Progress: % 22.6415  Frame count:  505297 
+
+Run # 2328  Reward:  152.0  Progress: % 12.2642  Frame count:  505513 
+
+Run # 2329  Reward:  327.5  Progress: % 22.6415  Frame count:  505917 
+
+Run # 2330  Reward:  223.0  Progress: % 16.9811  Frame count:  506214 
+
+Run # 2331  Reward:  159.0  Progress: % 12.2642  Frame count:  506430 
+
+Run # 2332  Reward:  163.0  Progress: % 12.2642  Frame count:  506647 
+
+Run # 2333  Reward:  226.5  Progress: % 16.0377  Frame count:  506940 
+
+Run # 2334  Reward:  224.0  Progress: % 16.0377  Frame count:  507227 
+
+Run # 2335  Reward:  217.5  Progress: % 16.0377  Frame count:  507509 
+
+Run # 2336  Reward:  208.0  Progress: % 15.0943  Frame count:  507779 
+
+Run # 2337  Reward:  135.0  Progress: % 10.3774  Frame count:  507967 
+
+Run # 2338  Reward:  340.5  Progress: % 23.5849  Frame count:  508393 
+
+Run # 2339  Reward:  129.0  Progress: % 10.3774  Frame count:  508580 
+
+Run # 2340  Reward:  217.0  Progress: % 16.0377  Frame count:  508863 
+
+Run # 2341  Reward:  214.0  Progress: % 16.0377  Frame count:  509151 
+
+Run # 2342  Reward:  104.0  Progress: % 8.4906  Frame count:  509312 
+
+Run # 2343  Reward:  306.0  Progress: % 21.6981  Frame count:  509693 
+
+Run # 2344  Reward:  3.0  Progress: % 1.8868  Frame count:  509735 
+
+Run # 2345  Reward:  139.5  Progress: % 10.3774  Frame count:  509931 
+
+Run # 2346  Reward:  503.5  Progress: % 33.9623  Frame count:  510532 
+
+Run # 2347  Reward:  209.5  Progress: % 16.0377  Frame count:  510815 
+
+Run # 2348  Reward:  226.5  Progress: % 16.0377  Frame count:  511101 
+
+Run # 2349  Reward:  184.5  Progress: % 12.2642  Frame count:  511335 
+
+Run # 2350  Reward:  154.5  Progress: % 12.2642  Frame count:  511552 
+
+
+Run: 2301 - 2350  Average Progress: 14.78628979591837  Average Total Reward: 201.0408163265306 
+Average Total Jumps: 67.51020408163265  Average Jumps Per Progress %: 5.0  Average Epsilon: 0.004975301787985069 
+Average Number of Frames: 266.7959183673469  Average Run Time: 13.641523463385445 Average FPS: 19.557633653121 
+
+Run # 2351  Reward:  216.0  Progress: % 15.0943  Frame count:  511830 
+
+Run # 2352  Reward:  156.5  Progress: % 12.2642  Frame count:  512038 
+
+Run # 2353  Reward:  207.5  Progress: % 14.1509  Frame count:  512298 
+
+Run # 2354  Reward:  195.0  Progress: % 15.0943  Frame count:  512561 
+
+Run # 2355  Reward:  422.5  Progress: % 28.3019  Frame count:  513065 
+
+Run # 2356  Reward:  146.0  Progress: % 11.3208  Frame count:  513266 
+
+Run # 2357  Reward:  206.0  Progress: % 16.0377  Frame count:  513549 
+
+Run # 2358  Reward:  227.0  Progress: % 16.0377  Frame count:  513841 
+
+Run # 2359  Reward:  163.5  Progress: % 12.2642  Frame count:  514059 
+
+Run # 2360  Reward:  4.0  Progress: % 1.8868  Frame count:  514102 
+
+Run # 2361  Reward:  179.5  Progress: % 13.2075  Frame count:  514337 
+
+Run # 2362  Reward:  75.5  Progress: % 5.6604  Frame count:  514459 
+
+Run # 2363  Reward:  395.5  Progress: % 27.3585  Frame count:  514938 
+
+Run # 2364  Reward:  229.5  Progress: % 16.0377  Frame count:  515225 
+
+Run # 2365  Reward:  154.5  Progress: % 12.2642  Frame count:  515441 
+
+Run # 2366  Reward:  214.0  Progress: % 15.0943  Frame count:  515715 
+
+Run # 2367  Reward:  154.5  Progress: % 12.2642  Frame count:  515938 
+
+Run # 2368  Reward:  168.0  Progress: % 12.2642  Frame count:  516156 
+
+Run # 2369  Reward:  227.5  Progress: % 16.0377  Frame count:  516443 
+
+Run # 2370  Reward:  205.0  Progress: % 15.0943  Frame count:  516711 
+
+Run # 2371  Reward:  106.0  Progress: % 8.4906  Frame count:  516870 
+
+Run # 2372  Reward:  135.5  Progress: % 10.3774  Frame count:  517066 
+
+Run # 2373  Reward:  296.5  Progress: % 21.6981  Frame count:  517443 
+
+Run # 2374  Reward:  210.5  Progress: % 15.0943  Frame count:  517712 
+
+Run # 2375  Reward:  216.5  Progress: % 15.0943  Frame count:  517980 
+
+Run # 2376  Reward:  -19.0  Progress: % 1.8868  Frame count:  517998 
+
